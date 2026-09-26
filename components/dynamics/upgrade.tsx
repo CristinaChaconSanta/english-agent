@@ -33,13 +33,13 @@ export function UpgradePlay({ dinamica }: { dinamica: Upgrade }) {
       window.setTimeout(() => setStep(2), 450);
       return;
     }
-    setHint("Esa no es la versión C1.");
+    setHint("That is not the C1 version.");
   }
 
   function onSubmit(event: FormEvent) {
     event.preventDefault();
     if (!own.trim()) {
-      setHint("Escribe una línea para seguir.");
+      setHint("Write one line to continue.");
       return;
     }
     next();
@@ -49,9 +49,9 @@ export function UpgradePlay({ dinamica }: { dinamica: Upgrade }) {
     <Card className={cn(!demo && choice === dinamica.correcta && step === 1 && "card-jump", hint && choice !== dinamica.correcta && "shake")}>
       {step === 1 ? (
         <>
-          <p className="font-display text-2xl tracking-tight">Elige la versión C1</p>
-          <p className="mt-2 text-[17px]">Paso 1 de 2</p>
-          <p className="text-[17px]">Toca la frase más precisa.</p>
+          <p className="font-display text-2xl tracking-tight">Choose the C1 version</p>
+          <p className="mt-2 text-[17px]">Step 1 of 2</p>
+          <p className="text-[17px]">Tap the most precise sentence.</p>
           <p className="mt-3 text-[17px]">{dinamica.b1}</p>
           <div className="mt-4 flex flex-col gap-3">
             {dinamica.opciones.map((option, index) => (
@@ -60,18 +60,18 @@ export function UpgradePlay({ dinamica }: { dinamica: Upgrade }) {
               </Button>
             ))}
           </div>
-          {demo ? <p className="mt-3 text-[17px]">Esta es la C1.</p> : null}
+          {demo ? <p className="mt-3 text-[17px]">This is the C1 version.</p> : null}
         </>
       ) : (
         <form onSubmit={onSubmit}>
-          <p className="font-display text-2xl tracking-tight">Ahora escribe la tuya</p>
-          <p className="mt-2 text-[17px]">Paso 2 de 2</p>
-          <p className="mb-3 text-[17px]">Escribe tu versión en el campo.</p>
+          <p className="font-display text-2xl tracking-tight">Now write your own</p>
+          <p className="mt-2 text-[17px]">Step 2 of 2</p>
+          <p className="mb-3 text-[17px]">Write your version in the field.</p>
           <input
             id="own-line"
             value={own}
             onChange={(event) => setOwn(event.target.value)}
-            className="mb-3 min-h-12 w-full rounded-2xl border-[3px] border-current bg-transparent px-3 text-ink"
+            className="mb-3 min-h-12 w-full rounded-2xl border-[3px] border-current bg-transparent px-3"
           />
           <Button type="submit">Siguiente</Button>
         </form>

@@ -58,7 +58,7 @@ function MissionText({ mission }: { mission: Mission }) {
   if (cursor < mission.es.length) parts.push({ text: mission.es.slice(cursor), kind: "plain" });
 
   return (
-    <p className="font-display text-2xl leading-tight tracking-tight text-ink">
+    <p className="font-display text-2xl leading-tight tracking-tight">
       {parts.map((part) =>
         part.kind === "plain" ? (
           <span key={`${part.kind}-${part.text}`}>{part.text}</span>
@@ -139,7 +139,7 @@ export function FlechaPlay({ dinamica }: { dinamica: Flecha }) {
     chosen && verbo && flecha
       ? `Sunny ${{ jump: "jumped", run: "ran", float: "floated" }[verbo] ?? verbo} ${flecha} the box.`
       : "";
-  const hint = !demo && chosen && !correct ? "La manera o la dirección no es la de la misión." : null;
+  const hint = !demo && chosen && !correct ? "That manner or direction is not the mission." : null;
   const transform = chosen && verbo && flecha ? (MOVIMIENTO[`${verbo}|${flecha}`] ?? "none") : "none";
 
   function pick(kind: "verbo" | "flecha", value: string) {
@@ -151,8 +151,8 @@ export function FlechaPlay({ dinamica }: { dinamica: Flecha }) {
   return (
     <Card className={cn(!demo && correct && "card-jump", !demo && chosen && !correct && "shake")}>
       <MissionText mission={mission} />
-      <p className="mt-2 text-[17px]">Misión {index + 1} de {dinamica.misiones.length}</p>
-      <p className="text-[17px]">Elige cómo se mueve y hacia dónde.</p>
+      <p className="mt-2 text-[17px]">Mission {index + 1} of {dinamica.misiones.length}</p>
+      <p className="text-[17px]">Choose how it moves and where it goes.</p>
       <div className="relative mt-3 h-52 overflow-hidden rounded-2xl border-[3px] border-current">
         <div className="sunny-move absolute top-4 left-2" style={{ transform }}>
           <div className="origin-top scale-75">
@@ -166,7 +166,7 @@ export function FlechaPlay({ dinamica }: { dinamica: Flecha }) {
       </div>
       <div className="mt-3 flex flex-col gap-3">
         <div>
-          <p className="mb-1 text-[17px]">¿Cómo se mueve?</p>
+          <p className="mb-1 text-[17px]">How does it move?</p>
           <div className="flex flex-wrap gap-2">
             {VERBOS.map((item) => (
               <button
@@ -181,7 +181,7 @@ export function FlechaPlay({ dinamica }: { dinamica: Flecha }) {
           </div>
         </div>
         <div>
-          <p className="mb-1 text-[17px]">¿Hacia dónde?</p>
+          <p className="mb-1 text-[17px]">Where to?</p>
           <div className="flex flex-wrap gap-2">
             {FLECHAS.map((item) => (
               <button
@@ -196,7 +196,7 @@ export function FlechaPlay({ dinamica }: { dinamica: Flecha }) {
           </div>
         </div>
       </div>
-      {chosen ? <p className="mt-3 text-[17px] text-ink">{demo ? mission.en : sentence}</p> : null}
+      {chosen ? <p className="mt-3 text-[17px]">{demo ? mission.en : sentence}</p> : null}
       {hint ? <p className="mt-2 text-[17px]">{hint}</p> : null}
     </Card>
   );
