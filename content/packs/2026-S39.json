@@ -1,0 +1,77 @@
+{
+  "semana": "2026-S39",
+  "foco_gramatical": "La partícula es la flecha: into, out of, over",
+  "tema_cultural": "HCI",
+  "sesiones": [
+    {
+      "tema_color": "limonada",
+      "dinamicas": [
+        {
+          "tipo": "flecha",
+          "personaje": "sunny",
+          "hito": "the box",
+          "misiones": [
+            {
+              "es": "Sunny salió de la caja de un salto.",
+              "verbo": "jump",
+              "flecha": "out of",
+              "en": "Sunny jumped out of the box."
+            },
+            {
+              "es": "Sunny entró a la caja corriendo.",
+              "verbo": "run",
+              "flecha": "into",
+              "en": "Sunny ran into the box."
+            },
+            {
+              "es": "Sunny pasó flotando por encima de la caja.",
+              "verbo": "float",
+              "flecha": "over",
+              "en": "Sunny floated over the box."
+            }
+          ],
+          "mente": [
+            {
+              "frase": "get over a clunky button",
+              "es": "superar un botón torpe: pasar por encima del obstáculo"
+            }
+          ]
+        },
+        {
+          "tipo": "upgrade",
+          "b1": "I think the button is confusing.",
+          "opciones": [
+            "The control hides its next step.",
+            "Button is bad for the user.",
+            "We have problem of button."
+          ],
+          "correcta": 0
+        },
+        {
+          "tipo": "repaso",
+          "cartas": [
+            {
+              "frente": "entrar corriendo a un lugar",
+              "atras": "run into",
+              "pronunciacion": "RAN ÍN-tu"
+            },
+            {
+              "frente": "salir arrastrándose de un lugar",
+              "atras": "crawl out of",
+              "pronunciacion": "CRÓL ÁUT ov"
+            },
+            {
+              "frente": "pasar por encima de un obstáculo",
+              "atras": "get over",
+              "pronunciacion": "GUET ÓU-ver"
+            }
+          ]
+        },
+        {
+          "tipo": "logro",
+          "pista": "Hoy logré…"
+        }
+      ]
+    }
+  ]
+}
