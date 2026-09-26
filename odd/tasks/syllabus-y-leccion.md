@@ -152,3 +152,7 @@ Sin símbolos fonéticos ni cifras inventadas en los 3 documentos (grep).
 ## Nota de entrega
 El repo no tiene commit inicial (todo sin seguimiento en `master`). Los commits por tarea quedan pendientes
 hasta que la usuaria decida el commit base.
+
+## Commit
+2026-09-26: commit base `2012c79` (app v1 + documentos de T1–T8). `.env.example` quedó fuera: no se pudo
+revisar su contenido. Siguiente: prompt para Cursor en `docs/prompt-cursor-lecciones.md`.
