@@ -66,10 +66,14 @@ herramienta "abblino" son inventados por NotebookLM y no se usan aquí.
 
 | # | Tema (inglés) | Nivel (fuente) | Criterio IELTS que mueve | Por qué en este orden | Fuente |
 |---|---|---|---|---|---|
-| **Bloque 0 — Repaso saltable (A2, una sesión)** |||||
+| **Bloque 0 — Repaso saltable (A1–B1, saltable con el Check de cada unidad)** |||||
 | 0.1 | Verb *to be* (contracciones, preguntas, negativos) + *there is/are* | A1–A2 (Core Inventory) | Fluency and Coherence (evita reinicios), Grammatical Range and Accuracy | Base de todo lo demás; si falla aquí, falla en perfect y pasiva. Se agrupa porque a B1 rara vez le cuesta el concepto, solo detalles (ver lección de muestra). | Core Inventory §A1–A2 |
 | 0.2 | Present simple (hábitos, rutinas, 3ª persona -s) | A1–A2 | Task Achievement (describir rutinas en Writing Task 1 General) | Prerrequisito de Present Perfect y de contrastar simple vs. continuous. | Core Inventory §A1–A2 |
 | 0.3 | Preposiciones básicas de lugar/tiempo (in/on/at) | A1–A2 | Coherence and Cohesion | Errores aquí bajan la claridad en cualquier descripción. | Core Inventory §A1–A2 |
+| 0.4 | Numbers, dates and years (cardinal/ordinal, *nineteen ninety-eight*, *two thousand and twenty-six*, *the 5th of May*) | A1–A2 | Fluency and Coherence, Pronunciation (Speaking Part 1) | Pedido de Cristina: sigue dudando al decir años y fechas en voz alta. | Pendiente de fuente al escribir la lección |
+| 0.5 | Possession: *my/mine*, *'s* vs *of*, *whose* | A1–A2 | Grammatical Range and Accuracy | Pedido de Cristina; el español usa *de* para todo (*el carro de Ana* → *Ana's car*). | Pendiente de fuente al escribir la lección |
+| 0.6 | Comparatives and superlatives (*-er/more*, *the most*, *as... as*, *than*) | A2–B1 | Grammatical Range and Accuracy, Task Achievement (Writing Task 1 compara datos) | Pedido de Cristina; base para comparar gráficos en Writing Task 1. | Pendiente de fuente al escribir la lección |
+| 0.7 | Basic modals: *can/could* (ability, permission), *should* (advice), *may* (permission, possibility) | A2–B1 | Grammatical Range and Accuracy | Pedido de Cristina; prepara la unidad 10 (posibilidad y obligación). | Pendiente de fuente al escribir la lección |
 | **Bloque 1 — Consolidación B1** |||||
 | 1 | Past simple vs. Past continuous (narrativa) | B1 | Fluency and Coherence, GRA | Es la base de toda narración (Speaking Part 2, Writing Task 2 con ejemplos). | Core Inventory §B1 "Verb forms" #67–68 |
 | 2 | Present Perfect Simple vs. Past Simple | B1 | GRA — Band 6 exige "mezcla de formas simples y complejas" con precisión creciente | Error clásico de hispanohablantes (no hay equivalente directo); mover esto sube directo la precisión gramatical. | Core Inventory §B1 "Verb forms" #80–82 |
