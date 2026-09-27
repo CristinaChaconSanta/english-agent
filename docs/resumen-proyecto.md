@@ -46,6 +46,24 @@ engram (memoria de Cursor y Claude Code), gentle-ai (persona neutral), gga y tod
 - **Problema abierto:** la dinámica "flecha" no se entiende (sin misión, sin respuesta, botones apilados).
   El arreglo está en `docs/arreglo-flecha.md` para pegarlo en Cursor.
 
+## Actualización (26 de septiembre de 2026)
+- La app pasó de ejercicios a lecciones: cada tema se explica (con el porqué) antes de practicar y calificar.
+- Documentos nuevos: `docs/syllabus.md` (31 unidades), `docs/estructura-leccion.md` (plantilla),
+  `docs/ideas-clave.md` (6 ideas grandes del inglés), `docs/lecciones/01-verb-to-be.md`.
+- Cursor ya muestra la lección 01 en Hoy (13 pasos, "Ver en español", Check oculto, nota en Supabase).
+- Reparto: Grok escribe las lecciones nuevas (`docs/prompt-grok-leccion.md`), Claude las revisa, Cursor programa.
+
+## Ideas para después (versión pública)
+Primero la usa Cristina; si luego se hace pública:
+- Registro inicial: prueba de nivel, intereses, meta (IELTS, trabajo, viaje), preferencias
+  (sesión de 25 o 45 min, horario, hablar o escribir).
+- Personalizar con intereses (ejemplos, lecturas, temas) y con datos de uso (aciertos, dónde se traba,
+  qué abandona), no con tests de "estilos de aprendizaje" ni de personalidad: la revisión de
+  Pashler y colegas (2008) no encontró evidencia de que adaptar la enseñanza al "estilo" mejore el aprendizaje.
+- Antes de cobrar: piloto de 1 mes midiendo horas de personalización, costo de IA por usuaria y uso real.
+- Revisar si los planes gratis de Groq y Gemini permiten uso comercial.
+- Privacidad: autorización de datos según la Ley 1581 de 2012 (Colombia).
+
 ## Pendiente
 1. Arreglar la flecha y aplicar la Regla de claridad a los demás ejercicios.
 2. Revisar que se lean los botones en modo día y en modo noche.
