@@ -14,7 +14,9 @@ const contrastSchema = z.object({
 const gradedSchema = z.object({
   promptEn: z.string().min(1),
   answer: z.string().min(1),
+  acceptedAnswers: z.array(z.string().min(1)).min(1).optional(),
   why: z.string().min(1),
+  whyEs: z.string().min(1),
   choices: z.array(z.string().min(1)).min(2).optional(),
 });
 

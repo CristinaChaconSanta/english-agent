@@ -241,12 +241,14 @@
       {
         "promptEn": "Complete: \"The paintings in this room ___ (make) me feel calm, and the guard ___ (say) it happens to everyone.\"",
         "answer": "The paintings in this room make me feel calm, and the guard says it happens to everyone.",
-        "why": "the paintings is plural, so no -s (the tag is only for one third person). The guard is one third person, so says."
+        "why": "the paintings is plural, so no -s (the tag is only for one third person). The guard is one third person, so says.",
+        "whyEs": "the paintings es plural, así que no lleva -s (la marca es solo para una tercera persona). The guard es una tercera persona, así que says."
       },
       {
         "promptEn": "Turn this into a yes/no question: \"She has a studio in Medellín.\"",
         "answer": "Does she have a studio in Medellín?",
-        "why": "does takes the 3rd person tag, so has goes back to its base form, have. The irregular has follows the same rule as the regular -s."
+        "why": "does takes the 3rd person tag, so has goes back to its base form, have. The irregular has follows the same rule as the regular -s.",
+        "whyEs": "does lleva la marca de tercera persona, así que has vuelve a su forma base, have. El irregular has sigue la misma regla que la -s regular."
       }
     ],
     "also": [
@@ -383,28 +385,33 @@
       {
         "promptEn": "Fix the sentence: \"My sister study architecture and she live in Medellín.\"",
         "answer": "My sister studies architecture and she lives in Medellín.",
-        "why": "both verbs have a third person singular subject, so both need the tag. Study ends in consonant + y, so it becomes studies."
+        "why": "both verbs have a third person singular subject, so both need the tag. Study ends in consonant + y, so it becomes studies.",
+        "whyEs": "los dos verbos tienen un sujeto de tercera persona singular, así que los dos necesitan la marca. Study termina en consonante + y, así que se vuelve studies."
       },
       {
         "promptEn": "Fix the sentence: \"Does the app saves your progress automatically?\"",
         "answer": "Does the app save your progress automatically?",
-        "why": "does already carries the -s; the main verb goes back to its base form."
+        "why": "does already carries the -s; the main verb goes back to its base form.",
+        "whyEs": "does ya lleva la -s; el verbo principal vuelve a su forma base."
       },
       {
         "promptEn": "Choose the correct form: \"Please speak quietly, the baby ___ (sleeps / is sleeping).\"",
         "answer": "is sleeping",
         "why": "it is happening right now, as you speak, so English uses the present continuous. The baby sleeps a lot would be a habit.",
+        "whyEs": "está pasando ahora mismo, mientras hablas, así que el inglés usa el presente continuo. The baby sleeps a lot sería un hábito.",
         "choices": ["sleeps", "is sleeping"]
       },
       {
         "promptEn": "Fix the sentence: \"I am teach yoga on Saturdays.\"",
         "answer": "I teach yoga on Saturdays.",
-        "why": "it is a routine (on Saturdays), so the present simple, with no am. \"I am teach\" is a calque of estoy enseñando."
+        "why": "it is a routine (on Saturdays), so the present simple, with no am. \"I am teach\" is a calque of estoy enseñando.",
+        "whyEs": "es una rutina (on Saturdays), así que va en presente simple, sin am. \"I am teach\" es un calco de estoy enseñando."
       },
       {
         "promptEn": "Write the question: at a design conference, you want to know what someone's job is. Ask in four words.",
         "answer": "What do you do?",
-        "why": "it asks about a job or routine. What are you doing? would ask about this exact moment."
+        "why": "it asks about a job or routine. What are you doing? would ask about this exact moment.",
+        "whyEs": "pregunta por un trabajo o una rutina. What are you doing? preguntaría por este momento exacto."
       }
     ],
     "passThreshold": 4,

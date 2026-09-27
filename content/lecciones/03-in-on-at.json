@@ -213,12 +213,14 @@
       {
         "promptEn": "Complete the sentence: \"The exhibition opens ___ Friday ___ 7 pm, ___ the second floor.\"",
         "answer": "The exhibition opens on Friday at 7 pm, on the second floor.",
-        "why": "Friday is a day (a surface you stand on), 7 pm is a point on the clock, and a floor of a building is a surface: on the second floor."
+        "why": "Friday is a day (a surface you stand on), 7 pm is a point on the clock, and a floor of a building is a surface: on the second floor.",
+        "whyEs": "Friday es un día (una superficie donde te paras), 7 pm es un punto en el reloj, y el piso de un edificio es una superficie: on the second floor."
       },
       {
         "promptEn": "Complete the sentence: \"The museum is closed ___ the 25th of December.\"",
         "answer": "The museum is closed on the 25th of December.",
-        "why": "a date is one day, and days take on, the same picture as on Monday."
+        "why": "a date is one day, and days take on, the same picture as on Monday.",
+        "whyEs": "una fecha es un día, y los días llevan on, la misma imagen de on Monday."
       }
     ],
     "also": [
@@ -427,29 +429,34 @@
         "promptEn": "Choose the correct word: \"My flight lands ___ 6:40 am.\" (in / on / at)",
         "answer": "at",
         "why": "a clock time is a point, so it takes at.",
+        "whyEs": "una hora del reloj es un punto, así que lleva at.",
         "choices": ["in", "on", "at"]
       },
       {
         "promptEn": "Choose the correct pair: \"Utrecht is ___ the Netherlands, and my room is ___ the third floor.\" (in, on / on, in / at, on)",
         "answer": "in, on",
         "why": "a country is an area (in), and a floor of a building is a surface (on).",
+        "whyEs": "un país es un área (in), y el piso de un edificio es una superficie (on).",
         "choices": ["in, on", "on, in", "at, on"]
       },
       {
         "promptEn": "Fix the sentence: \"We arrived to Helsinki late at night.\"",
         "answer": "We arrived in Helsinki late at night.",
-        "why": "arrive never takes to; a city is an area, so in. At night stays: it's a fixed expression."
+        "why": "arrive never takes to; a city is an area, so in. At night stays: it's a fixed expression.",
+        "whyEs": "arrive nunca lleva to; una ciudad es un área, así que in. At night se queda: es una expresión fija."
       },
       {
         "promptEn": "Choose the correct pair: \"I usually read philosophy ___ the evening, but ___ Sunday evening I rest.\" (in, on / on, in / at, in)",
         "answer": "in, on",
         "why": "a part of the day in general takes in; once it belongs to one specific day (Sunday evening), the day's picture wins and it takes on.",
+        "whyEs": "una parte del día en general lleva in; cuando pertenece a un día concreto (Sunday evening), gana la imagen del día y lleva on.",
         "choices": ["in, on", "on, in", "at, in"]
       },
       {
         "promptEn": "Translate the idea, don't translate word by word: \"Nos vemos el lunes.\" (Start with See you.)",
         "answer": "See you on Monday.",
-        "why": "Spanish uses the article el before a day; English uses the preposition on and no article."
+        "why": "Spanish uses the article el before a day; English uses the preposition on and no article.",
+        "whyEs": "el español usa el artículo el antes de un día; el inglés usa la preposición on y ningún artículo."
       }
     ],
     "passThreshold": 4,

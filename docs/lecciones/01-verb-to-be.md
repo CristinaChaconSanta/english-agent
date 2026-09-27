@@ -205,6 +205,7 @@ haven't seen in this lesson yet:
   <summary>Ver respuesta</summary>
 
   **Answer:** *It was a mistake to launch on a Friday.*
+  **Also accepted:** *It was a mistake to launch on Friday.*
   **Why:** same rule, past tense: English still needs the dummy subject *it* even
   though there's no one specific "it" being described.
   </details>

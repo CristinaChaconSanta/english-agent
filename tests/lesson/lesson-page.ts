@@ -8,6 +8,10 @@ const CORRECT = [
 ];
 
 export class LessonPage extends BasePage {
+  next() {
+    return this.page.getByRole("button", { name: "Next", exact: true }).click();
+  }
+
   async start() {
     await this.open("/hoy");
     await this.page.getByRole("button", { name: "Start" }).click();
@@ -31,40 +35,60 @@ export class LessonPage extends BasePage {
     await expect(this.page.getByText("Ya usas be todos los días")).toHaveCount(0);
   }
 
-  async reachCheck() {
-    for (let step = 0; step < 4; step += 1) {
-      await this.page.getByRole("button", { name: "Next", exact: true }).click();
-    }
-    await this.answerPredict("It is raining outside.");
-    await this.answerPredict("It was a mistake to launch on a Friday.");
-    await this.page.getByRole("button", { name: "Next", exact: true }).click();
-    for (let step = 0; step < 6; step += 1) {
-      await this.page.getByRole("button", { name: "Next", exact: true }).click();
-    }
-    await expect(this.page.getByRole("heading", { name: "Check" })).toBeVisible();
+  async reachPredict() {
+    for (let step = 0; step < 4; step += 1) await this.next();
   }
 
-  async answerPredict(answer: string) {
-    await this.page.getByLabel("Your answer").fill(answer);
+  async answer(text: string) {
+    await this.page.getByLabel("Your answer").fill(text);
     await this.page.getByRole("button", { name: "Submit" }).click();
-    await this.page.getByRole("button", { name: "Next", exact: true }).click();
+  }
+
+  verdict() {
+    return this.page.getByRole("status");
+  }
+
+  async reachCheckFromPredict() {
+    await this.answer("it");
+    await expect(this.verdict()).toHaveText("Correct");
+    await this.next();
+    await this.answer("It was a mistake to launch on Friday.");
+    await expect(this.verdict()).toHaveText("Correct");
+    await this.next();
+    await this.next();
+    for (let step = 0; step < 6; step += 1) await this.next();
+    await expect(this.page.getByRole("heading", { name: "Check" })).toBeVisible();
   }
 
   async assertAnswerHidden() {
     await expect(this.page.getByText("I am 30 years old and I am cold in this room.")).toHaveCount(0);
   }
 
-  async passWithFourOfFive() {
-    for (const answer of CORRECT) {
-      await this.page.getByLabel("Your answer").fill(answer);
-      await this.page.getByRole("button", { name: "Submit" }).click();
-      await this.page.getByRole("button", { name: "Next", exact: true }).click();
+  async answerCheckRound(wrongOnFirst: boolean) {
+    if (wrongOnFirst) {
+      await this.answer("I have 30 years and I am cold in this room.");
+      await expect(this.verdict()).toHaveText("Not quite");
+      await expect(this.page.getByText("Expected", { exact: true })).toBeVisible();
+      await expect(this.page.locator("mark").first()).toBeVisible();
+    } else {
+      await this.answer(CORRECT[0]!);
+      await expect(this.verdict()).toHaveText("Correct");
     }
-    await this.page.getByRole("button", { name: "bored" }).click();
+    await expect(this.page.getByText(/^Score: \d of 5\.$/)).toBeVisible();
+    await this.next();
+    for (const text of CORRECT.slice(1)) {
+      await this.answer(text);
+      await this.next();
+    }
+    await this.page.getByRole("button", { name: "bored", exact: true }).click();
     await this.page.getByRole("button", { name: "Submit" }).click();
-    await this.page.getByRole("button", { name: "Next", exact: true }).click();
-    await this.page.getByLabel("Your answer").fill("Two versions happened.");
-    await this.page.getByRole("button", { name: "Submit" }).click();
-    await expect(this.page.getByText("4 of 5. Passed.")).toBeVisible();
+    await this.next();
+    await this.answer("Two versions happened.");
+    await expect(this.verdict()).toHaveText("Not quite");
+    await this.next();
+  }
+
+  async assertScore(text: string) {
+    await expect(this.page.getByText(text, { exact: true })).toBeVisible();
   }
 }

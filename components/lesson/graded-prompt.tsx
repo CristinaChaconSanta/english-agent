@@ -1,9 +1,24 @@
 "use client";
 
 import { useState } from "react";
+import { SpanishToggle } from "@/components/lesson/spanish-toggle";
 import { Button } from "@/components/ui/button";
-import { answersMatch } from "@/lib/lesson";
+import { cn } from "@/lib/cn";
+import { diffWords, gradeAnswer, type Grade } from "@/lib/grading";
 import type { GradedItem } from "@/lib/schemas/lesson";
+
+function Marked({ text, against }: { text: string; against: string }) {
+  return (
+    <p className="text-[17px]">
+      {diffWords(text, against).map((word, index) => (
+        <span key={`${word.text}-${index}`}>
+          {index > 0 ? " " : null}
+          {word.changed ? <mark className="rounded bg-repaso px-1 text-ink">{word.text}</mark> : word.text}
+        </span>
+      ))}
+    </p>
+  );
+}
 
 export function GradedPrompt({
   item,
@@ -14,30 +29,29 @@ export function GradedPrompt({
 }) {
   const [draft, setDraft] = useState("");
   const [choice, setChoice] = useState<string | null>(null);
-  const [sent, setSent] = useState(false);
-  const [correct, setCorrect] = useState(false);
+  const [grade, setGrade] = useState<Grade | null>(null);
 
   function submit() {
     const given = item.choices ? (choice ?? "") : draft;
     if (!given.trim()) return;
-    const ok = answersMatch(given, item.answer);
-    setCorrect(ok);
-    setSent(true);
-    onResult(ok);
+    const result = gradeAnswer(item, given);
+    setGrade(result);
+    onResult(result.correct);
   }
 
   return (
     <div>
       <p className="text-[17px]">{item.promptEn}</p>
       {item.choices ? (
-        <div className="mt-3 flex gap-2">
+        <div className="mt-3 flex flex-wrap gap-2">
           {item.choices.map((option) => (
             <button
               key={option}
               type="button"
-              className="btn w-auto bg-paper px-3 text-ink"
+              aria-pressed={choice === option}
+              className={cn("btn w-auto px-3 text-ink", choice === option ? "bg-hoy" : "bg-paper")}
               onClick={() => setChoice(option)}
-              disabled={sent}
+              disabled={Boolean(grade)}
             >
               {option}
             </button>
@@ -47,16 +61,29 @@ export function GradedPrompt({
         <input
           aria-label="Your answer"
           value={draft}
-          disabled={sent}
+          disabled={Boolean(grade)}
           onChange={(event) => setDraft(event.target.value)}
           className="mt-3 min-h-12 w-full rounded-2xl border-[3px] border-current bg-transparent px-3"
         />
       )}
-      {sent ? (
-        <div className="mt-3 text-[17px]">
-          <p>{correct ? "Correct." : "Not this one."}</p>
-          <p>{item.answer}</p>
-          <p>{item.why}</p>
+      {grade ? (
+        <div className="mt-4" data-testid="verdict">
+          <p
+            role="status"
+            className={cn(
+              "inline-block rounded-[10px] border-[3px] border-ink px-4 py-2 font-display text-2xl text-ink",
+              grade.correct ? "bg-biblio" : "bg-alerta",
+            )}
+          >
+            {grade.correct ? "Correct" : "Not quite"}
+          </p>
+          <p className="mt-3 text-sm uppercase tracking-wide">Your answer</p>
+          {grade.correct ? <p className="text-[17px]">{grade.yours}</p> : <Marked text={grade.yours} against={grade.expected} />}
+          <p className="mt-2 text-sm uppercase tracking-wide">Expected</p>
+          {grade.correct ? <p className="text-[17px]">{grade.expected}</p> : <Marked text={grade.expected} against={grade.yours} />}
+          <p className="mt-3 text-sm uppercase tracking-wide">Why</p>
+          <p className="text-[17px]">{item.why}</p>
+          <SpanishToggle es={item.whyEs} />
         </div>
       ) : (
         <Button className="mt-3" onClick={submit}>

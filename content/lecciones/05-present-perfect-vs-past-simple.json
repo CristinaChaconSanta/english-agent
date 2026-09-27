@@ -231,12 +231,14 @@
       {
         "promptEn": "Complete the sentence: \"Wait, I can't open the file. I think I ___ (lose) the password.\"",
         "answer": "I think I have lost the password.",
-        "why": "there is no finished time, and the result is now (you can't open the file), so you stand in the present with have."
+        "why": "there is no finished time, and the result is now (you can't open the file), so you stand in the present with have.",
+        "whyEs": "no hay un tiempo terminado, y el resultado es ahora (no puedes abrir el archivo), así que te paras en el presente con have."
       },
       {
         "promptEn": "Choose: \"My grandfather ___ (has never flown / never flew) on a plane. He died in 2015.\"",
         "answer": "never flew",
         "why": "his life is a finished time frame, so English uses the past simple, even with never. Has never flown would describe a life that is still going on.",
+        "whyEs": "su vida es un marco de tiempo terminado, así que el inglés usa el past simple, incluso con never. Has never flown describiría una vida que sigue.",
         "choices": ["has never flown", "never flew"]
       }
     ],
@@ -509,28 +511,33 @@
         "promptEn": "Choose the correct form: \"We ___ the prototype to five users last Friday.\" (have shown / showed)",
         "answer": "showed",
         "why": "last Friday is finished time, so it takes the past simple.",
+        "whyEs": "last Friday es un tiempo terminado, así que lleva past simple.",
         "choices": ["have shown", "showed"]
       },
       {
         "promptEn": "Fix the sentence: \"I study English since 2023.\"",
         "answer": "I have studied English since 2023.",
-        "why": "since marks a starting point in the past and the situation is still true, so English needs the present perfect, not the present (calque of estudio inglés desde 2023)."
+        "why": "since marks a starting point in the past and the situation is still true, so English needs the present perfect, not the present (calque of estudio inglés desde 2023).",
+        "whyEs": "since marca un punto de inicio en el pasado y la situación sigue siendo cierta, así que el inglés necesita el present perfect, no el presente (calco de estudio inglés desde 2023)."
       },
       {
         "promptEn": "Choose the correct word: \"Our studio has used the same typeface ___ eight months.\" (for / since)",
         "answer": "for",
         "why": "eight months is a duration (how long), so it takes for. Since needs a starting point, like since March.",
+        "whyEs": "eight months es una duración (cuánto tiempo), así que lleva for. Since necesita un punto de inicio, como since March.",
         "choices": ["for", "since"]
       },
       {
         "promptEn": "Translate the idea, don't translate word by word: \"¿Ya leíste el capítulo tres?\"",
         "answer": "Have you read chapter three yet?",
-        "why": "no finished time and you expect it to happen, so present perfect + yet at the end of the question. Did you read chapter three yet? is also heard in American English."
+        "why": "no finished time and you expect it to happen, so present perfect + yet at the end of the question. Did you read chapter three yet? is also heard in American English.",
+        "whyEs": "no hay tiempo terminado y esperas que pase, así que present perfect + yet al final de la pregunta. Did you read chapter three yet? también se oye en inglés americano."
       },
       {
         "promptEn": "Choose the correct form: \"I ___ three HCI researchers this week, and it's only Wednesday.\" (have met / met)",
         "answer": "have met",
         "why": "this week is unfinished time (it's only Wednesday), so the time frame still includes now: present perfect.",
+        "whyEs": "this week es un tiempo no terminado (apenas es miércoles), así que el marco de tiempo todavía incluye el ahora: present perfect.",
         "choices": ["have met", "met"]
       }
     ],

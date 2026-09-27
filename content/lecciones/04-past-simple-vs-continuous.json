@@ -254,12 +254,14 @@
       {
         "promptEn": "Complete with the right forms: \"The lights ___ (go) out while we ___ (play) chess.\"",
         "answer": "The lights went out while we were playing chess.",
-        "why": "the chess game was the film already running (past continuous); the lights going out is the one-click photo that cut into it (past simple)."
+        "why": "the chess game was the film already running (past continuous); the lights going out is the one-click photo that cut into it (past simple).",
+        "whyEs": "la partida de ajedrez era la película que ya estaba corriendo (past continuous); que se apagaran las luces es la foto de un clic que la interrumpió (past simple)."
       },
       {
         "promptEn": "Complete: \"When I was a teenager, I ___ (read) a novel every week.\"",
         "answer": "When I was a teenager, I read a novel every week.",
-        "why": "every week makes it a habit, not an action in progress at one moment. Habits go in the past simple or with used to (I used to read a novel every week), never \"I was reading a novel every week\"."
+        "why": "every week makes it a habit, not an action in progress at one moment. Habits go in the past simple or with used to (I used to read a novel every week), never \"I was reading a novel every week\".",
+        "whyEs": "every week lo vuelve un hábito, no una acción en curso en un momento. Los hábitos van en past simple o con used to (I used to read a novel every week), nunca \"I was reading a novel every week\"."
       }
     ],
     "also": [
@@ -410,28 +412,33 @@
         "promptEn": "Choose the correct form: \"At first I ___ (was believing / believed) every word of his story.\"",
         "answer": "believed",
         "why": "believe is a state verb: nothing is in progress inside it, so it stays in the past simple.",
+        "whyEs": "believe es un verbo de estado: no hay nada en curso dentro de él, así que se queda en past simple.",
         "choices": ["was believing", "believed"]
       },
       {
         "promptEn": "Fix the sentence: \"Every Sunday my grandmother was cooking arepas for the whole family.\"",
         "answer": "Every Sunday my grandmother cooked arepas for the whole family.",
-        "why": "every Sunday makes it a habit (used to cook also works). The Spanish cocinaba covers habits, but the English past continuous does not."
+        "why": "every Sunday makes it a habit (used to cook also works). The Spanish cocinaba covers habits, but the English past continuous does not.",
+        "whyEs": "every Sunday lo vuelve un hábito (used to cook también funciona). El español cocinaba cubre hábitos, pero el past continuous del inglés no."
       },
       {
         "promptEn": "Complete with the right forms: \"While we ___ (discuss) the prototype, the fire alarm ___ (go) off.\"",
         "answer": "were discussing, went",
-        "why": "while opens the stretch of time already running (past continuous); the alarm is the one-click event that cuts in (past simple)."
+        "why": "while opens the stretch of time already running (past continuous); the alarm is the one-click event that cuts in (past simple).",
+        "whyEs": "while abre el tramo de tiempo que ya estaba corriendo (past continuous); la alarma es el evento de un clic que interrumpe (past simple)."
       },
       {
         "promptEn": "Choose the correct form: \"I ___ (was losing / lost) my keys yesterday, so I couldn't get into the flat.\"",
         "answer": "lost",
         "why": "losing the keys is a short, finished event with a result, so it is a photo. The past continuous would make it sound like a process still going on.",
+        "whyEs": "perder las llaves es un evento corto y terminado con un resultado, así que es una foto. El past continuous lo haría sonar como un proceso que sigue.",
         "choices": ["was losing", "lost"]
       },
       {
         "promptEn": "Translate the idea, don't translate word by word: \"Estaba leyendo a Borges cuando mi hermana me escribió.\"",
         "answer": "I was reading Borges when my sister texted me.",
-        "why": "reading is the background film (was reading); the message is the event that cuts in (texted, past simple). English needs the tool verb was, and the subject I, where Spanish says estaba leyendo alone."
+        "why": "reading is the background film (was reading); the message is the event that cuts in (texted, past simple). English needs the tool verb was, and the subject I, where Spanish says estaba leyendo alone.",
+        "whyEs": "leer es la película de fondo (was reading); el mensaje es el evento que interrumpe (texted, past simple). El inglés necesita el verbo herramienta was y el sujeto I, donde el español dice solo estaba leyendo."
       }
     ],
     "passThreshold": 4,

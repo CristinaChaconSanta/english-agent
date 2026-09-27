@@ -264,12 +264,14 @@
         "promptEn": "Choose the form: \"As a teenager, I ___ poems in the back of my notebooks.\" (was writing / used to write)",
         "answer": "used to write",
         "why": "it's a routine over a period of your life, not one moment in progress. \"I was writing poems\" would make the listener wait for an interruption (\"...when the teacher saw me\").",
+        "whyEs": "es una rutina durante una etapa de tu vida, no un momento en curso. \"I was writing poems\" haría que quien escucha espere una interrupción (\"...when the teacher saw me\").",
         "choices": ["was writing", "used to write"]
       },
       {
         "promptEn": "Translate the idea, not word by word: \"Antes mi hermano tocaba batería en un garaje.\"",
         "answer": "My brother used to play the drums in a garage.",
-        "why": "tocaba here is a habit that stopped, so English marks it with used to. \"My brother was playing the drums\" would be one moment. Would is less natural here because no time or story has been set up yet."
+        "why": "tocaba here is a habit that stopped, so English marks it with used to. \"My brother was playing the drums\" would be one moment. Would is less natural here because no time or story has been set up yet.",
+        "whyEs": "aquí tocaba es un hábito que se acabó, así que el inglés lo marca con used to. \"My brother was playing the drums\" sería un solo momento. Would suena menos natural aquí porque todavía no se ha planteado un tiempo ni una historia."
       }
     ],
     "also": [
@@ -488,27 +490,32 @@
         "promptEn": "Choose the correct form: \"When I was at university, I ___ in a tiny flat near the library.\" (used to live / would live)",
         "answer": "used to live",
         "why": "live here is a state (your situation), and only used to can describe a past state. Would only works for repeated actions.",
+        "whyEs": "live here es un estado (tu situación), y solo used to puede describir un estado pasado. Would solo funciona con acciones repetidas.",
         "choices": ["used to live", "would live"]
       },
       {
         "promptEn": "Fix the sentence: \"Nowadays I use to take the metro to work.\"",
         "answer": "Nowadays I usually take the metro to work.",
-        "why": "nowadays means the habit is true now, and used to only exists in the past. For present habits: present simple + usually."
+        "why": "nowadays means the habit is true now, and used to only exists in the past. For present habits: present simple + usually.",
+        "whyEs": "nowadays significa que el hábito es cierto ahora, y used to solo existe en pasado. Para hábitos presentes: present simple + usually."
       },
       {
         "promptEn": "Fix the sentence: \"After six months in Stockholm, she is used to eat dinner at five.\"",
         "answer": "After six months in Stockholm, she is used to eating dinner at five.",
-        "why": "in be used to, to is a preposition, so the verb after it takes -ing."
+        "why": "in be used to, to is a preposition, so the verb after it takes -ing.",
+        "whyEs": "en be used to, to es una preposición, así que el verbo que sigue lleva -ing."
       },
       {
         "promptEn": "Fix the spelling: \"We didn't used to have design critiques at my first job.\"",
         "answer": "We didn't use to have design critiques at my first job.",
-        "why": "did already carries the past, so use goes back to its base form."
+        "why": "did already carries the past, so use goes back to its base form.",
+        "whyEs": "did ya lleva el pasado, así que use vuelve a su forma base."
       },
       {
         "promptEn": "Choose the option that is NOT natural English for \"De niña, mi abuela me leía cuentos todas las noches\": (a) When I was a child, my grandmother used to read me stories every night. (b) When I was a child, my grandmother would read me stories every night. (c) When I was a child, my grandmother was reading me stories every night.",
         "answer": "(c)",
         "why": "it's a habit, and the past continuous is for one moment in progress, not for habits (lesson 04). (a) and (b) are both correct: read is an action, and the time is already set by \"When I was a child\", so would works too.",
+        "whyEs": "es un hábito, y el past continuous es para un momento en curso, no para hábitos (lección 04). (a) y (b) son correctas: read es una acción, y el tiempo ya quedó puesto con \"When I was a child\", así que would también funciona.",
         "choices": ["(a)", "(b)", "(c)"]
       }
     ],

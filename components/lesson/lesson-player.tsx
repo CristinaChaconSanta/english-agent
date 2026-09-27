@@ -3,6 +3,7 @@
 import { useEffect, useState, type CSSProperties, type FormEvent, type ReactNode } from "react";
 import { useRouter } from "next/navigation";
 import { Sunny } from "@/components/characters/sunny";
+import { CheckStep, scoreLine } from "@/components/lesson/check-step";
 import { ContrastPair } from "@/components/lesson/contrast-pair";
 import { GradedPrompt } from "@/components/lesson/graded-prompt";
 import { SpanishToggle } from "@/components/lesson/spanish-toggle";
@@ -26,9 +27,7 @@ export function LessonPlayer({ lesson, canSkip }: { lesson: Lesson; canSkip: boo
   const [elapsedSec, setElapsedSec] = useState(0);
   const [predictDone, setPredictDone] = useState(0);
   const [predictReady, setPredictReady] = useState(false);
-  const [checkIndex, setCheckIndex] = useState(0);
-  const [checkCorrect, setCheckCorrect] = useState<boolean[]>([]);
-  const [checkSaved, setCheckSaved] = useState(false);
+  const [finalScore, setFinalScore] = useState(0);
   const [resultId, setResultId] = useState<string | null>(null);
   const [wrapLine, setWrapLine] = useState("");
   const [note, setNote] = useState<string | null>(null);
@@ -39,31 +38,21 @@ export function LessonPlayer({ lesson, canSkip }: { lesson: Lesson; canSkip: boo
     return () => window.clearInterval(id);
   }, [started]);
 
-  const score = checkCorrect.filter(Boolean).length;
-  const checkFinished = checkCorrect.length === lesson.check.items.length;
-  const passed = score >= lesson.check.passThreshold;
-
-  async function finishCheck(results: boolean[]) {
-    if (checkSaved) return;
-    const missed = lesson.check.items.flatMap((item, index) =>
-      results[index] ? [] : [{ frente: item.promptEn, atras: item.answer, pronunciacion: item.answer }],
-    );
+  async function saveRound(results: boolean[], missedIndexes: number[]) {
+    const score = results.filter(Boolean).length;
+    const missed = missedIndexes.flatMap((index) => {
+      const item = lesson.check.items[index];
+      return item ? [{ frente: item.promptEn, atras: item.answer, pronunciacion: item.answer }] : [];
+    });
     const saved = await saveLessonCheck({
       lessonId: lesson.id,
-      score: results.filter(Boolean).length,
+      score,
       outOf: lesson.check.outOf,
-      passed: results.filter(Boolean).length >= lesson.check.passThreshold,
+      passed: score >= lesson.check.passThreshold,
       missed,
     });
-    setCheckSaved(true);
     if (saved.ok) setResultId(saved.id);
     else setNote(saved.message);
-  }
-
-  function onCheckResult(correct: boolean) {
-    const results = [...checkCorrect, correct];
-    setCheckCorrect(results);
-    if (results.length === lesson.check.items.length) void finishCheck(results);
   }
 
   async function onWrap(event: FormEvent) {
@@ -117,7 +106,6 @@ export function LessonPlayer({ lesson, canSkip }: { lesson: Lesson; canSkip: boo
   }
 
   const next = () => setStep((value) => value + 1);
-  const current = lesson.check.items[checkIndex];
 
   return shell(
     <Card>
@@ -277,29 +265,24 @@ export function LessonPlayer({ lesson, canSkip }: { lesson: Lesson; canSkip: boo
           <Button className="mt-4" onClick={next}>Next</Button>
         </>
       ) : null}
-      {step === 11 && current ? (
+      {step === 11 ? (
         <>
           <h2 className="font-display text-3xl tracking-tight">Check</h2>
-          <p className="mt-2 text-[17px]">Write or choose before you see the answer. Item {checkIndex + 1} of 5.</p>
-          {checkCorrect.length === checkIndex ? (
-            <GradedPrompt key={current.promptEn} item={current} onResult={onCheckResult} />
-          ) : (
-            <div className="mt-3 text-[17px]">
-              <p>{current.answer}</p>
-              <p>{current.why}</p>
-              <p>{score} of {lesson.check.outOf}.{checkFinished ? (passed ? " Passed." : " Not passed.") : ""}</p>
-              <Button className="mt-4" onClick={() => (checkIndex + 1 < lesson.check.items.length ? setCheckIndex(checkIndex + 1) : next())}>
-                Next
-              </Button>
-            </div>
-          )}
+          <CheckStep
+            check={lesson.check}
+            onRoundEnd={(results, missed) => void saveRound(results, missed)}
+            onDone={(score) => {
+              setFinalScore(score);
+              next();
+            }}
+          />
           {note ? <p className="mt-3 text-[17px]">{note}</p> : null}
         </>
       ) : null}
       {step === 12 ? (
         <form onSubmit={onWrap}>
           <h2 className="font-display text-3xl tracking-tight">Wrap-up</h2>
-          <p className="mt-2 text-[17px]">{score} of {lesson.check.outOf}.{passed ? " Passed." : " Not passed."}</p>
+          <p className="mt-2 text-[17px]">{scoreLine(finalScore, lesson.check, true)}</p>
           <p className="mt-3 text-[17px]">{lesson.wrapUp.en}</p>
           <label className="mt-3 block text-[17px]" htmlFor="wrap-line">Your line</label>
           <input id="wrap-line" value={wrapLine} onChange={(event) => setWrapLine(event.target.value)} className="mt-2 min-h-12 w-full rounded-2xl border-[3px] border-current bg-transparent px-3" />

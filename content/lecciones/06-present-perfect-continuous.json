@@ -208,12 +208,14 @@
       {
         "promptEn": "The kitchen smells of garlic and there are pans everywhere. What has he been doing? Answer with one short sentence.",
         "answer": "He's been cooking.",
-        "why": "the evidence is here now and you care about the activity, not a finished result, so you stack have + been + -ing."
+        "why": "the evidence is here now and you care about the activity, not a finished result, so you stack have + been + -ing.",
+        "whyEs": "la evidencia está aquí ahora y te importa la actividad, no un resultado terminado, así que apilas have + been + -ing."
       },
       {
         "promptEn": "Choose: \"Since Monday, she ___ (has been reading / has read) four chapters of Ways of Seeing.\"",
         "answer": "has read",
         "why": "four chapters counts finished units. A counted result uses the present perfect simple; the continuous is for the activity, not the count.",
+        "whyEs": "four chapters cuenta unidades terminadas. Un resultado contado usa el present perfect simple; el continuo es para la actividad, no para la cuenta.",
         "choices": ["has been reading", "has read"]
       }
     ],
@@ -468,29 +470,34 @@
       {
         "promptEn": "Fix the sentence: \"We are knowing each other since university.\"",
         "answer": "We have known each other since university.",
-        "why": "\"time up to now\" needs have, and know is a state verb, so it takes the present perfect simple, not -ing."
+        "why": "\"time up to now\" needs have, and know is a state verb, so it takes the present perfect simple, not -ing.",
+        "whyEs": "\"tiempo hasta ahora\" necesita have, y know es un verbo de estado, así que lleva present perfect simple, no -ing."
       },
       {
         "promptEn": "Choose the correct form: \"Look at your hands! ___ (Have you painted / Have you been painting)?\"",
         "answer": "Have you been painting?",
         "why": "the paint on the hands is evidence of a recent activity; you're asking about the activity, not a finished result.",
+        "whyEs": "la pintura en las manos es evidencia de una actividad reciente; preguntas por la actividad, no por un resultado terminado.",
         "choices": ["Have you painted?", "Have you been painting?"]
       },
       {
         "promptEn": "Translate the idea, don't translate word by word: \"¿Cuánto tiempo llevas viviendo en Bogotá?\"",
         "answer": "How long have you been living in Bogotá?",
-        "why": "English has no llevar; the duration up to now lives in have been + -ing, and have moves before the subject to make the question."
+        "why": "English has no llevar; the duration up to now lives in have been + -ing, and have moves before the subject to make the question.",
+        "whyEs": "el inglés no tiene llevar; la duración hasta ahora vive en have been + -ing, y have se mueve antes del sujeto para hacer la pregunta."
       },
       {
         "promptEn": "Choose the correct form: \"This semester she ___ (has been reading / has read) five novels by Toni Morrison.\"",
         "answer": "has read",
         "why": "five novels counts finished results, so the present perfect simple fits.",
+        "whyEs": "five novels cuenta resultados terminados, así que encaja el present perfect simple.",
         "choices": ["has been reading", "has read"]
       },
       {
         "promptEn": "Fix the sentence: \"He has been volunteering at the museum since six months.\"",
         "answer": "He has been volunteering at the museum for six months.",
-        "why": "six months is a length of time, so it takes for; since needs a starting point (since March)."
+        "why": "six months is a length of time, so it takes for; since needs a starting point (since March).",
+        "whyEs": "six months es una cantidad de tiempo, así que lleva for; since necesita un punto de inicio (since March)."
       }
     ],
     "passThreshold": 4,

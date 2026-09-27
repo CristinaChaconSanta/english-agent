@@ -7,6 +7,7 @@ export default defineConfig({
     command: "npm run dev -- --port 3010",
     url: "http://127.0.0.1:3010",
     reuseExistingServer: false,
+    env: { NODE_ENV: "test" },
     timeout: 120000,
   },
 });

@@ -198,12 +198,15 @@
       {
         "promptEn": "How would you complete this in English: \"___ is raining outside\"?",
         "answer": "It is raining outside.",
-        "why": "rain has no real subject doing the raining, so English fills the slot with the dummy subject it, the same rule as \"it is difficult.\""
+        "why": "rain has no real subject doing the raining, so English fills the slot with the dummy subject it, the same rule as \"it is difficult.\"",
+        "whyEs": "la lluvia no tiene un sujeto real que haga la acción, así que el inglés llena el espacio con el sujeto vacío it, la misma regla de \"it is difficult\"."
       },
       {
         "promptEn": "Fix this sentence: \"Was a mistake to launch on a Friday.\"",
         "answer": "It was a mistake to launch on a Friday.",
-        "why": "same rule, past tense: English still needs the dummy subject it even though there's no one specific \"it\" being described."
+        "acceptedAnswers": ["It was a mistake to launch on Friday."],
+        "why": "same rule, past tense: English still needs the dummy subject it even though there's no one specific \"it\" being described.",
+        "whyEs": "la misma regla, en pasado: el inglés sigue necesitando el sujeto vacío it aunque no haya un \"it\" concreto del que se hable."
       }
     ],
     "also": [
@@ -371,28 +374,33 @@
       {
         "promptEn": "Fix the sentence: \"I have 30 years and I have cold in this room.\"",
         "answer": "I am 30 years old and I am cold in this room.",
-        "why": "age and physical states use be in English, not have. Careful: I have a cold is correct, but it means \"tengo un resfriado\", not \"tengo frío\"."
+        "why": "age and physical states use be in English, not have. Careful: I have a cold is correct, but it means \"tengo un resfriado\", not \"tengo frío\".",
+        "whyEs": "la edad y los estados físicos usan be en inglés, no have. Ojo: I have a cold es correcto, pero significa \"tengo un resfriado\", no \"tengo frío\"."
       },
       {
         "promptEn": "Fix the sentence: \"Is not easy to redesign a checkout flow.\"",
         "answer": "It is not easy to redesign a checkout flow.",
-        "why": "English needs a subject; it fills the empty slot."
+        "why": "English needs a subject; it fills the empty slot.",
+        "whyEs": "el inglés necesita un sujeto; it llena el espacio vacío."
       },
       {
         "promptEn": "Fix the sentence: \"I am agree that the onboarding is too long.\"",
         "answer": "I agree that the onboarding is too long.",
-        "why": "agree is a standalone verb, not be + adjective."
+        "why": "agree is a standalone verb, not be + adjective.",
+        "whyEs": "agree es un verbo completo por sí solo, no be + adjetivo."
       },
       {
         "promptEn": "Choose the correct word: \"After three back-to-back meetings, she felt completely ___ (bored / boring).\"",
         "answer": "bored",
         "why": "bored describes how the subject feels; boring describes what causes the feeling.",
+        "whyEs": "bored describe cómo se siente el sujeto; boring describe lo que causa ese sentimiento.",
         "choices": ["bored", "boring"]
       },
       {
         "promptEn": "Translate the idea, don't translate word by word: \"Hubo dos versiones del prototipo antes de esta.\"",
         "answer": "There were two versions of the prototype before this one.",
-        "why": "hay/hubo maps to there is/there was, not to a literal be sentence about the versions."
+        "why": "hay/hubo maps to there is/there was, not to a literal be sentence about the versions.",
+        "whyEs": "hay/hubo corresponde a there is/there was, no a una frase literal con be sobre las versiones."
       }
     ],
     "passThreshold": 4,
