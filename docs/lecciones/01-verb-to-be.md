@@ -35,6 +35,13 @@ Technical terms you'll see in this lesson, explained before you need them:
 - **Full verb / main verb**: the verb that carries the real meaning of the sentence
   (*run*, *design*, *agree*). It exists to say what happens, not to build the
   sentence's grammar.
+- **Adjective**: a word that describes a person or thing (*sure*, *tired*, *easy*,
+  *tall*). An adjective never changes with time: *sure* stays *sure*, and the time goes
+  in *be* (*I am sure*, *I was sure*). A verb does change with time: *agree*, *agreed*,
+  *agrees*. Quick test: if you can put *very* before it, it's an adjective (*very
+  sure*, never *very agree*). This is why *I am agree* is wrong: *agree* is a verb that
+  already carries the time by itself, so it doesn't need *be*. *Sure* can't carry time,
+  so it needs *be*.
 - **Auxiliary verb**: a verb that doesn't carry its own meaning; it only helps another
   verb (or acts alone, like *be*) to form questions, negatives, or tenses. It exists
   because in English most main verbs can't invert or negate by themselves (see
@@ -61,6 +68,13 @@ Technical terms you'll see in this lesson, explained before you need them:
 - **Full verb / main verb (verbo principal)**: el verbo que carga el significado real
   de la oración (*run*, *design*, *agree*). Existe para decir qué pasa, no para armar
   la gramática de la oración.
+- **Adjective (adjetivo)**: una palabra que describe a una persona o cosa (*sure*,
+  *tired*, *easy*, *tall*). Un adjetivo nunca cambia con el tiempo: *sure* sigue siendo
+  *sure*, y el tiempo va en *be* (*I am sure*, *I was sure*). Un verbo sí cambia con el
+  tiempo: *agree*, *agreed*, *agrees*. Prueba rápida: si puedes poner *very* antes, es
+  un adjetivo (*very sure*, nunca *very agree*). Por eso *I am agree* está mal: *agree*
+  es un verbo que ya lleva el tiempo por sí mismo, así que no necesita *be*. *Sure* no
+  puede llevar el tiempo, así que necesita *be*.
 - **Auxiliary verb (verbo auxiliar)**: un verbo que no aporta significado propio; solo
   ayuda a otro verbo (o actúa solo, como *be*) a formar preguntas, negaciones o
   tiempos. Existe porque en inglés la mayoría de los verbos principales no pueden
@@ -207,7 +221,9 @@ haven't seen in this lesson yet:
   **Answer:** *It was a mistake to launch on a Friday.*
   **Also accepted:** *It was a mistake to launch on Friday.*
   **Why:** same rule, past tense: English still needs the dummy subject *it* even
-  though there's no one specific "it" being described.
+  though there's no one specific "it" being described. Both *on Friday* (one specific
+  Friday) and *on a Friday* (any Friday, a Friday in general) are correct; they mean
+  slightly different things.
   </details>
 
 **7. Spanish vs English in one line.**
@@ -335,7 +351,8 @@ such as *sure*, which does need *be* to connect to the subject (*"I am sure"*). 
 Spanish, *estar de acuerdo* uses *estar* because *de acuerdo* works like a state (an
 adjective phrase), but in English *agree* is already the whole action by itself.
 That's why adding *am* before it (*"I am agree"*) is a direct calque from Spanish that
-English doesn't need.
+English doesn't need. For the quick test that tells an adjective from a verb, see
+**Adjective** in "Words you need".
 
 <details>
 <summary>Ver en español</summary>
@@ -346,7 +363,8 @@ diferencia de un adjetivo como *sure*, que sí necesita el verbo *be* para conec
 con el sujeto (*"I am sure"*). En español, *estar de acuerdo* usa *estar* porque *de
 acuerdo* funciona como un estado (una frase adjetiva), pero en inglés *agree* ya es la
 acción completa por sí misma. Por eso agregar *am* antes (*"I am agree"*) es un calco
-directo del español que en inglés sobra.
+directo del español que en inglés sobra. Para la prueba rápida que distingue un
+adjetivo de un verbo, ver **Adjective** en "Words you need".
 
 </details>
 
