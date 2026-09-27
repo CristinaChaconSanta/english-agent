@@ -8,6 +8,7 @@ import { ContrastPair } from "@/components/lesson/contrast-pair";
 import { SpanishToggle } from "@/components/lesson/spanish-toggle";
 import { VerbTable } from "@/components/lesson/verb-table";
 import { WhyStep } from "@/components/lesson/why-step";
+import { WordLookup } from "@/components/lesson/word-lookup";
 import { BottomBar } from "@/components/ui/bottom-bar";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
@@ -104,7 +105,7 @@ export function LessonPlayer({ lesson, canSkip }: { lesson: Lesson; canSkip: boo
         </div>
         {started ? <Timer elapsedSec={elapsedSec} /> : null}
         <WavyDivider />
-        {child}
+        <WordLookup>{child}</WordLookup>
       </div>
       <BottomBar />
     </main>

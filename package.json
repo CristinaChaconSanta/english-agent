@@ -10,12 +10,15 @@
     "test:e2e": "playwright test"
   },
   "dependencies": {
+    "@ai-sdk/groq": "^2.0.55",
     "@supabase/ssr": "^0.7.0",
     "@supabase/supabase-js": "^2.57.4",
+    "ai": "^5.0.267",
     "clsx": "^2.1.1",
     "next": "^15.5.4",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
+    "server-only": "^0.0.1",
     "tailwind-merge": "^3.3.1",
     "ts-fsrs": "^5.2.3",
     "zod": "^4.1.11",
