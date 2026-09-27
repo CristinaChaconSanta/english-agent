@@ -92,7 +92,13 @@ export const lessonSchema = z.object({
       pastParticiple: z.string().min(1),
       ing: z.string().min(1),
       thirdPerson: z.string().min(1),
-      usesEn: z.string().min(1),
+      meanings: z.array(
+        z.object({
+          meaning: z.string().min(1),
+          tenses: z.array(z.string().min(1)).min(1),
+          example: z.string().min(1),
+        }),
+      ).min(1),
     }),
   ).min(1),
   read: z.object({

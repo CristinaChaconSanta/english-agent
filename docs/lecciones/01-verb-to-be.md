@@ -397,14 +397,23 @@ necesitas *be*, necesitas un verbo real.
 
 ## 8. Verb list
 
-Verbs used in this lesson's explanation, with their main forms:
+Verbs used in this lesson's explanation, with their main forms. One row per meaning:
 
-| Verb | Base | Past | Past participle | -ing | 3rd person | Uses in this lesson |
-|---|---|---|---|---|---|---|
-| be | be | was/were | been | being | is | **identity**: *She is a designer.* · **location**: *It is in the corner.* · **state**: *I am cold.* · **opinion link**: *I am not sure.* |
-| agree | agree | agreed | agreed | agreeing | agrees | full verb of agreement: *I agree with you.* (never *"I am agree"*) |
-| have | have | had | had | having | has | possession, not used for age/hunger/cold in English: *I have a car* (correct) vs. *I have 25 years* (trap, should be *I am 25 years old*) |
-| feel | feel | felt | felt | feeling | feels | physical/emotional state: *She felt bored.* (not to be confused with *boring*, see trap 4) |
+| Verb | Base | Past | Past participle | -ing | 3rd person | Tenses it appears in | Example |
+|---|---|---|---|---|---|---|---|
+| be | be | was/were | been | being | is | present simple | **identity:** *She is a designer.* |
+|  |  |  |  |  |  | present simple | **location:** *It is in the corner.* |
+|  |  |  |  |  |  | present simple | **state:** *I am cold.* |
+|  |  |  |  |  |  | present simple | **opinion link:** *I am not sure.* |
+| agree | agree | agreed | agreed | agreeing | agrees | present simple | **full verb of agreement:** *I agree with you. (never "I am agree")* |
+| have | have | had | had | having | has | present simple | **possession, not used for age, hunger or cold:** *I have a car. Trap: "I have 25 years" should be "I am 25 years old".* |
+| feel | feel | felt | felt | feeling | feels | past simple | **physical or emotional state:** *She felt bored. (not boring, see trap 4)* |
+| do | do | did | done | doing | does | present simple | **tool verb for questions and negatives (be never needs it):** *Do you work? / Is she here? (not "Does she be here?")* |
+| rain | rain | rained | rained | raining | rains | present continuous | **weather, always with the dummy subject it:** *It is raining outside.* |
+| explain | explain | explained | explained | explaining | explains | base form | **make something clear:** *It is difficult to explain this.* |
+| launch | launch | launched | launched | launching | launches | base form | **release a product:** *It was a mistake to launch on a Friday.* |
+| run | run | ran | run | running | runs | present simple | **example of a full verb (it carries its own meaning):** *I run every morning.* |
+| design | design | designed | designed | designing | designs | present simple | **example of a full verb (it carries its own meaning):** *She designs checkout flows.* |
 
 ## 9. Read
 

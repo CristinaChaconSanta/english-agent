@@ -310,7 +310,36 @@
       "pastParticiple": "been",
       "ing": "being",
       "thirdPerson": "is",
-      "usesEn": "identity: She is a designer. location: It is in the corner. state: I am cold. opinion link: I am not sure."
+      "meanings": [
+        {
+          "meaning": "identity",
+          "tenses": [
+            "present simple"
+          ],
+          "example": "She is a designer."
+        },
+        {
+          "meaning": "location",
+          "tenses": [
+            "present simple"
+          ],
+          "example": "It is in the corner."
+        },
+        {
+          "meaning": "state",
+          "tenses": [
+            "present simple"
+          ],
+          "example": "I am cold."
+        },
+        {
+          "meaning": "opinion link",
+          "tenses": [
+            "present simple"
+          ],
+          "example": "I am not sure."
+        }
+      ]
     },
     {
       "verb": "agree",
@@ -319,7 +348,15 @@
       "pastParticiple": "agreed",
       "ing": "agreeing",
       "thirdPerson": "agrees",
-      "usesEn": "full verb of agreement: I agree with you. (never \"I am agree\")"
+      "meanings": [
+        {
+          "meaning": "full verb of agreement",
+          "tenses": [
+            "present simple"
+          ],
+          "example": "I agree with you. (never \"I am agree\")"
+        }
+      ]
     },
     {
       "verb": "have",
@@ -328,7 +365,15 @@
       "pastParticiple": "had",
       "ing": "having",
       "thirdPerson": "has",
-      "usesEn": "possession, not used for age/hunger/cold in English: I have a car (correct) vs. I have 25 years (trap, should be I am 25 years old)"
+      "meanings": [
+        {
+          "meaning": "possession, not used for age, hunger or cold",
+          "tenses": [
+            "present simple"
+          ],
+          "example": "I have a car. Trap: \"I have 25 years\" should be \"I am 25 years old\"."
+        }
+      ]
     },
     {
       "verb": "feel",
@@ -337,7 +382,117 @@
       "pastParticiple": "felt",
       "ing": "feeling",
       "thirdPerson": "feels",
-      "usesEn": "physical/emotional state: She felt bored. (not to be confused with boring, see trap 4)"
+      "meanings": [
+        {
+          "meaning": "physical or emotional state",
+          "tenses": [
+            "past simple"
+          ],
+          "example": "She felt bored. (not boring, see trap 4)"
+        }
+      ]
+    },
+    {
+      "verb": "do",
+      "base": "do",
+      "past": "did",
+      "pastParticiple": "done",
+      "ing": "doing",
+      "thirdPerson": "does",
+      "meanings": [
+        {
+          "meaning": "tool verb for questions and negatives (be never needs it)",
+          "tenses": [
+            "present simple"
+          ],
+          "example": "Do you work? / Is she here? (not \"Does she be here?\")"
+        }
+      ]
+    },
+    {
+      "verb": "rain",
+      "base": "rain",
+      "past": "rained",
+      "pastParticiple": "rained",
+      "ing": "raining",
+      "thirdPerson": "rains",
+      "meanings": [
+        {
+          "meaning": "weather, always with the dummy subject it",
+          "tenses": [
+            "present continuous"
+          ],
+          "example": "It is raining outside."
+        }
+      ]
+    },
+    {
+      "verb": "explain",
+      "base": "explain",
+      "past": "explained",
+      "pastParticiple": "explained",
+      "ing": "explaining",
+      "thirdPerson": "explains",
+      "meanings": [
+        {
+          "meaning": "make something clear",
+          "tenses": [
+            "base form"
+          ],
+          "example": "It is difficult to explain this."
+        }
+      ]
+    },
+    {
+      "verb": "launch",
+      "base": "launch",
+      "past": "launched",
+      "pastParticiple": "launched",
+      "ing": "launching",
+      "thirdPerson": "launches",
+      "meanings": [
+        {
+          "meaning": "release a product",
+          "tenses": [
+            "base form"
+          ],
+          "example": "It was a mistake to launch on a Friday."
+        }
+      ]
+    },
+    {
+      "verb": "run",
+      "base": "run",
+      "past": "ran",
+      "pastParticiple": "run",
+      "ing": "running",
+      "thirdPerson": "runs",
+      "meanings": [
+        {
+          "meaning": "example of a full verb (it carries its own meaning)",
+          "tenses": [
+            "present simple"
+          ],
+          "example": "I run every morning."
+        }
+      ]
+    },
+    {
+      "verb": "design",
+      "base": "design",
+      "past": "designed",
+      "pastParticiple": "designed",
+      "ing": "designing",
+      "thirdPerson": "designs",
+      "meanings": [
+        {
+          "meaning": "example of a full verb (it carries its own meaning)",
+          "tenses": [
+            "present simple"
+          ],
+          "example": "She designs checkout flows."
+        }
+      ]
     }
   ],
   "read": {

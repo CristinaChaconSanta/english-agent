@@ -347,35 +347,577 @@
     "es": "Primero la película, después la foto. Antes de contar un momento pasado, hazte una pregunta: ¿podría pausar la película en medio de esto? Si sí (estaba corriendo en ese momento), usa was/were + -ing. Si fue un solo clic, un hábito o un estado (know, want, like, believe), usa el past simple. La escena siempre se lee: quién → estaba haciendo qué (la película) → cuando → quién → hizo qué (la foto)."
   },
   "verbList": [
-    { "verb": "be", "base": "be", "past": "was/were", "pastParticiple": "been", "ing": "being", "thirdPerson": "is", "usesEn": "tool verb for the past continuous: I was cooking. main verb for a state: We were in the garden." },
-    { "verb": "call", "base": "call", "past": "called", "pastParticiple": "called", "ing": "calling", "thirdPerson": "calls", "usesEn": "phone someone: She called her sister. the classic interrupting event: I was cooking when she called." },
-    { "verb": "cook", "base": "cook", "past": "cooked", "pastParticiple": "cooked", "ing": "cooking", "thirdPerson": "cooks", "usesEn": "action in progress: I was cooking pasta. habit: Every Sunday she cooked for everyone." },
-    { "verb": "read", "base": "read", "past": "read", "pastParticiple": "read", "ing": "reading", "thirdPerson": "reads", "usesEn": "event: She read the email. in progress: I was reading when the power went out. (the past read is spelled like the base but sounds different, see the pronunciation notes)" },
-    { "verb": "rain", "base": "rain", "past": "rained", "pastParticiple": "rained", "ing": "raining", "thirdPerson": "rains", "usesEn": "background scene: It was raining. (always with the dummy subject it)" },
-    { "verb": "run", "base": "run", "past": "ran", "pastParticiple": "run", "ing": "running", "thirdPerson": "runs", "usesEn": "move fast: People were running to the metro. habit: I ran five miles every morning." },
-    { "verb": "go", "base": "go", "past": "went", "pastParticiple": "gone", "ing": "going", "thirdPerson": "goes", "usesEn": "move to a place: I went to school by bus. go out = stop working (lights, power): The power went out." },
-    { "verb": "get", "base": "get", "past": "got", "pastParticiple": "got/gotten", "ing": "getting", "thirdPerson": "gets", "usesEn": "get home = arrive home: I was getting home when it started to rain." },
-    { "verb": "start", "base": "start", "past": "started", "pastParticiple": "started", "ing": "starting", "thirdPerson": "starts", "usesEn": "the event that cuts in: it started to rain." },
-    { "verb": "play", "base": "play", "past": "played", "pastParticiple": "played", "ing": "playing", "thirdPerson": "plays", "usesEn": "a sport or game: Andrew was playing tennis. an instrument: My flatmate was playing the piano." },
-    { "verb": "speak", "base": "speak", "past": "spoke", "pastParticiple": "spoken", "ing": "speaking", "thirdPerson": "speaks", "usesEn": "habit in the past simple: I spoke Spanish with my grandmother." },
-    { "verb": "do", "base": "do", "past": "did", "pastParticiple": "done", "ing": "doing", "thirdPerson": "does", "usesEn": "tool verb for past simple questions and negatives: Did you call? I didn't call. main verb: What were you doing?" },
-    { "verb": "know", "base": "know", "past": "knew", "pastParticiple": "known", "ing": "knowing (rare)", "thirdPerson": "knows", "usesEn": "state verb, no -ing in this meaning: I knew the answer." },
-    { "verb": "want", "base": "want", "past": "wanted", "pastParticiple": "wanted", "ing": "wanting (rare)", "thirdPerson": "wants", "usesEn": "state verb: She wanted to leave." },
-    { "verb": "like", "base": "like", "past": "liked", "pastParticiple": "liked", "ing": "liking (rare)", "thirdPerson": "likes", "usesEn": "state verb: I liked the book." },
-    { "verb": "believe", "base": "believe", "past": "believed", "pastParticiple": "believed", "ing": "believing (rare)", "thirdPerson": "believes", "usesEn": "state verb: I believed him." },
-    { "verb": "own", "base": "own", "past": "owned", "pastParticiple": "owned", "ing": "owning (rare)", "thirdPerson": "owns", "usesEn": "state verb of possession: They owned a small gallery." },
-    { "verb": "think", "base": "think", "past": "thought", "pastParticiple": "thought", "ing": "thinking", "thirdPerson": "thinks", "usesEn": "opinion (state): I thought it was fair. process in your head (action): I was thinking about my essay." },
-    { "verb": "have", "base": "have", "past": "had", "pastParticiple": "had", "ing": "having", "thirdPerson": "has", "usesEn": "possession (state): I had a bike. activity (action): We were having dinner." },
-    { "verb": "understand", "base": "understand", "past": "understood", "pastParticiple": "understood", "ing": "understanding (rare)", "thirdPerson": "understands", "usesEn": "state, or the moment you enter it: Suddenly he understood." },
-    { "verb": "find out", "base": "find out", "past": "found out", "pastParticiple": "found out", "ing": "finding out", "thirdPerson": "finds out", "usesEn": "the moment you start knowing (Spanish supe): I found out the truth." },
-    { "verb": "send", "base": "send", "past": "sent", "pastParticiple": "sent", "ing": "sending", "thirdPerson": "sends", "usesEn": "finished event: Yesterday I sent my application." },
-    { "verb": "visit", "base": "visit", "past": "visited", "pastParticiple": "visited", "ing": "visiting", "thirdPerson": "visits", "usesEn": "habit in the past simple: I visited them every day for a year." },
-    { "verb": "leave", "base": "leave", "past": "left", "pastParticiple": "left", "ing": "leaving", "thirdPerson": "leaves", "usesEn": "go away from a place: She wanted to leave." },
-    { "verb": "say", "base": "say", "past": "said", "pastParticiple": "said", "ing": "saying", "thirdPerson": "says", "usesEn": "report words: He understood what she said." },
-    { "verb": "live", "base": "live", "past": "lived", "pastParticiple": "lived", "ing": "living", "thirdPerson": "lives", "usesEn": "temporary stretch (action): When I was living in Medellín, I met her. long-term situation: I lived in Bogotá as a child." },
-    { "verb": "meet", "base": "meet", "past": "met", "pastParticiple": "met", "ing": "meeting", "thirdPerson": "meets", "usesEn": "see someone for the first time: I met her in Medellín." },
-    { "verb": "cut in", "base": "cut in", "past": "cut in", "pastParticiple": "cut in", "ing": "cutting in", "thirdPerson": "cuts in", "usesEn": "interrupt: the event that cuts in (the photo that interrupts the film)" },
-    { "verb": "use (used to)", "base": "use", "past": "used", "pastParticiple": "used", "ing": "using", "thirdPerson": "uses", "usesEn": "used to + base verb = past habit or past state: I used to go to school by bus. (only in the past)" }
+    {
+      "verb": "be",
+      "base": "be",
+      "past": "was/were",
+      "pastParticiple": "been",
+      "ing": "being",
+      "thirdPerson": "is",
+      "meanings": [
+        {
+          "meaning": "tool verb for the past continuous",
+          "tenses": [
+            "past continuous"
+          ],
+          "example": "I was cooking."
+        },
+        {
+          "meaning": "main verb for a state",
+          "tenses": [
+            "past simple"
+          ],
+          "example": "We were in the garden."
+        }
+      ]
+    },
+    {
+      "verb": "call",
+      "base": "call",
+      "past": "called",
+      "pastParticiple": "called",
+      "ing": "calling",
+      "thirdPerson": "calls",
+      "meanings": [
+        {
+          "meaning": "phone someone",
+          "tenses": [
+            "past simple"
+          ],
+          "example": "She called her sister."
+        },
+        {
+          "meaning": "the classic interrupting event",
+          "tenses": [
+            "past continuous",
+            "past simple"
+          ],
+          "example": "I was cooking when she called."
+        }
+      ]
+    },
+    {
+      "verb": "cook",
+      "base": "cook",
+      "past": "cooked",
+      "pastParticiple": "cooked",
+      "ing": "cooking",
+      "thirdPerson": "cooks",
+      "meanings": [
+        {
+          "meaning": "action in progress",
+          "tenses": [
+            "past continuous"
+          ],
+          "example": "I was cooking pasta."
+        },
+        {
+          "meaning": "habit",
+          "tenses": [
+            "past simple"
+          ],
+          "example": "Every Sunday she cooked for everyone."
+        }
+      ]
+    },
+    {
+      "verb": "read",
+      "base": "read",
+      "past": "read",
+      "pastParticiple": "read",
+      "ing": "reading",
+      "thirdPerson": "reads",
+      "meanings": [
+        {
+          "meaning": "event",
+          "tenses": [
+            "past simple"
+          ],
+          "example": "She read the email."
+        },
+        {
+          "meaning": "in progress",
+          "tenses": [
+            "past continuous"
+          ],
+          "example": "I was reading when the power went out. (the past read is spelled like the base but sounds different, see the pronunciation notes)"
+        }
+      ]
+    },
+    {
+      "verb": "rain",
+      "base": "rain",
+      "past": "rained",
+      "pastParticiple": "rained",
+      "ing": "raining",
+      "thirdPerson": "rains",
+      "meanings": [
+        {
+          "meaning": "background scene",
+          "tenses": [
+            "past continuous"
+          ],
+          "example": "It was raining. (always with the dummy subject it)"
+        }
+      ]
+    },
+    {
+      "verb": "run",
+      "base": "run",
+      "past": "ran",
+      "pastParticiple": "run",
+      "ing": "running",
+      "thirdPerson": "runs",
+      "meanings": [
+        {
+          "meaning": "move fast",
+          "tenses": [
+            "past continuous"
+          ],
+          "example": "People were running to the metro."
+        },
+        {
+          "meaning": "habit",
+          "tenses": [
+            "past simple"
+          ],
+          "example": "I ran five miles every morning."
+        }
+      ]
+    },
+    {
+      "verb": "go",
+      "base": "go",
+      "past": "went",
+      "pastParticiple": "gone",
+      "ing": "going",
+      "thirdPerson": "goes",
+      "meanings": [
+        {
+          "meaning": "move to a place",
+          "tenses": [
+            "past simple"
+          ],
+          "example": "I went to school by bus."
+        },
+        {
+          "meaning": "go out = stop working (lights, power)",
+          "tenses": [
+            "past simple"
+          ],
+          "example": "The power went out."
+        }
+      ]
+    },
+    {
+      "verb": "get",
+      "base": "get",
+      "past": "got",
+      "pastParticiple": "got/gotten",
+      "ing": "getting",
+      "thirdPerson": "gets",
+      "meanings": [
+        {
+          "meaning": "get home = arrive home",
+          "tenses": [
+            "past continuous"
+          ],
+          "example": "I was getting home when it started to rain."
+        }
+      ]
+    },
+    {
+      "verb": "start",
+      "base": "start",
+      "past": "started",
+      "pastParticiple": "started",
+      "ing": "starting",
+      "thirdPerson": "starts",
+      "meanings": [
+        {
+          "meaning": "the event that cuts in",
+          "tenses": [
+            "past simple"
+          ],
+          "example": "It started to rain."
+        }
+      ]
+    },
+    {
+      "verb": "play",
+      "base": "play",
+      "past": "played",
+      "pastParticiple": "played",
+      "ing": "playing",
+      "thirdPerson": "plays",
+      "meanings": [
+        {
+          "meaning": "a sport or game",
+          "tenses": [
+            "past continuous"
+          ],
+          "example": "Andrew was playing tennis."
+        },
+        {
+          "meaning": "an instrument",
+          "tenses": [
+            "past continuous"
+          ],
+          "example": "My flatmate was playing the piano."
+        }
+      ]
+    },
+    {
+      "verb": "speak",
+      "base": "speak",
+      "past": "spoke",
+      "pastParticiple": "spoken",
+      "ing": "speaking",
+      "thirdPerson": "speaks",
+      "meanings": [
+        {
+          "meaning": "habit in the past",
+          "tenses": [
+            "past simple"
+          ],
+          "example": "I spoke Spanish with my grandmother."
+        }
+      ]
+    },
+    {
+      "verb": "do",
+      "base": "do",
+      "past": "did",
+      "pastParticiple": "done",
+      "ing": "doing",
+      "thirdPerson": "does",
+      "meanings": [
+        {
+          "meaning": "tool verb for past simple questions and negatives",
+          "tenses": [
+            "past simple"
+          ],
+          "example": "Did you call? I didn't call."
+        },
+        {
+          "meaning": "main verb",
+          "tenses": [
+            "past continuous"
+          ],
+          "example": "What were you doing?"
+        }
+      ]
+    },
+    {
+      "verb": "know",
+      "base": "know",
+      "past": "knew",
+      "pastParticiple": "known",
+      "ing": "knowing (rare)",
+      "thirdPerson": "knows",
+      "meanings": [
+        {
+          "meaning": "state verb, no -ing in this meaning",
+          "tenses": [
+            "past simple"
+          ],
+          "example": "I knew the answer."
+        }
+      ]
+    },
+    {
+      "verb": "want",
+      "base": "want",
+      "past": "wanted",
+      "pastParticiple": "wanted",
+      "ing": "wanting (rare)",
+      "thirdPerson": "wants",
+      "meanings": [
+        {
+          "meaning": "state verb",
+          "tenses": [
+            "past simple"
+          ],
+          "example": "She wanted to leave."
+        }
+      ]
+    },
+    {
+      "verb": "like",
+      "base": "like",
+      "past": "liked",
+      "pastParticiple": "liked",
+      "ing": "liking (rare)",
+      "thirdPerson": "likes",
+      "meanings": [
+        {
+          "meaning": "state verb",
+          "tenses": [
+            "past simple"
+          ],
+          "example": "I liked the book."
+        }
+      ]
+    },
+    {
+      "verb": "believe",
+      "base": "believe",
+      "past": "believed",
+      "pastParticiple": "believed",
+      "ing": "believing (rare)",
+      "thirdPerson": "believes",
+      "meanings": [
+        {
+          "meaning": "state verb",
+          "tenses": [
+            "past simple"
+          ],
+          "example": "I believed him."
+        }
+      ]
+    },
+    {
+      "verb": "own",
+      "base": "own",
+      "past": "owned",
+      "pastParticiple": "owned",
+      "ing": "owning (rare)",
+      "thirdPerson": "owns",
+      "meanings": [
+        {
+          "meaning": "state verb of possession",
+          "tenses": [
+            "past simple"
+          ],
+          "example": "They owned a small gallery."
+        }
+      ]
+    },
+    {
+      "verb": "think",
+      "base": "think",
+      "past": "thought",
+      "pastParticiple": "thought",
+      "ing": "thinking",
+      "thirdPerson": "thinks",
+      "meanings": [
+        {
+          "meaning": "opinion (state)",
+          "tenses": [
+            "past simple"
+          ],
+          "example": "I thought it was fair."
+        },
+        {
+          "meaning": "process in your head (action)",
+          "tenses": [
+            "past continuous"
+          ],
+          "example": "I was thinking about my essay."
+        }
+      ]
+    },
+    {
+      "verb": "have",
+      "base": "have",
+      "past": "had",
+      "pastParticiple": "had",
+      "ing": "having",
+      "thirdPerson": "has",
+      "meanings": [
+        {
+          "meaning": "possession (state)",
+          "tenses": [
+            "past simple"
+          ],
+          "example": "I had a bike."
+        },
+        {
+          "meaning": "activity (action)",
+          "tenses": [
+            "past continuous"
+          ],
+          "example": "We were having dinner."
+        }
+      ]
+    },
+    {
+      "verb": "understand",
+      "base": "understand",
+      "past": "understood",
+      "pastParticiple": "understood",
+      "ing": "understanding (rare)",
+      "thirdPerson": "understands",
+      "meanings": [
+        {
+          "meaning": "state, or the moment you enter it",
+          "tenses": [
+            "past simple"
+          ],
+          "example": "Suddenly he understood."
+        }
+      ]
+    },
+    {
+      "verb": "find out",
+      "base": "find out",
+      "past": "found out",
+      "pastParticiple": "found out",
+      "ing": "finding out",
+      "thirdPerson": "finds out",
+      "meanings": [
+        {
+          "meaning": "the moment you start knowing (Spanish supe)",
+          "tenses": [
+            "past simple"
+          ],
+          "example": "I found out the truth."
+        }
+      ]
+    },
+    {
+      "verb": "send",
+      "base": "send",
+      "past": "sent",
+      "pastParticiple": "sent",
+      "ing": "sending",
+      "thirdPerson": "sends",
+      "meanings": [
+        {
+          "meaning": "finished event",
+          "tenses": [
+            "past simple"
+          ],
+          "example": "Yesterday I sent my application."
+        }
+      ]
+    },
+    {
+      "verb": "visit",
+      "base": "visit",
+      "past": "visited",
+      "pastParticiple": "visited",
+      "ing": "visiting",
+      "thirdPerson": "visits",
+      "meanings": [
+        {
+          "meaning": "habit in the past",
+          "tenses": [
+            "past simple"
+          ],
+          "example": "I visited them every day for a year."
+        }
+      ]
+    },
+    {
+      "verb": "leave",
+      "base": "leave",
+      "past": "left",
+      "pastParticiple": "left",
+      "ing": "leaving",
+      "thirdPerson": "leaves",
+      "meanings": [
+        {
+          "meaning": "go away from a place",
+          "tenses": [
+            "base form"
+          ],
+          "example": "She wanted to leave."
+        }
+      ]
+    },
+    {
+      "verb": "say",
+      "base": "say",
+      "past": "said",
+      "pastParticiple": "said",
+      "ing": "saying",
+      "thirdPerson": "says",
+      "meanings": [
+        {
+          "meaning": "report words",
+          "tenses": [
+            "past simple"
+          ],
+          "example": "He understood what she said."
+        }
+      ]
+    },
+    {
+      "verb": "live",
+      "base": "live",
+      "past": "lived",
+      "pastParticiple": "lived",
+      "ing": "living",
+      "thirdPerson": "lives",
+      "meanings": [
+        {
+          "meaning": "temporary stretch (action)",
+          "tenses": [
+            "past continuous"
+          ],
+          "example": "When I was living in Medellín, I met her."
+        },
+        {
+          "meaning": "long-term situation",
+          "tenses": [
+            "past simple"
+          ],
+          "example": "I lived in Bogotá as a child."
+        }
+      ]
+    },
+    {
+      "verb": "meet",
+      "base": "meet",
+      "past": "met",
+      "pastParticiple": "met",
+      "ing": "meeting",
+      "thirdPerson": "meets",
+      "meanings": [
+        {
+          "meaning": "see someone for the first time",
+          "tenses": [
+            "past simple"
+          ],
+          "example": "I met her in Medellín."
+        }
+      ]
+    },
+    {
+      "verb": "cut in",
+      "base": "cut in",
+      "past": "cut in",
+      "pastParticiple": "cut in",
+      "ing": "cutting in",
+      "thirdPerson": "cuts in",
+      "meanings": [
+        {
+          "meaning": "interrupt",
+          "tenses": [
+            "present simple"
+          ],
+          "example": "The event that cuts in (the photo that interrupts the film)."
+        }
+      ]
+    },
+    {
+      "verb": "use (used to)",
+      "base": "use",
+      "past": "used",
+      "pastParticiple": "used",
+      "ing": "using",
+      "thirdPerson": "uses",
+      "meanings": [
+        {
+          "meaning": "past habit or past state (only in the past)",
+          "tenses": [
+            "used to"
+          ],
+          "example": "I used to go to school by bus."
+        }
+      ]
+    }
   ],
   "read": {
     "themeEn": "art and attention (a short story)",

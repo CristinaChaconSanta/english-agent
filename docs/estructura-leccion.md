@@ -219,20 +219,28 @@ Reglas de esta sección (heredadas de la Ronda 2, sin cambios):
 
 ### 8. Verb list (~2 min)
 
-Sección nueva, obligatoria. Lista cada verbo usado en la explicación de la lección
-(no en el Read ni en Practice, salvo que también aparezca en la explicación), con:
+Sección nueva, obligatoria. Lista **todos** los verbos que aparecen en los ejemplos de
+la explicación de la lección (secciones 1 a 7: Goal, Words you need, uses, form, Why
+chain, traps y Hack), no solo 3 o 4. El Read y Practice no cuentan, salvo que el verbo
+también aparezca en la explicación. Para cada verbo:
 
-- Sus formas en los tiempos principales: base, pasado simple, participio pasado,
-  forma -ing, tercera persona singular.
-- Si el verbo tiene varios significados o usos relevantes para esta lección (por
-  ejemplo *get*, *have*, *be*), un ejemplo corto por cada uso relevante, para que
+- Sus formas: base, pasado simple, participio pasado, forma -ing, tercera persona
+  singular.
+- **Una fila por significado.** Si el verbo tiene varios significados o usos en la
+  lección (por ejemplo *get*, *have*, *be*), cada uno va en su propia fila, para que
   Cristina no memorice el verbo en un solo sentido y se confunda al verlo en otro.
+- En cada fila, los tiempos en que aparece ese uso, con nombre completo (present
+  simple, past simple, present continuous, past continuous, present perfect, present
+  perfect continuous, used to, would, base form…), y un ejemplo corto.
 
-Formato sugerido (tabla):
+Formato (tabla; en la app, una tabla real con scroll horizontal en el móvil):
 
-| Verb | Base | Past | Past participle | -ing | 3rd person | Uses in this lesson |
-|---|---|---|---|---|---|---|
-| be | be | was/were | been | being | is | identity, location, state (ver sección 3) |
+| Verb | Base | Past | Past participle | -ing | 3rd person | Tenses it appears in | Example |
+|---|---|---|---|---|---|---|---|
+| be | be | was/were | been | being | is | present simple | **identity:** *She is a designer.* |
+| | | | | | | present simple | **location:** *It is in the corner.* |
+
+En el JSON cada verbo trae `meanings: [{ "meaning", "tenses": [], "example" }]`.
 
 ### 9. Read (~4 min)
 
@@ -361,7 +369,9 @@ separa `prompt` (siempre visible) de `answer` y `why` (ocultos hasta responder):
       {
         "promptEn": "string",
         "answerEn": "string",
+        "acceptedAnswers": ["string (opcional: otras respuestas correctas)"],
         "whyEn": "string",
+        "whyEs": "string",
         "revealAfterSubmit": true
       }
     ],
@@ -378,7 +388,7 @@ separa `prompt` (siempre visible) de `answer` y `why` (ocultos hasta responder):
       "pastParticiple": "string",
       "ing": "string",
       "thirdPerson": "string",
-      "uses": [{ "meaningEs": "string", "exampleEn": "string" }]
+      "meanings": [{ "meaning": "string", "tenses": ["present simple"], "example": "string" }]
     }
   ],
   "read": {
@@ -395,7 +405,9 @@ separa `prompt` (siempre visible) de `answer` y `why` (ocultos hasta responder):
       {
         "promptEn": "string",
         "answerEn": "string",
+        "acceptedAnswers": ["string (opcional: otras respuestas correctas)"],
         "whyEn": "string",
+        "whyEs": "string",
         "revealAfterSubmit": true
       }
     ],

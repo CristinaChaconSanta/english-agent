@@ -331,7 +331,29 @@
       "pastParticiple": "had",
       "ing": "having",
       "thirdPerson": "has",
-      "usesEn": "auxiliary of the present perfect: I have seen it. possession: I have a laptop. both at once: I have had this laptop for two years."
+      "meanings": [
+        {
+          "meaning": "tool verb of the present perfect",
+          "tenses": [
+            "present perfect"
+          ],
+          "example": "I have seen it."
+        },
+        {
+          "meaning": "possession",
+          "tenses": [
+            "present simple"
+          ],
+          "example": "I have a laptop."
+        },
+        {
+          "meaning": "both at once",
+          "tenses": [
+            "present perfect"
+          ],
+          "example": "I have had this laptop for two years."
+        }
+      ]
     },
     {
       "verb": "be",
@@ -340,7 +362,29 @@
       "pastParticiple": "been",
       "ing": "being",
       "thirdPerson": "is",
-      "usesEn": "state up to now: I have been here for two years. been to = went and came back: Have you ever been to Sweden? old perfect auxiliary: the Lady Valeria is come (Shakespeare)"
+      "meanings": [
+        {
+          "meaning": "state up to now",
+          "tenses": [
+            "present perfect"
+          ],
+          "example": "I have been here for two years."
+        },
+        {
+          "meaning": "been to = went and came back",
+          "tenses": [
+            "present perfect"
+          ],
+          "example": "Have you ever been to Sweden?"
+        },
+        {
+          "meaning": "old perfect tool verb",
+          "tenses": [
+            "old perfect (be + participle)"
+          ],
+          "example": "the Lady Valeria is come (Shakespeare)"
+        }
+      ]
     },
     {
       "verb": "see",
@@ -349,7 +393,16 @@
       "pastParticiple": "seen",
       "ing": "seeing",
       "thirdPerson": "sees",
-      "usesEn": "I saw him yesterday. / I've already seen it."
+      "meanings": [
+        {
+          "meaning": "see with your eyes",
+          "tenses": [
+            "past simple",
+            "present perfect"
+          ],
+          "example": "I saw him yesterday. / I've already seen it."
+        }
+      ]
     },
     {
       "verb": "eat",
@@ -358,7 +411,16 @@
       "pastParticiple": "eaten",
       "ing": "eating",
       "thirdPerson": "eats",
-      "usesEn": "I've already eaten, thanks. / I ate at noon."
+      "meanings": [
+        {
+          "meaning": "have a meal",
+          "tenses": [
+            "present perfect",
+            "past simple"
+          ],
+          "example": "I've already eaten, thanks. / I ate at noon."
+        }
+      ]
     },
     {
       "verb": "finish",
@@ -367,7 +429,15 @@
       "pastParticiple": "finished",
       "ing": "finishing",
       "thirdPerson": "finishes",
-      "usesEn": "I haven't finished the report yet."
+      "meanings": [
+        {
+          "meaning": "complete something",
+          "tenses": [
+            "present perfect"
+          ],
+          "example": "I haven't finished the report yet."
+        }
+      ]
     },
     {
       "verb": "live",
@@ -376,7 +446,15 @@
       "pastParticiple": "lived",
       "ing": "living",
       "thirdPerson": "lives",
-      "usesEn": "She has lived in Medellín since 2021."
+      "meanings": [
+        {
+          "meaning": "have your home in a place",
+          "tenses": [
+            "present perfect"
+          ],
+          "example": "She has lived in Medellín since 2021."
+        }
+      ]
     },
     {
       "verb": "work",
@@ -385,7 +463,15 @@
       "pastParticiple": "worked",
       "ing": "working",
       "thirdPerson": "works",
-      "usesEn": "We have worked together for two years."
+      "meanings": [
+        {
+          "meaning": "do a job",
+          "tenses": [
+            "present perfect"
+          ],
+          "example": "We have worked together for two years."
+        }
+      ]
     },
     {
       "verb": "visit",
@@ -394,7 +480,16 @@
       "pastParticiple": "visited",
       "ing": "visiting",
       "thirdPerson": "visits",
-      "usesEn": "I visited the Louvre in 2019. / I have visited three design museums."
+      "meanings": [
+        {
+          "meaning": "go to see a place",
+          "tenses": [
+            "past simple",
+            "present perfect"
+          ],
+          "example": "I visited the Louvre in 2019. / I have visited three design museums."
+        }
+      ]
     },
     {
       "verb": "lose",
@@ -403,7 +498,15 @@
       "pastParticiple": "lost",
       "ing": "losing",
       "thirdPerson": "loses",
-      "usesEn": "I have lost my notes. (result now: I can't check them)"
+      "meanings": [
+        {
+          "meaning": "stop having something",
+          "tenses": [
+            "present perfect"
+          ],
+          "example": "I have lost my notes. (result now: I can't check them)"
+        }
+      ]
     },
     {
       "verb": "go",
@@ -412,7 +515,22 @@
       "pastParticiple": "gone",
       "ing": "going",
       "thirdPerson": "goes",
-      "usesEn": "I went in winter. careful: she has gone to Finland (she is there now) vs she has been to Finland (she went and came back)"
+      "meanings": [
+        {
+          "meaning": "move to a place",
+          "tenses": [
+            "past simple"
+          ],
+          "example": "I went in winter."
+        },
+        {
+          "meaning": "gone vs been",
+          "tenses": [
+            "present perfect"
+          ],
+          "example": "She has gone to Finland (she is there now) vs. she has been to Finland (she went and came back)."
+        }
+      ]
     },
     {
       "verb": "arrive",
@@ -421,7 +539,15 @@
       "pastParticiple": "arrived",
       "ing": "arriving",
       "thirdPerson": "arrives",
-      "usesEn": "The taxi arrived a moment ago. (never has arrived a moment ago)"
+      "meanings": [
+        {
+          "meaning": "reach a place",
+          "tenses": [
+            "past simple"
+          ],
+          "example": "The taxi arrived a moment ago. (never has arrived a moment ago)"
+        }
+      ]
     },
     {
       "verb": "try",
@@ -430,7 +556,15 @@
       "pastParticiple": "tried",
       "ing": "trying",
       "thirdPerson": "tries",
-      "usesEn": "experience with ever: Have you ever tried to write with your left hand?"
+      "meanings": [
+        {
+          "meaning": "experience with ever",
+          "tenses": [
+            "present perfect"
+          ],
+          "example": "Have you ever tried to write with your left hand?"
+        }
+      ]
     },
     {
       "verb": "book",
@@ -439,7 +573,15 @@
       "pastParticiple": "booked",
       "ing": "booking",
       "thirdPerson": "books",
-      "usesEn": "reserve: I've already booked my flight."
+      "meanings": [
+        {
+          "meaning": "reserve",
+          "tenses": [
+            "present perfect"
+          ],
+          "example": "I've already booked my flight."
+        }
+      ]
     },
     {
       "verb": "fly",
@@ -448,7 +590,16 @@
       "pastParticiple": "flown",
       "ing": "flying",
       "thirdPerson": "flies",
-      "usesEn": "He never flew on a plane. (finished life) vs She has never flown."
+      "meanings": [
+        {
+          "meaning": "travel by plane",
+          "tenses": [
+            "past simple",
+            "present perfect"
+          ],
+          "example": "He never flew on a plane. (finished life) vs. She has never flown."
+        }
+      ]
     },
     {
       "verb": "die",
@@ -457,7 +608,15 @@
       "pastParticiple": "died",
       "ing": "dying",
       "thirdPerson": "dies",
-      "usesEn": "He died in 2015. (a finished date: past simple)"
+      "meanings": [
+        {
+          "meaning": "stop living",
+          "tenses": [
+            "past simple"
+          ],
+          "example": "He died in 2015. (a finished date: past simple)"
+        }
+      ]
     }
   ],
   "read": {

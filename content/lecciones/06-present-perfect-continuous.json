@@ -313,7 +313,22 @@
       "pastParticiple": "had",
       "ing": "having",
       "thirdPerson": "has",
-      "usesEn": "tool verb (perfect): I have been working. possession (a different use): I have two brushes."
+      "meanings": [
+        {
+          "meaning": "tool verb (perfect)",
+          "tenses": [
+            "present perfect continuous"
+          ],
+          "example": "I have been working."
+        },
+        {
+          "meaning": "possession (a different use)",
+          "tenses": [
+            "present simple"
+          ],
+          "example": "I have two brushes."
+        }
+      ]
     },
     {
       "verb": "be",
@@ -322,7 +337,22 @@
       "pastParticiple": "been",
       "ing": "being",
       "thirdPerson": "is",
-      "usesEn": "tool verb (continuous), as been after have: She has been waiting. state (plain perfect): I've been here for half an hour."
+      "meanings": [
+        {
+          "meaning": "tool verb (continuous), as been after have",
+          "tenses": [
+            "present perfect continuous"
+          ],
+          "example": "She has been waiting."
+        },
+        {
+          "meaning": "state (plain perfect)",
+          "tenses": [
+            "present perfect"
+          ],
+          "example": "I've been here for half an hour."
+        }
+      ]
     },
     {
       "verb": "work",
@@ -331,7 +361,15 @@
       "pastParticiple": "worked",
       "ing": "working",
       "thirdPerson": "works",
-      "usesEn": "activity still going on: I've been working here for three years."
+      "meanings": [
+        {
+          "meaning": "activity still going on",
+          "tenses": [
+            "present perfect continuous"
+          ],
+          "example": "I've been working here for three years."
+        }
+      ]
     },
     {
       "verb": "paint",
@@ -340,7 +378,22 @@
       "pastParticiple": "painted",
       "ing": "painting",
       "thirdPerson": "paints",
-      "usesEn": "activity: I've been painting the room. result: I've painted the room."
+      "meanings": [
+        {
+          "meaning": "activity",
+          "tenses": [
+            "present perfect continuous"
+          ],
+          "example": "I've been painting the room."
+        },
+        {
+          "meaning": "result",
+          "tenses": [
+            "present perfect"
+          ],
+          "example": "I've painted the room."
+        }
+      ]
     },
     {
       "verb": "write",
@@ -349,7 +402,22 @@
       "pastParticiple": "written",
       "ing": "writing",
       "thirdPerson": "writes",
-      "usesEn": "activity: I've been writing emails all morning. counted result: I've written three emails."
+      "meanings": [
+        {
+          "meaning": "activity",
+          "tenses": [
+            "present perfect continuous"
+          ],
+          "example": "I've been writing emails all morning."
+        },
+        {
+          "meaning": "counted result",
+          "tenses": [
+            "present perfect"
+          ],
+          "example": "I've written three emails."
+        }
+      ]
     },
     {
       "verb": "wait",
@@ -358,7 +426,15 @@
       "pastParticiple": "waited",
       "ing": "waiting",
       "thirdPerson": "waits",
-      "usesEn": "duration up to now: I've been waiting for you for two hours."
+      "meanings": [
+        {
+          "meaning": "duration up to now",
+          "tenses": [
+            "present perfect continuous"
+          ],
+          "example": "I've been waiting for you for two hours."
+        }
+      ]
     },
     {
       "verb": "live",
@@ -367,7 +443,16 @@
       "pastParticiple": "lived",
       "ing": "living",
       "thirdPerson": "lives",
-      "usesEn": "duration, both forms possible: I've been living here for 20 years. / I've lived here for 20 years."
+      "meanings": [
+        {
+          "meaning": "duration, both forms possible",
+          "tenses": [
+            "present perfect continuous",
+            "present perfect"
+          ],
+          "example": "I've been living here for 20 years. / I've lived here for 20 years."
+        }
+      ]
     },
     {
       "verb": "sit",
@@ -376,7 +461,22 @@
       "pastParticiple": "sat",
       "ing": "sitting",
       "thirdPerson": "sits",
-      "usesEn": "in progress now vs. up to now: I am sitting here (now) vs. I have been sitting here for three hours (up to now)."
+      "meanings": [
+        {
+          "meaning": "in progress now",
+          "tenses": [
+            "present continuous"
+          ],
+          "example": "I am sitting here (now)."
+        },
+        {
+          "meaning": "up to now",
+          "tenses": [
+            "present perfect continuous"
+          ],
+          "example": "I have been sitting here for three hours (up to now)."
+        }
+      ]
     },
     {
       "verb": "cry",
@@ -385,7 +485,15 @@
       "pastParticiple": "cried",
       "ing": "crying",
       "thirdPerson": "cries",
-      "usesEn": "recent activity with evidence: Your eyes are red. Have you been crying?"
+      "meanings": [
+        {
+          "meaning": "recent activity with evidence",
+          "tenses": [
+            "present perfect continuous"
+          ],
+          "example": "Your eyes are red. Have you been crying?"
+        }
+      ]
     },
     {
       "verb": "study",
@@ -394,7 +502,15 @@
       "pastParticiple": "studied",
       "ing": "studying",
       "thirdPerson": "studies",
-      "usesEn": "duration with for: I have been studying English for two years."
+      "meanings": [
+        {
+          "meaning": "duration with for",
+          "tenses": [
+            "present perfect continuous"
+          ],
+          "example": "I have been studying English for two years."
+        }
+      ]
     },
     {
       "verb": "know",
@@ -403,7 +519,15 @@
       "pastParticiple": "known",
       "ing": "knowing (not used for this state)",
       "thirdPerson": "knows",
-      "usesEn": "state verb, no -ing: I've known her for years."
+      "meanings": [
+        {
+          "meaning": "state verb, no -ing",
+          "tenses": [
+            "present perfect"
+          ],
+          "example": "I've known her for years."
+        }
+      ]
     },
     {
       "verb": "hear",
@@ -412,7 +536,22 @@
       "pastParticiple": "heard",
       "ing": "hearing",
       "thirdPerson": "hears",
-      "usesEn": "sense, simple form: Have you heard the news? spoken, temporary: I've been hearing strange noises outside."
+      "meanings": [
+        {
+          "meaning": "sense, simple form",
+          "tenses": [
+            "present perfect"
+          ],
+          "example": "Have you heard the news?"
+        },
+        {
+          "meaning": "spoken, temporary",
+          "tenses": [
+            "present perfect continuous"
+          ],
+          "example": "I've been hearing strange noises outside."
+        }
+      ]
     },
     {
       "verb": "start",
@@ -421,7 +560,15 @@
       "pastParticiple": "started",
       "ing": "starting",
       "thirdPerson": "starts",
-      "usesEn": "single-point verb, no continuous here: Has the concert started?"
+      "meanings": [
+        {
+          "meaning": "single-point verb, no continuous here",
+          "tenses": [
+            "present perfect"
+          ],
+          "example": "Has the concert started?"
+        }
+      ]
     }
   ],
   "read": {

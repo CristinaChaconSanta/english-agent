@@ -319,7 +319,22 @@
       "pastParticiple": "been",
       "ing": "being",
       "thirdPerson": "is",
-      "usesEn": "location: The keys are in the box. time of an event: The demo is on Monday."
+      "meanings": [
+        {
+          "meaning": "location",
+          "tenses": [
+            "present simple"
+          ],
+          "example": "The keys are in the box."
+        },
+        {
+          "meaning": "time of an event",
+          "tenses": [
+            "present simple"
+          ],
+          "example": "The demo is on Monday."
+        }
+      ]
     },
     {
       "verb": "arrive",
@@ -328,7 +343,15 @@
       "pastParticiple": "arrived",
       "ing": "arriving",
       "thirdPerson": "arrives",
-      "usesEn": "end of a trip: We arrived in Stockholm. / We arrived at the station. (never arrive to)"
+      "meanings": [
+        {
+          "meaning": "end of a trip",
+          "tenses": [
+            "past simple"
+          ],
+          "example": "We arrived in Stockholm. / We arrived at the station. (never arrive to)"
+        }
+      ]
     },
     {
       "verb": "see",
@@ -337,7 +360,22 @@
       "pastParticiple": "seen",
       "ing": "seeing",
       "thirdPerson": "sees",
-      "usesEn": "picture something as: We see the airport as a point. meet (in goodbyes): See you on Monday."
+      "meanings": [
+        {
+          "meaning": "picture something as",
+          "tenses": [
+            "present simple"
+          ],
+          "example": "We see the airport as a point."
+        },
+        {
+          "meaning": "meet (in goodbyes)",
+          "tenses": [
+            "base form"
+          ],
+          "example": "See you on Monday."
+        }
+      ]
     },
     {
       "verb": "wait",
@@ -346,7 +384,15 @@
       "pastParticiple": "waited",
       "ing": "waiting",
       "thirdPerson": "waits",
-      "usesEn": "stay in one place until something happens: I'll wait for you at the door."
+      "meanings": [
+        {
+          "meaning": "stay in one place until something happens",
+          "tenses": [
+            "future with will"
+          ],
+          "example": "I'll wait for you at the door."
+        }
+      ]
     },
     {
       "verb": "stand",
@@ -355,7 +401,22 @@
       "pastParticiple": "stood",
       "ing": "standing",
       "thirdPerson": "stands",
-      "usesEn": "be on your feet: You can stand on the bus. be located (for buildings): The museum stands on the east bank."
+      "meanings": [
+        {
+          "meaning": "be on your feet",
+          "tenses": [
+            "base form"
+          ],
+          "example": "You can stand on the bus."
+        },
+        {
+          "meaning": "be located (for buildings)",
+          "tenses": [
+            "present simple"
+          ],
+          "example": "The museum stands on the east bank."
+        }
+      ]
     },
     {
       "verb": "sit",
@@ -364,7 +425,16 @@
       "pastParticiple": "sat",
       "ing": "sitting",
       "thirdPerson": "sits",
-      "usesEn": "be seated: I was sitting at my desk. / You sit in a car."
+      "meanings": [
+        {
+          "meaning": "be seated",
+          "tenses": [
+            "past continuous",
+            "present simple"
+          ],
+          "example": "I was sitting at my desk. / You sit in a car."
+        }
+      ]
     },
     {
       "verb": "start",
@@ -373,7 +443,15 @@
       "pastParticiple": "started",
       "ing": "starting",
       "thirdPerson": "starts",
-      "usesEn": "begin at a time: The talk starts at 5 pm."
+      "meanings": [
+        {
+          "meaning": "begin at a time",
+          "tenses": [
+            "present simple"
+          ],
+          "example": "The talk starts at 5 pm."
+        }
+      ]
     },
     {
       "verb": "end",
@@ -382,7 +460,15 @@
       "pastParticiple": "ended",
       "ing": "ending",
       "thirdPerson": "ends",
-      "usesEn": "finish at a time: The course ends in July."
+      "meanings": [
+        {
+          "meaning": "finish at a time",
+          "tenses": [
+            "present simple"
+          ],
+          "example": "The course ends in July."
+        }
+      ]
     },
     {
       "verb": "wake up",
@@ -391,7 +477,15 @@
       "pastParticiple": "woken up",
       "ing": "waking up",
       "thirdPerson": "wakes up",
-      "usesEn": "stop sleeping: I woke up in the night. (one particular night)"
+      "meanings": [
+        {
+          "meaning": "stop sleeping",
+          "tenses": [
+            "past simple"
+          ],
+          "example": "I woke up in the night. (one particular night)"
+        }
+      ]
     }
   ],
   "read": {

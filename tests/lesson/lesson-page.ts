@@ -37,6 +37,9 @@ export class LessonPage extends BasePage {
 
   async reachPredict() {
     for (let step = 0; step < 4; step += 1) await this.next();
+    await expect(this.page.getByText("Part 1 of 12")).toBeVisible();
+    for (let part = 0; part < 5; part += 1) await this.next();
+    await expect(this.page.getByText("Predict it 1 of 2")).toBeVisible();
   }
 
   async answer(text: string) {
@@ -52,11 +55,15 @@ export class LessonPage extends BasePage {
     await this.answer("it");
     await expect(this.verdict()).toHaveText("Correct");
     await this.next();
+    await expect(this.page.getByText("Predict it 2 of 2")).toBeVisible();
     await this.answer("It was a mistake to launch on Friday.");
     await expect(this.verdict()).toHaveText("Correct");
+    for (let part = 0; part < 6; part += 1) await this.next();
+    await expect(this.page.getByRole("heading", { name: "When not to use it" })).toBeVisible();
     await this.next();
     await this.next();
-    for (let step = 0; step < 6; step += 1) await this.next();
+    await expect(this.page.getByRole("table")).toBeVisible();
+    for (let step = 0; step < 4; step += 1) await this.next();
     await expect(this.page.getByRole("heading", { name: "Check" })).toBeVisible();
   }
 

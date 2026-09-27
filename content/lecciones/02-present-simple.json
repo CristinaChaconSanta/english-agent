@@ -335,21 +335,310 @@
     "es": "El present simple es el pie de foto de un álbum, no el video en vivo. Dice lo que el sujeto hace en general (She paints landscapes). Si puedes agregar \"ahora mismo, mientras hablo\", cambia al video: She is painting. Y una sola regla de etiqueta para el pie de foto: la -s va en un solo verbo, el primero después de he / she / it. Si está does, does se la lleva. (Los modales como can nunca la llevan.)"
   },
   "verbList": [
-    { "verb": "work", "base": "work", "past": "worked", "pastParticiple": "worked", "ing": "working", "thirdPerson": "works", "usesEn": "job/routine: She works at a museum. in progress: She is working on the new exhibition." },
-    { "verb": "do", "base": "do", "past": "did", "pastParticiple": "done", "ing": "doing", "thirdPerson": "does", "usesEn": "dummy auxiliary (no meaning): Does she work? / I don't know. main verb \"hacer\": I do yoga. / What do you do? (the first do is the auxiliary, the second is the main verb)" },
-    { "verb": "be", "base": "be", "past": "was/were", "pastParticiple": "been", "ing": "being", "thirdPerson": "is", "usesEn": "own questions/negatives, no do: Is she at home? helper for the continuous: It is raining." },
-    { "verb": "have", "base": "have", "past": "had", "pastParticiple": "had", "ing": "having", "thirdPerson": "has", "usesEn": "possession: She has a studio. base form after does: Does she have a studio?" },
-    { "verb": "go", "base": "go", "past": "went", "pastParticiple": "gone", "ing": "going", "thirdPerson": "goes", "usesEn": "spelling -es: He goes to the gallery on Sundays." },
-    { "verb": "watch", "base": "watch", "past": "watched", "pastParticiple": "watched", "ing": "watching", "thirdPerson": "watches", "usesEn": "spelling -es and extra syllable: She watches old films." },
-    { "verb": "study", "base": "study", "past": "studied", "pastParticiple": "studied", "ing": "studying", "thirdPerson": "studies", "usesEn": "spelling -ies: My sister studies architecture." },
-    { "verb": "play", "base": "play", "past": "played", "pastParticiple": "played", "ing": "playing", "thirdPerson": "plays", "usesEn": "vowel + y keeps the y: He plays the cello." },
-    { "verb": "live", "base": "live", "past": "lived", "pastParticiple": "lived", "ing": "living", "thirdPerson": "lives", "usesEn": "permanent situation: I live in Bogotá." },
-    { "verb": "know", "base": "know", "past": "knew", "pastParticiple": "known", "ing": "knowing", "thirdPerson": "knows", "usesEn": "state verb, simple even now: I know what you mean. needs do: Do you know him?" },
-    { "verb": "rain", "base": "rain", "past": "rained", "pastParticiple": "rained", "ing": "raining", "thirdPerson": "rains", "usesEn": "fact: It rains a lot in Bogotá. right now: It's raining." },
-    { "verb": "come", "base": "come", "past": "came", "pastParticiple": "come", "ing": "coming", "thirdPerson": "comes", "usesEn": "right now: Are you coming? past question with did: Did she come?" },
-    { "verb": "arrive", "base": "arrive", "past": "arrived", "pastParticiple": "arrived", "ing": "arriving", "thirdPerson": "arrives", "usesEn": "adverb position: She always arrives late." },
-    { "verb": "read", "base": "read", "past": "read", "pastParticiple": "read", "ing": "reading", "thirdPerson": "reads", "usesEn": "habit: I read before bed. (past read sounds like \"red\")" },
-    { "verb": "take", "base": "take", "past": "took", "pastParticiple": "taken", "ing": "taking", "thirdPerson": "takes", "usesEn": "routine: She usually takes the metro." }
+    {
+      "verb": "work",
+      "base": "work",
+      "past": "worked",
+      "pastParticiple": "worked",
+      "ing": "working",
+      "thirdPerson": "works",
+      "meanings": [
+        {
+          "meaning": "job or routine",
+          "tenses": [
+            "present simple"
+          ],
+          "example": "She works at a museum."
+        },
+        {
+          "meaning": "in progress",
+          "tenses": [
+            "present continuous"
+          ],
+          "example": "She is working on the new exhibition."
+        }
+      ]
+    },
+    {
+      "verb": "do",
+      "base": "do",
+      "past": "did",
+      "pastParticiple": "done",
+      "ing": "doing",
+      "thirdPerson": "does",
+      "meanings": [
+        {
+          "meaning": "tool verb (no meaning)",
+          "tenses": [
+            "present simple"
+          ],
+          "example": "Does she work? / I don't know."
+        },
+        {
+          "meaning": "main verb (hacer)",
+          "tenses": [
+            "present simple"
+          ],
+          "example": "I do yoga. / What do you do? (the first do is the tool verb, the second is the main verb)"
+        }
+      ]
+    },
+    {
+      "verb": "be",
+      "base": "be",
+      "past": "was/were",
+      "pastParticiple": "been",
+      "ing": "being",
+      "thirdPerson": "is",
+      "meanings": [
+        {
+          "meaning": "own questions and negatives, no do",
+          "tenses": [
+            "present simple"
+          ],
+          "example": "Is she at home?"
+        },
+        {
+          "meaning": "helper for the continuous",
+          "tenses": [
+            "present continuous"
+          ],
+          "example": "It is raining."
+        }
+      ]
+    },
+    {
+      "verb": "have",
+      "base": "have",
+      "past": "had",
+      "pastParticiple": "had",
+      "ing": "having",
+      "thirdPerson": "has",
+      "meanings": [
+        {
+          "meaning": "possession",
+          "tenses": [
+            "present simple"
+          ],
+          "example": "She has a studio."
+        },
+        {
+          "meaning": "base form after does",
+          "tenses": [
+            "present simple"
+          ],
+          "example": "Does she have a studio?"
+        }
+      ]
+    },
+    {
+      "verb": "go",
+      "base": "go",
+      "past": "went",
+      "pastParticiple": "gone",
+      "ing": "going",
+      "thirdPerson": "goes",
+      "meanings": [
+        {
+          "meaning": "spelling -es",
+          "tenses": [
+            "present simple"
+          ],
+          "example": "He goes to the gallery on Sundays."
+        }
+      ]
+    },
+    {
+      "verb": "watch",
+      "base": "watch",
+      "past": "watched",
+      "pastParticiple": "watched",
+      "ing": "watching",
+      "thirdPerson": "watches",
+      "meanings": [
+        {
+          "meaning": "spelling -es and extra syllable",
+          "tenses": [
+            "present simple"
+          ],
+          "example": "She watches old films."
+        }
+      ]
+    },
+    {
+      "verb": "study",
+      "base": "study",
+      "past": "studied",
+      "pastParticiple": "studied",
+      "ing": "studying",
+      "thirdPerson": "studies",
+      "meanings": [
+        {
+          "meaning": "spelling -ies",
+          "tenses": [
+            "present simple"
+          ],
+          "example": "My sister studies architecture."
+        }
+      ]
+    },
+    {
+      "verb": "play",
+      "base": "play",
+      "past": "played",
+      "pastParticiple": "played",
+      "ing": "playing",
+      "thirdPerson": "plays",
+      "meanings": [
+        {
+          "meaning": "vowel + y keeps the y",
+          "tenses": [
+            "present simple"
+          ],
+          "example": "He plays the cello."
+        }
+      ]
+    },
+    {
+      "verb": "live",
+      "base": "live",
+      "past": "lived",
+      "pastParticiple": "lived",
+      "ing": "living",
+      "thirdPerson": "lives",
+      "meanings": [
+        {
+          "meaning": "permanent situation",
+          "tenses": [
+            "present simple"
+          ],
+          "example": "I live in Bogotá."
+        }
+      ]
+    },
+    {
+      "verb": "know",
+      "base": "know",
+      "past": "knew",
+      "pastParticiple": "known",
+      "ing": "knowing",
+      "thirdPerson": "knows",
+      "meanings": [
+        {
+          "meaning": "state verb, simple even now",
+          "tenses": [
+            "present simple"
+          ],
+          "example": "I know what you mean."
+        },
+        {
+          "meaning": "needs do in questions",
+          "tenses": [
+            "present simple"
+          ],
+          "example": "Do you know him?"
+        }
+      ]
+    },
+    {
+      "verb": "rain",
+      "base": "rain",
+      "past": "rained",
+      "pastParticiple": "rained",
+      "ing": "raining",
+      "thirdPerson": "rains",
+      "meanings": [
+        {
+          "meaning": "fact",
+          "tenses": [
+            "present simple"
+          ],
+          "example": "It rains a lot in Bogotá."
+        },
+        {
+          "meaning": "right now",
+          "tenses": [
+            "present continuous"
+          ],
+          "example": "It's raining."
+        }
+      ]
+    },
+    {
+      "verb": "come",
+      "base": "come",
+      "past": "came",
+      "pastParticiple": "come",
+      "ing": "coming",
+      "thirdPerson": "comes",
+      "meanings": [
+        {
+          "meaning": "right now",
+          "tenses": [
+            "present continuous"
+          ],
+          "example": "Are you coming?"
+        },
+        {
+          "meaning": "past question with did",
+          "tenses": [
+            "past simple"
+          ],
+          "example": "Did she come?"
+        }
+      ]
+    },
+    {
+      "verb": "arrive",
+      "base": "arrive",
+      "past": "arrived",
+      "pastParticiple": "arrived",
+      "ing": "arriving",
+      "thirdPerson": "arrives",
+      "meanings": [
+        {
+          "meaning": "adverb position",
+          "tenses": [
+            "present simple"
+          ],
+          "example": "She always arrives late."
+        }
+      ]
+    },
+    {
+      "verb": "read",
+      "base": "read",
+      "past": "read",
+      "pastParticiple": "read",
+      "ing": "reading",
+      "thirdPerson": "reads",
+      "meanings": [
+        {
+          "meaning": "habit",
+          "tenses": [
+            "present simple"
+          ],
+          "example": "I read before bed. (past read sounds like \"red\")"
+        }
+      ]
+    },
+    {
+      "verb": "take",
+      "base": "take",
+      "past": "took",
+      "pastParticiple": "taken",
+      "ing": "taking",
+      "thirdPerson": "takes",
+      "meanings": [
+        {
+          "meaning": "routine",
+          "tenses": [
+            "present simple"
+          ],
+          "example": "She usually takes the metro."
+        }
+      ]
+    }
   ],
   "read": {
     "themeEn": "art and attention",

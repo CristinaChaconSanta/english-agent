@@ -5,8 +5,9 @@ import { useRouter } from "next/navigation";
 import { Sunny } from "@/components/characters/sunny";
 import { CheckStep, scoreLine } from "@/components/lesson/check-step";
 import { ContrastPair } from "@/components/lesson/contrast-pair";
-import { GradedPrompt } from "@/components/lesson/graded-prompt";
 import { SpanishToggle } from "@/components/lesson/spanish-toggle";
+import { VerbTable } from "@/components/lesson/verb-table";
+import { WhyStep } from "@/components/lesson/why-step";
 import { BottomBar } from "@/components/ui/bottom-bar";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
@@ -26,8 +27,6 @@ export function LessonPlayer({ lesson, canSkip }: { lesson: Lesson; canSkip: boo
   const [startedAt, setStartedAt] = useState<number | null>(null);
   const [now, setNow] = useState(0);
   const [step, setStep] = useState(0);
-  const [predictDone, setPredictDone] = useState(0);
-  const [predictReady, setPredictReady] = useState(false);
   const [finalScore, setFinalScore] = useState(0);
   const [resultId, setResultId] = useState<string | null>(null);
   const [wrapLine, setWrapLine] = useState("");
@@ -185,39 +184,8 @@ export function LessonPlayer({ lesson, canSkip }: { lesson: Lesson; canSkip: boo
       {step === 4 ? (
         <>
           <h2 className="font-display text-3xl tracking-tight">Why it works this way</h2>
-          <p className="mt-2 text-[17px]">Read the chain, then answer Predict it.</p>
-          <p className="mt-3 text-[17px]">{lesson.whyChain.intro.en}</p>
-          <p className="mt-3 text-[17px]">{lesson.whyChain.links.bigPicture.en}</p>
-          <p className="mt-3 text-[17px]">{lesson.whyChain.links.whereItComesFrom.en}</p>
-          <p className="mt-3 text-[17px]">{lesson.whyChain.links.problemItCreates.en}</p>
-          <p className="mt-3 text-[17px]">{lesson.whyChain.links.englishsSolution.en}</p>
-          <p className="mt-3 text-[17px]">{lesson.whyChain.links.howNativeSpeakersSeeIt.en}</p>
-          <ContrastPair es={lesson.whyChain.links.spanishVsEnglish.es} en={lesson.whyChain.links.spanishVsEnglish.en} />
-          {lesson.whyChain.also.map((note) => (
-            <div key={note.title.en} className="mt-4">
-              <p className="font-display text-2xl">{note.title.en}</p>
-              <p className="text-[17px]">{note.body.en}</p>
-              <SpanishToggle es={`${note.title.es} ${note.body.es}`} />
-            </div>
-          ))}
-          <SpanishToggle es={lesson.whyChain.intro.es} />
-          {predictDone < lesson.whyChain.predict.length ? (
-            <div className="mt-4">
-              <p className="mb-2 font-display text-2xl">Predict it</p>
-              <GradedPrompt
-                key={lesson.whyChain.predict[predictDone]?.promptEn}
-                item={lesson.whyChain.predict[predictDone]!}
-                onResult={() => setPredictReady(true)}
-              />
-              {predictReady ? (
-                <Button className="mt-4" onClick={() => { setPredictDone((value) => value + 1); setPredictReady(false); }}>
-                  Next
-                </Button>
-              ) : null}
-            </div>
-          ) : (
-            <Button className="mt-4" onClick={next}>Next</Button>
-          )}
+          <p className="mt-2 text-[17px]">Read one link at a time.</p>
+          <WhyStep chain={lesson.whyChain} onDone={next} />
         </>
       ) : null}
       {step === 5 ? (
@@ -247,12 +215,8 @@ export function LessonPlayer({ lesson, canSkip }: { lesson: Lesson; canSkip: boo
       {step === 7 ? (
         <>
           <h2 className="font-display text-3xl tracking-tight">Verb list</h2>
-          <p className="mt-2 text-[17px]">Read the forms used in this lesson.</p>
-          {lesson.verbList.map((verb) => (
-            <p key={verb.verb} className="mt-3 text-[17px]">
-              {verb.verb}: {verb.base}, {verb.past}, {verb.pastParticiple}, {verb.ing}, {verb.thirdPerson}. {verb.usesEn}
-            </p>
-          ))}
+          <p className="mt-2 text-[17px]">Read the forms used in this lesson. Swipe the table sideways.</p>
+          <VerbTable verbs={lesson.verbList} />
           <Button className="mt-4" onClick={next}>Next</Button>
         </>
       ) : null}

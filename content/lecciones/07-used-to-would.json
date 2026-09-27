@@ -380,7 +380,29 @@
       "pastParticiple": "used",
       "ing": "using",
       "thirdPerson": "uses",
-      "usesEn": "employ, \"usar\" (z sound): I used your pen. past habit or state (s sound, only in the past): I used to swim. accustomed, with be/get: I'm used to it."
+      "meanings": [
+        {
+          "meaning": "employ, usar (z sound)",
+          "tenses": [
+            "past simple"
+          ],
+          "example": "I used your pen."
+        },
+        {
+          "meaning": "past habit or state (s sound, only in the past)",
+          "tenses": [
+            "used to"
+          ],
+          "example": "I used to swim."
+        },
+        {
+          "meaning": "accustomed, with be or get",
+          "tenses": [
+            "be used to"
+          ],
+          "example": "I'm used to it."
+        }
+      ]
     },
     {
       "verb": "will / would",
@@ -389,7 +411,29 @@
       "pastParticiple": "none (modal)",
       "ing": "none (modal)",
       "thirdPerson": "will (no -s)",
-      "usesEn": "past habit in a story: She would read to us. conditional: I would go if I could. future seen from the past: I knew I would graduate."
+      "meanings": [
+        {
+          "meaning": "past habit in a story",
+          "tenses": [
+            "would (past habit)"
+          ],
+          "example": "She would read to us."
+        },
+        {
+          "meaning": "conditional",
+          "tenses": [
+            "would (conditional)"
+          ],
+          "example": "I would go if I could."
+        },
+        {
+          "meaning": "future seen from the past",
+          "tenses": [
+            "future in the past"
+          ],
+          "example": "I knew I would graduate."
+        }
+      ]
     },
     {
       "verb": "do",
@@ -398,7 +442,22 @@
       "pastParticiple": "done",
       "ing": "doing",
       "thirdPerson": "does",
-      "usesEn": "auxiliary for past questions and negatives: Did you use to...? / I didn't use to... (main verb \"hacer\": I did my homework.)"
+      "meanings": [
+        {
+          "meaning": "tool verb for past questions and negatives",
+          "tenses": [
+            "past simple"
+          ],
+          "example": "Did you use to...? / I didn't use to..."
+        },
+        {
+          "meaning": "main verb (hacer)",
+          "tenses": [
+            "past simple"
+          ],
+          "example": "I did my homework."
+        }
+      ]
     },
     {
       "verb": "be",
@@ -407,7 +466,22 @@
       "pastParticiple": "been",
       "ing": "being",
       "thirdPerson": "is",
-      "usesEn": "accustomed, with used to: I'm used to the cold. past state, with used to: It used to be a bookshop."
+      "meanings": [
+        {
+          "meaning": "accustomed, with used to",
+          "tenses": [
+            "be used to"
+          ],
+          "example": "I'm used to the cold."
+        },
+        {
+          "meaning": "past state, with used to",
+          "tenses": [
+            "used to"
+          ],
+          "example": "It used to be a bookshop."
+        }
+      ]
     },
     {
       "verb": "get",
@@ -416,7 +490,23 @@
       "pastParticiple": "got (US: gotten)",
       "ing": "getting",
       "thirdPerson": "gets",
-      "usesEn": "become, with used to: I'm getting used to the cold. (also \"conseguir\": I got a new job.)"
+      "meanings": [
+        {
+          "meaning": "become, with used to",
+          "tenses": [
+            "get used to",
+            "present continuous"
+          ],
+          "example": "I'm getting used to the cold."
+        },
+        {
+          "meaning": "conseguir",
+          "tenses": [
+            "past simple"
+          ],
+          "example": "I got a new job."
+        }
+      ]
     },
     {
       "verb": "live",
@@ -425,7 +515,15 @@
       "pastParticiple": "lived",
       "ing": "living",
       "thirdPerson": "lives",
-      "usesEn": "state (your situation): I used to live in Cali. (never would live with this meaning)"
+      "meanings": [
+        {
+          "meaning": "state (your situation)",
+          "tenses": [
+            "used to"
+          ],
+          "example": "I used to live in Cali. (never would live with this meaning)"
+        }
+      ]
     },
     {
       "verb": "play",
@@ -434,7 +532,22 @@
       "pastParticiple": "played",
       "ing": "playing",
       "thirdPerson": "plays",
-      "usesEn": "action that can repeat: I used to play in the park. also instruments: play the drums."
+      "meanings": [
+        {
+          "meaning": "action that can repeat",
+          "tenses": [
+            "used to"
+          ],
+          "example": "I used to play in the park."
+        },
+        {
+          "meaning": "instruments",
+          "tenses": [
+            "base form"
+          ],
+          "example": "play the drums"
+        }
+      ]
     },
     {
       "verb": "wake up",
@@ -443,7 +556,22 @@
       "pastParticiple": "woken up",
       "ing": "waking up",
       "thirdPerson": "wakes up",
-      "usesEn": "action, present habit: I usually wake up early. after be used to: I'm used to waking up early."
+      "meanings": [
+        {
+          "meaning": "action, present habit",
+          "tenses": [
+            "present simple"
+          ],
+          "example": "I usually wake up early."
+        },
+        {
+          "meaning": "after be used to",
+          "tenses": [
+            "be used to + -ing"
+          ],
+          "example": "I'm used to waking up early."
+        }
+      ]
     },
     {
       "verb": "know",
@@ -452,7 +580,15 @@
       "pastParticiple": "known",
       "ing": "knowing",
       "thirdPerson": "knows",
-      "usesEn": "state: I used to know her. (not \"I would know her\" for a past state)"
+      "meanings": [
+        {
+          "meaning": "state",
+          "tenses": [
+            "used to"
+          ],
+          "example": "I used to know her. (not \"I would know her\" for a past state)"
+        }
+      ]
     }
   ],
   "read": {
