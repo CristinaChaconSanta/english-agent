@@ -1,0 +1,557 @@
+{
+  "id": "05-present-perfect-vs-past-simple",
+  "unitNumber": 2,
+  "level": "B1",
+  "ieltsCriteria": ["Grammatical Range and Accuracy"],
+  "temaColor": "piscina",
+  "goal": {
+    "what": {
+      "en": "Today you learn to choose between two ways of talking about the past: the past simple (I saw it) and the present perfect (I have seen it).",
+      "es": "Hoy aprendes a elegir entre dos formas de hablar del pasado: el past simple (I saw it) y el present perfect (I have seen it)."
+    },
+    "whyNow": {
+      "en": "This is a classic trap for Spanish speakers because Spanish splits the past in a different place, so choosing well here raises your grammatical accuracy in every IELTS Speaking and Writing task.",
+      "es": "Es una trampa clásica para hispanohablantes porque el español divide el pasado en otro lugar, así que elegir bien aquí sube tu precisión gramatical en todas las tareas de Speaking y Writing de IELTS."
+    },
+    "successMeasure": {
+      "en": "5 new Check items, pass with 4/5.",
+      "es": "5 ítems nuevos en el Check, aprobar con 4/5."
+    }
+  },
+  "glossary": [
+    {
+      "term": { "en": "Tense", "es": "Tense (tiempo verbal)" },
+      "what": {
+        "en": "the form of a verb that places an action in time (past, present).",
+        "es": "la forma del verbo que ubica una acción en el tiempo (pasado, presente)."
+      },
+      "why": {
+        "en": "It exists so the listener knows when the thing you describe happens.",
+        "es": "Existe para que quien escucha sepa cuándo pasa lo que describes."
+      }
+    },
+    {
+      "term": { "en": "Past simple", "es": "Past simple (pasado simple)" },
+      "what": {
+        "en": "the one-word past form of a verb: worked, saw, ate.",
+        "es": "la forma de pasado de una sola palabra: worked, saw, ate."
+      },
+      "why": {
+        "en": "It exists to show a finished event at a finished time, like a photo with a date written on it.",
+        "es": "Existe para mostrar un evento terminado en un tiempo terminado, como una foto con la fecha escrita."
+      }
+    },
+    {
+      "term": { "en": "Present perfect", "es": "Present perfect (presente perfecto)" },
+      "what": {
+        "en": "have or has + past participle: have worked, has seen.",
+        "es": "have o has + participio pasado: have worked, has seen."
+      },
+      "why": {
+        "en": "It exists to connect something that happened before now to the present moment.",
+        "es": "Existe para conectar algo que pasó antes de ahora con el momento presente."
+      }
+    },
+    {
+      "term": { "en": "Past participle", "es": "Past participle (participio pasado)" },
+      "what": {
+        "en": "the third form of a verb: worked, seen, eaten, been.",
+        "es": "la tercera forma del verbo: worked, seen, eaten, been."
+      },
+      "why": {
+        "en": "It exists to build the perfect tenses, always after have.",
+        "es": "Existe para armar los tiempos perfectos, siempre después de have."
+      }
+    },
+    {
+      "term": { "en": "Auxiliary verb", "es": "Auxiliary verb (verbo auxiliar)" },
+      "what": {
+        "en": "a helper verb that carries grammar, not the main meaning. In I have seen it, have carries the time (present) and seen carries the meaning.",
+        "es": "un verbo de apoyo que carga la gramática, no el significado principal. En I have seen it, have carga el tiempo (presente) y seen carga el significado."
+      },
+      "why": {
+        "en": "It exists because English marks time with small tool verbs instead of long endings (see section 5).",
+        "es": "Existe porque el inglés marca el tiempo con verbos herramienta pequeños en vez de terminaciones largas (ver la sección 5)."
+      }
+    },
+    {
+      "term": { "en": "Time expression", "es": "Time expression (expresión de tiempo)" },
+      "what": {
+        "en": "a word or phrase that says when: yesterday, in 2019, since March, this week.",
+        "es": "una palabra o frase que dice cuándo: yesterday, in 2019, since March, this week."
+      },
+      "why": {
+        "en": "It exists to anchor the event in time, and in English it often decides which tense you can use.",
+        "es": "Existe para anclar el evento en el tiempo, y en inglés muchas veces decide qué tiempo verbal puedes usar."
+      }
+    },
+    {
+      "term": { "en": "Finished time / unfinished time", "es": "Finished time / unfinished time (tiempo terminado / tiempo no terminado)" },
+      "what": {
+        "en": "finished time is a period that is over (yesterday, last week, in 2019, when I was a child). Unfinished time is a period that still includes now (today, this week, this year, in my life, so far).",
+        "es": "el tiempo terminado es un periodo que ya acabó (yesterday, last week, in 2019, when I was a child). El tiempo no terminado es un periodo que todavía incluye el ahora (today, this week, this year, in my life, so far)."
+      },
+      "why": {
+        "en": "This pair exists because English picks the tense from it.",
+        "es": "Este par existe porque el inglés elige el tiempo verbal a partir de él."
+      }
+    },
+    {
+      "term": { "en": "Duration / starting point", "es": "Duration / starting point (duración / punto de inicio)" },
+      "what": {
+        "en": "duration is how long something lasts (three years, two hours); starting point is when it began (2020, Monday, last summer).",
+        "es": "la duración es cuánto dura algo (three years, two hours); el punto de inicio es cuándo empezó (2020, Monday, last summer)."
+      },
+      "why": {
+        "en": "This pair exists because for goes with a duration and since goes with a starting point.",
+        "es": "Este par existe porque for va con una duración y since va con un punto de inicio."
+      }
+    },
+    {
+      "term": { "en": "Calque", "es": "Calque (calco)" },
+      "what": {
+        "en": "a word-for-word copy of a structure from another language. \"I live here since 2020\" is a calque of \"vivo aquí desde 2020\".",
+        "es": "una copia palabra por palabra de una estructura de otro idioma. \"I live here since 2020\" es un calco de \"vivo aquí desde 2020\"."
+      },
+      "why": {
+        "en": "The label exists to help you spot errors that come from Spanish, not from English.",
+        "es": "La etiqueta existe para ayudarte a detectar errores que vienen del español, no del inglés."
+      }
+    },
+    {
+      "term": { "en": "Contraction", "es": "Contraction (contracción)" },
+      "what": {
+        "en": "the short spoken form: I've (I have), she's (she has or she is), haven't (have not).",
+        "es": "la forma corta hablada: I've (I have), she's (she has o she is), haven't (have not)."
+      },
+      "why": {
+        "en": "It exists because spoken English compresses grammar words; careful: she's seen it means she has seen it.",
+        "es": "Existe porque el inglés hablado comprime las palabras gramaticales; ojo: she's seen it significa she has seen it."
+      }
+    }
+  ],
+  "uses": {
+    "intro": {
+      "en": "English uses the two forms for different camera shots of the past.",
+      "es": "El inglés usa las dos formas como dos tomas de cámara distintas del pasado: el present perfect para la experiencia de vida hasta ahora (sin fecha), para una acción pasada con un resultado que se ve ahora, y para una situación que empezó en el pasado y sigue siendo verdad; el past simple para un evento terminado en un tiempo terminado, o para los detalles de una historia. Un patrón común en noticias y en respuestas de IELTS: abrir con el present perfect y luego dar los detalles en past simple."
+    },
+    "items": [
+      {
+        "en": "Present perfect, life experience up to now (no date): I have visited three design museums. / Have you ever been to Sweden?",
+        "es": "present perfect: la experiencia de vida hasta ahora (sin fecha)"
+      },
+      {
+        "en": "Present perfect, a past action with a result you can see now: I have lost my notes (so I can't check them now).",
+        "es": "present perfect: una acción pasada con un resultado que se ve ahora"
+      },
+      {
+        "en": "Present perfect, a situation that started in the past and is still true: She has lived in Medellín since 2021. / We have worked together for two years.",
+        "es": "present perfect: una situación que empezó en el pasado y sigue siendo verdad"
+      },
+      {
+        "en": "Past simple, a finished event at a finished time, or the details of a story: I visited the Louvre in 2019. A common pattern in news and in IELTS answers: open with the present perfect, then give the details in the past simple: I have been to Finland once. I went in winter and I saw the northern lights.",
+        "es": "past simple: un evento terminado en un tiempo terminado, o los detalles de una historia; abrir con el present perfect y luego dar los detalles en past simple"
+      }
+    ],
+    "contrastPairs": [
+      {
+        "es": "Ya comí, gracias. (pasado simple con \"ya\")",
+        "en": "I've already eaten, thanks. (British English uses the present perfect with already; American English also says I already ate.)"
+      },
+      {
+        "es": "Vivo en Medellín desde 2021. (presente + \"desde\")",
+        "en": "I have lived in Medellín since 2021. (the present alone only covers now; a situation that started in the past and reaches now needs the present perfect)."
+      },
+      {
+        "es": "¿Alguna vez fuiste a Suecia? (pasado simple para una experiencia de vida)",
+        "en": "Have you ever been to Sweden? (life experience up to now, no date: present perfect. Been to means you went and came back)."
+      }
+    ]
+  },
+  "form": {
+    "formula": {
+      "en": "The scene for the present perfect: who → have/has (standing in now) → past participle → what → no finished time. The scene for the past simple: who → past form → what → when (finished time).",
+      "es": "La escena del present perfect es: quién → have/has (parado en el ahora) → participio pasado → qué → sin tiempo terminado. La escena del past simple es: quién → forma de pasado → qué → cuándo (tiempo terminado). En el present perfect, have se mueve adelante para preguntar y lleva el not para negar; en el past simple, esa tarea la hace did, y el verbo vuelve a su forma base (Did you see, nunca Did you saw)."
+    },
+    "rows": [
+      { "who": "Present perfect: I/You/We/They", "affirmative": "I have seen it (I've seen it)", "negative": "I have not seen it (I haven't seen it)", "question": "Have you seen it?" },
+      { "who": "Present perfect: He/She/It", "affirmative": "She has seen it (she's seen it)", "negative": "She has not seen it (she hasn't seen it)", "question": "Has she seen it?" },
+      { "who": "Past simple: all persons", "affirmative": "I saw it yesterday", "negative": "I did not see it (I didn't see it)", "question": "Did you see it?" }
+    ],
+    "contrastPairs": [
+      {
+        "es": "He terminado. Tengo una laptop. (dos verbos distintos: \"haber\" solo arma el tiempo, \"tener\" es posesión)",
+        "en": "I have finished. I have a laptop. (the same verb have does both jobs: it builds the tense and it means possession)."
+      },
+      {
+        "es": "Todavía no termino el informe. (\"todavía no\" va adelante, y el verbo puede ir en presente)",
+        "en": "I haven't finished the report yet. (present perfect, not present, and yet goes at the end. Already goes between have and the participle: I have already finished)."
+      },
+      {
+        "es": "No he estado nunca en Finlandia. (dos negaciones juntas: \"no\" + \"nunca\")",
+        "en": "I have never been to Finland. (only one negative word: never, or not ... ever: I haven't ever been. Never \"I haven't never been\")."
+      }
+    ]
+  },
+  "whyChain": {
+    "bigIdeaIds": ["tool-verbs"],
+    "intro": {
+      "en": "This lesson depends on one Big Idea: English marks time and completion with small \"tool verbs\", not endings (idea 4). Here is the main Why chain, plus three shorter causal notes: the time words that go with the present perfect, how Spanish he comido / comí compares, and a Portuguese trap.",
+      "es": "Esta lección depende de una idea clave: el inglés marca el tiempo y la finalización con \"verbos herramienta\" pequeños, no con terminaciones (idea 4)."
+    },
+    "links": {
+      "bigPicture": {
+        "en": "English builds many tenses by putting a small tool verb in front of the main verb (see Big Idea 4, \"English marks time and completion with small tool verbs\"). In the present perfect, the tool verb is have, and it is in the present tense. That is the key: a present perfect sentence stands in the present and looks back, while a past simple sentence stands in the past.",
+        "es": "El inglés arma muchos tiempos verbales poniendo un verbo herramienta pequeño delante del verbo principal. En el present perfect, el verbo herramienta es have, y está en presente. Esa es la clave: una oración en present perfect se para en el presente y mira hacia atrás, mientras que una oración en past simple se para en el pasado."
+      },
+      "whereItComesFrom": {
+        "en": "The linguist Xinyue Yao (Journal of English Linguistics, 2014, as reported by VOA Learning English) traced the modern present perfect to the Old English structure have + object + past participle, which often suggested a kind of possession: an old sentence like I have finished my work meant something closer to \"I have my work in a finished condition.\" Over time the possession meaning faded. English also had a competing perfect with be + participle, which declined: in older texts you still find it, as in Shakespeare's \"Madam, the Lady Valeria is come to visit you\" (Coriolanus). Today the perfect in English is always built with have.",
+        "es": "La lingüista Xinyue Yao (Journal of English Linguistics, 2014, según lo reporta VOA Learning English) rastreó el present perfect moderno hasta la estructura del inglés antiguo have + objeto + participio pasado, que muchas veces sugería una especie de posesión: una oración antigua como I have finished my work significaba algo más cercano a \"tengo mi trabajo en estado terminado\". Con el tiempo, el sentido de posesión se fue perdiendo. El inglés también tenía un perfecto rival con be + participio, que decayó: en textos antiguos todavía aparece, como en \"Madam, the Lady Valeria is come to visit you\" de Shakespeare (Coriolanus). Hoy el perfecto en inglés siempre se arma con have.",
+        "skipped": false
+      },
+      "problemItCreates": {
+        "en": "Now English has two ways to report something finished: I finished and I have finished. The listener needs to know which picture you mean: are you pointing at the moment in the past, or at how things stand now because of it?",
+        "es": "Ahora el inglés tiene dos formas de contar algo terminado: I finished y I have finished. Quien escucha necesita saber cuál imagen quieres dar: ¿estás señalando el momento en el pasado, o cómo están las cosas ahora por culpa de eso?"
+      },
+      "englishsSolution": {
+        "en": "English splits the job by time frame. If you name, or clearly mean, a finished time (yesterday, in 2019, last week), you use the past simple. If the time frame still includes now (today, this week, ever, so far, since 2020), or you give no time and care about the result now, you use the present perfect. That is why yesterday can't go with the present perfect: have puts you in the present, yesterday puts you in a finished past, and a sentence can't stand in both places at once.",
+        "es": "El inglés reparte el trabajo según el marco de tiempo. Si nombras, o das a entender claramente, un tiempo terminado (yesterday, in 2019, last week), usas el past simple. Si el marco de tiempo todavía incluye el ahora (today, this week, ever, so far, since 2020), o no das tiempo y te importa el resultado ahora, usas el present perfect. Por eso yesterday no puede ir con el present perfect: have te pone en el presente, yesterday te pone en un pasado terminado, y una oración no puede pararse en los dos lugares a la vez."
+      },
+      "howNativeSpeakersSeeIt": {
+        "en": "A useful mental model: the past simple is a photo in an album, with a date written under it. The present perfect is you, standing in today, still holding the result in your hands (an echo of the old \"possession\" meaning of have). This is a way to picture it, not a proven fact about how native speakers \"think.\"",
+        "es": "Un modelo mental útil: el past simple es una foto en un álbum, con la fecha escrita debajo. El present perfect eres tú, parada en el hoy, todavía con el resultado en las manos (un eco del viejo sentido de \"posesión\" de have). Es una forma de imaginarlo, no un hecho comprobado sobre cómo \"piensan\" los hablantes nativos.",
+        "isMentalModel": true
+      },
+      "spanishVsEnglish": {
+        "es": "Ya lo vi. Lo vi ayer. (el mismo pasado simple sirve con y sin fecha)",
+        "en": "I've already seen it. I saw it yesterday. (sin fecha: present perfect; con fecha terminada: past simple)"
+      }
+    },
+    "predict": [
+      {
+        "promptEn": "Complete the sentence: \"Wait, I can't open the file. I think I ___ (lose) the password.\"",
+        "answer": "I think I have lost the password.",
+        "why": "there is no finished time, and the result is now (you can't open the file), so you stand in the present with have."
+      },
+      {
+        "promptEn": "Choose: \"My grandfather ___ (has never flown / never flew) on a plane. He died in 2015.\"",
+        "answer": "never flew",
+        "why": "his life is a finished time frame, so English uses the past simple, even with never. Has never flown would describe a life that is still going on.",
+        "choices": ["has never flown", "never flew"]
+      }
+    ],
+    "also": [
+      {
+        "title": {
+          "en": "Also: why for / since, ever / never, already / yet / just go with the present perfect",
+          "es": "También: por qué for / since, ever / never, already / yet / just van con el present perfect"
+        },
+        "body": {
+          "en": "Each of these words measures the stretch of time between the past and now, so they fit the tense that stands in now and looks back. For gives the length of that stretch (for three years: a duration) and since gives the point where it starts (since 2006: a starting point); Cambridge's grammar uses exactly this contrast and marks \"since three years\" and \"for 2006\" as wrong. Ever and never cover any moment up to now, which is why they are used for life experience (Have you ever tried...?). Just means a very short time before now. Already means before now, often earlier than expected (I've already booked my flight). Yet means up to now, in questions and negatives, for something you still expect (I haven't finished my coffee yet). One nuance: in American English the past simple is often used with already and yet (Did you eat yet?), while British English prefers the present perfect (Have you eaten yet?).",
+          "es": "Cada una de estas palabras mide el tramo de tiempo entre el pasado y el ahora, así que encajan con el tiempo verbal que se para en el ahora y mira hacia atrás. For da el largo de ese tramo (for three years: una duración) y since da el punto donde empieza (since 2006: un punto de inicio); la gramática de Cambridge usa exactamente este contraste y marca \"since three years\" y \"for 2006\" como errores. Ever y never cubren cualquier momento hasta ahora, por eso se usan para la experiencia de vida (Have you ever tried...?). Just significa muy poco tiempo antes de ahora. Already significa antes de ahora, muchas veces antes de lo esperado (I've already booked my flight). Yet significa hasta ahora, en preguntas y negaciones, para algo que todavía esperas (I haven't finished my coffee yet). Un matiz: en inglés americano se usa a menudo el past simple con already y yet (Did you eat yet?), mientras que el inglés británico prefiere el present perfect (Have you eaten yet?)."
+        },
+        "isMentalModel": false
+      },
+      {
+        "title": {
+          "en": "Also: Spanish he comido vs comí, and why the English use can feel strange",
+          "es": "También: he comido vs comí en español, y por qué el uso en inglés puede sonar raro"
+        },
+        "body": {
+          "en": "Spanish has the same two forms (he comido, comí), but it divides the work differently, and it changes a lot by region. The RAE calls the pretérito perfecto compuesto the verb form with the most geographic variation in the Spanish-speaking world. In much of Spain you can say El taxi ha llegado hace un momento, while in most countries of the Americas the simple past is required for that meaning: El taxi llegó hace un momento. So if your Spanish reaches for comí where English wants I have eaten, that is normal, not a mistake in your Spanish. Colombia is not one single case: according to the Universidad de Piura's language service, quoting the RAE's Nueva gramática, Andean Colombian Spanish keeps a comí / he comido contrast similar to central Spain's, while places like Chile and much of Argentina use comí for almost everything. Either way, English has its own rule, and it is stricter than Spanish in one direction: a finished time (ago, yesterday, in 2019) always takes the past simple. So even Spain's ha llegado hace un momento becomes arrived a moment ago in English, never has arrived a moment ago.",
+          "es": "El español tiene las mismas dos formas (he comido, comí), pero reparte el trabajo de otra manera, y cambia mucho según la región. La RAE dice que el pretérito perfecto compuesto es el tiempo verbal con más variación geográfica en el mundo hispanohablante. En buena parte de España se puede decir El taxi ha llegado hace un momento, mientras que en la mayor parte de los países americanos se requiere el pretérito perfecto simple para ese significado: El taxi llegó hace un momento. Así que si tu español busca comí donde el inglés quiere I have eaten, eso es normal, no un error de tu español. Colombia no es un solo caso: según el servicio Castellano Actual de la Universidad de Piura, que cita la Nueva gramática de la RAE, el español andino colombiano mantiene un contraste comí / he comido parecido al del centro de España, mientras que lugares como Chile y gran parte de Argentina usan comí para casi todo. En cualquier caso, el inglés tiene su propia regla, y es más estricta que el español en una dirección: un tiempo terminado (ago, yesterday, in 2019) siempre lleva past simple. Por eso incluso el ha llegado hace un momento de España se dice arrived a moment ago en inglés, nunca has arrived a moment ago."
+        },
+        "isMentalModel": false
+      },
+      {
+        "title": {
+          "en": "Also: a Portuguese trap, tenho comido",
+          "es": "También: una trampa del portugués, tenho comido"
+        },
+        "body": {
+          "en": "You also speak Portuguese, so watch this one. Portuguese builds a form that looks like the English present perfect with ter (eu tenho comido), but it means a repeated action, so it translates as I have been eating, not I have eaten. For the English I have already eaten, Portuguese usually says Eu já comi. So don't map tenho comido onto I have eaten.",
+          "es": "También hablas portugués, así que ojo con esta. El portugués arma con ter una forma que se parece al present perfect inglés (eu tenho comido), pero significa una acción repetida, así que se traduce como I have been eating, no como I have eaten. Para el inglés I have already eaten, el portugués suele decir Eu já comi. Así que no pases tenho comido directo a I have eaten."
+        },
+        "isMentalModel": false
+      }
+    ],
+    "sources": [
+      { "url": "https://learningenglish.voanews.com/a/a-journey-with-the-present-perfect-part-one-/5752780.html", "fetchedOk": true },
+      { "url": "https://en.wikipedia.org/wiki/Present_perfect", "fetchedOk": true },
+      { "url": "https://dictionary.cambridge.org/grammar/british-grammar/present-perfect-simple-i-have-worked", "fetchedOk": true },
+      { "url": "https://www.rae.es/gtg/pret%C3%A9rito-perfecto-compuesto-de-indicativo", "fetchedOk": true },
+      { "url": "https://www.udep.edu.pe/castellanoactual/duda-resuelta-tiempo-pasado/", "fetchedOk": true }
+    ]
+  },
+  "traps": [
+    {
+      "wrongEn": "I have seen him yesterday.",
+      "rightEn": "I saw him yesterday.",
+      "why": {
+        "en": "yesterday is finished time; have puts the sentence in the present, so the two clash. Finished time always takes the past simple.",
+        "es": "Yesterday es tiempo terminado; have pone la oración en el presente, así que chocan. El tiempo terminado siempre lleva past simple."
+      }
+    },
+    {
+      "wrongEn": "I live here since 2020.",
+      "rightEn": "I have lived here since 2020.",
+      "why": {
+        "en": "it's a calque of vivo aquí desde 2020. The English present only covers now; since points to a starting point in the past, so you need the present perfect to build the bridge from 2020 to today.",
+        "es": "Es un calco de vivo aquí desde 2020. El presente en inglés solo cubre el ahora; since señala un punto de inicio en el pasado, así que necesitas el present perfect para armar el puente desde 2020 hasta hoy."
+      }
+    },
+    {
+      "wrongEn": "I am here for two years. (meaning llevo dos años aquí)",
+      "rightEn": "I have been here for two years.",
+      "why": {
+        "en": "the same calque with be. I am here for two years can sound like your whole stay will last two years, not that two years have already passed.",
+        "es": "El mismo calco con be. I am here for two years puede sonar a que toda tu estadía va a durar dos años, no a que ya pasaron dos años."
+      }
+    },
+    {
+      "wrongEn": "I have worked here since three years. / I have worked here for 2020.",
+      "rightEn": "I have worked here for three years. / I have worked here since 2020.",
+      "why": {
+        "en": "for + a duration (how long), since + a starting point (from when). Spanish desde hace mixes both ideas, so it's easy to swap them.",
+        "es": "For + una duración (cuánto tiempo), since + un punto de inicio (desde cuándo). El desde hace del español mezcla las dos ideas, así que es fácil cambiarlas."
+      }
+    }
+  ],
+  "hack": {
+    "en": "Photo or bridge? Ask one question: does the time have a date that is over? If yes, it's a photo: past simple (I saw it in 2019). If the time still touches now, or there's no date at all, it's a bridge: have + participle, standing in today (I have seen it, I have lived here since 2020).",
+    "es": "¿Foto o puente? Hazte una sola pregunta: ¿el tiempo tiene una fecha que ya terminó? Si sí, es una foto: past simple (I saw it in 2019). Si el tiempo todavía toca el ahora, o no hay fecha, es un puente: have + participio, parada en el hoy (I have seen it, I have lived here since 2020)."
+  },
+  "verbList": [
+    {
+      "verb": "have",
+      "base": "have",
+      "past": "had",
+      "pastParticiple": "had",
+      "ing": "having",
+      "thirdPerson": "has",
+      "usesEn": "auxiliary of the present perfect: I have seen it. possession: I have a laptop. both at once: I have had this laptop for two years."
+    },
+    {
+      "verb": "be",
+      "base": "be",
+      "past": "was/were",
+      "pastParticiple": "been",
+      "ing": "being",
+      "thirdPerson": "is",
+      "usesEn": "state up to now: I have been here for two years. been to = went and came back: Have you ever been to Sweden? old perfect auxiliary: the Lady Valeria is come (Shakespeare)"
+    },
+    {
+      "verb": "see",
+      "base": "see",
+      "past": "saw",
+      "pastParticiple": "seen",
+      "ing": "seeing",
+      "thirdPerson": "sees",
+      "usesEn": "I saw him yesterday. / I've already seen it."
+    },
+    {
+      "verb": "eat",
+      "base": "eat",
+      "past": "ate",
+      "pastParticiple": "eaten",
+      "ing": "eating",
+      "thirdPerson": "eats",
+      "usesEn": "I've already eaten, thanks. / I ate at noon."
+    },
+    {
+      "verb": "finish",
+      "base": "finish",
+      "past": "finished",
+      "pastParticiple": "finished",
+      "ing": "finishing",
+      "thirdPerson": "finishes",
+      "usesEn": "I haven't finished the report yet."
+    },
+    {
+      "verb": "live",
+      "base": "live",
+      "past": "lived",
+      "pastParticiple": "lived",
+      "ing": "living",
+      "thirdPerson": "lives",
+      "usesEn": "She has lived in Medellín since 2021."
+    },
+    {
+      "verb": "work",
+      "base": "work",
+      "past": "worked",
+      "pastParticiple": "worked",
+      "ing": "working",
+      "thirdPerson": "works",
+      "usesEn": "We have worked together for two years."
+    },
+    {
+      "verb": "visit",
+      "base": "visit",
+      "past": "visited",
+      "pastParticiple": "visited",
+      "ing": "visiting",
+      "thirdPerson": "visits",
+      "usesEn": "I visited the Louvre in 2019. / I have visited three design museums."
+    },
+    {
+      "verb": "lose",
+      "base": "lose",
+      "past": "lost",
+      "pastParticiple": "lost",
+      "ing": "losing",
+      "thirdPerson": "loses",
+      "usesEn": "I have lost my notes. (result now: I can't check them)"
+    },
+    {
+      "verb": "go",
+      "base": "go",
+      "past": "went",
+      "pastParticiple": "gone",
+      "ing": "going",
+      "thirdPerson": "goes",
+      "usesEn": "I went in winter. careful: she has gone to Finland (she is there now) vs she has been to Finland (she went and came back)"
+    },
+    {
+      "verb": "arrive",
+      "base": "arrive",
+      "past": "arrived",
+      "pastParticiple": "arrived",
+      "ing": "arriving",
+      "thirdPerson": "arrives",
+      "usesEn": "The taxi arrived a moment ago. (never has arrived a moment ago)"
+    },
+    {
+      "verb": "try",
+      "base": "try",
+      "past": "tried",
+      "pastParticiple": "tried",
+      "ing": "trying",
+      "thirdPerson": "tries",
+      "usesEn": "experience with ever: Have you ever tried to write with your left hand?"
+    },
+    {
+      "verb": "book",
+      "base": "book",
+      "past": "booked",
+      "pastParticiple": "booked",
+      "ing": "booking",
+      "thirdPerson": "books",
+      "usesEn": "reserve: I've already booked my flight."
+    },
+    {
+      "verb": "fly",
+      "base": "fly",
+      "past": "flew",
+      "pastParticiple": "flown",
+      "ing": "flying",
+      "thirdPerson": "flies",
+      "usesEn": "He never flew on a plane. (finished life) vs She has never flown."
+    },
+    {
+      "verb": "die",
+      "base": "die",
+      "past": "died",
+      "pastParticiple": "died",
+      "ing": "dying",
+      "thirdPerson": "dies",
+      "usesEn": "He died in 2015. (a finished date: past simple)"
+    }
+  ],
+  "read": {
+    "themeEn": "art and attention",
+    "text": {
+      "en": "I have visited the same small museum in Bogotá eleven times, and I have never seen the same painting twice. That sounds impossible, but it's true: the paintings haven't changed; I have. The first time I went, in 2019, I walked through every room in forty minutes and left with nothing. Last year, a guide asked our group to stand in front of one canvas for ten full minutes. Nobody spoke. After five minutes, I noticed a tiny figure in the corner: a woman reading a letter. Since that afternoon, I have tried to look at everything more slowly: interfaces, faces, even my own notes. I haven't mastered it yet; my phone still wins most days. But I have learned one thing: attention is not something you have, it's something you give. So, have you ever stood in front of one thing for ten minutes? No? Then maybe you haven't really seen it yet.",
+      "es": "He visitado el mismo museo pequeño de Bogotá once veces, y nunca he visto la misma pintura dos veces. Suena imposible, pero es verdad: las pinturas no han cambiado; yo sí. La primera vez que fui, en 2019, recorrí todas las salas en cuarenta minutos y salí sin nada. El año pasado, una guía le pidió a nuestro grupo que se parara frente a un solo lienzo durante diez minutos completos. Nadie habló. A los cinco minutos, noté una figura diminuta en la esquina: una mujer leyendo una carta. Desde esa tarde, he intentado mirar todo más despacio: interfaces, caras, hasta mis propias notas. Todavía no lo domino; mi celular sigue ganando casi todos los días. Pero he aprendido una cosa: la atención no es algo que se tiene, es algo que se da. Entonces, ¿alguna vez te has parado frente a una sola cosa durante diez minutos? ¿No? Entonces quizás todavía no la has visto de verdad."
+    },
+    "wordCount": 154,
+    "markedForms": [
+      "have visited",
+      "have never seen",
+      "haven't changed",
+      "have",
+      "went",
+      "walked",
+      "left",
+      "asked",
+      "spoke",
+      "noticed",
+      "have tried",
+      "haven't mastered",
+      "have learned",
+      "have ... stood",
+      "haven't ... seen"
+    ]
+  },
+  "summary": {
+    "lines": [
+      {
+        "en": "Past simple = a photo with a finished date (yesterday, in 2019, ago); present perfect = a bridge from the past to now (ever, so far, since 2020, or no date).",
+        "es": "Past simple = una foto con fecha terminada (yesterday, in 2019, ago); present perfect = un puente del pasado al ahora (ever, so far, since 2020, o sin fecha)."
+      },
+      {
+        "en": "Build the present perfect with have/has + past participle; have is present, so it never goes with a finished time.",
+        "es": "El present perfect se arma con have/has + participio pasado; have está en presente, así que nunca va con un tiempo terminado."
+      },
+      {
+        "en": "Most important trap: \"I live here since 2020\" is a calque; say \"I have lived here since 2020\" (for + duration, since + starting point).",
+        "es": "La trampa más importante: \"I live here since 2020\" es un calco; di \"I have lived here since 2020\" (for + duración, since + punto de inicio)."
+      }
+    ]
+  },
+  "practice": {
+    "en": "Use two existing exercise types from docs/dinamicas.md: linea-tiempo (drag each sentence to the timeline and see if it's a \"photo\" or a \"bridge\") and huecos (drag for, since, already or yet into the gap). They are different types, so no dynamic repeats back to back. No new dynamic is introduced here.",
+    "es": "Usa dos tipos de ejercicio que ya existen en docs/dinamicas.md: linea-tiempo (arrastra cada frase a la línea de tiempo y ve si es una \"foto\" o un \"puente\") y huecos (arrastra for, since, already o yet al espacio). Son tipos distintos, así que ninguna dinámica se repite seguida. Aquí no se introduce ninguna dinámica nueva."
+  },
+  "check": {
+    "items": [
+      {
+        "promptEn": "Choose the correct form: \"We ___ the prototype to five users last Friday.\" (have shown / showed)",
+        "answer": "showed",
+        "why": "last Friday is finished time, so it takes the past simple.",
+        "choices": ["have shown", "showed"]
+      },
+      {
+        "promptEn": "Fix the sentence: \"I study English since 2023.\"",
+        "answer": "I have studied English since 2023.",
+        "why": "since marks a starting point in the past and the situation is still true, so English needs the present perfect, not the present (calque of estudio inglés desde 2023)."
+      },
+      {
+        "promptEn": "Choose the correct word: \"Our studio has used the same typeface ___ eight months.\" (for / since)",
+        "answer": "for",
+        "why": "eight months is a duration (how long), so it takes for. Since needs a starting point, like since March.",
+        "choices": ["for", "since"]
+      },
+      {
+        "promptEn": "Translate the idea, don't translate word by word: \"¿Ya leíste el capítulo tres?\"",
+        "answer": "Have you read chapter three yet?",
+        "why": "no finished time and you expect it to happen, so present perfect + yet at the end of the question. Did you read chapter three yet? is also heard in American English."
+      },
+      {
+        "promptEn": "Choose the correct form: \"I ___ three HCI researchers this week, and it's only Wednesday.\" (have met / met)",
+        "answer": "have met",
+        "why": "this week is unfinished time (it's only Wednesday), so the time frame still includes now: present perfect.",
+        "choices": ["have met", "met"]
+      }
+    ],
+    "passThreshold": 4,
+    "outOf": 5
+  },
+  "wrapUp": {
+    "en": "Write one line, in English, about what you used well today. For example: \"Today I said 'I have lived in Bogotá since 2020' instead of 'I live here since 2020'.\"",
+    "es": ""
+  },
+  "pronunciationNotes": [
+    { "wordEn": "I've", "guideEs": "ÁIV" },
+    { "wordEn": "has", "guideEs": "JÁS" },
+    { "wordEn": "haven't", "guideEs": "JÁ-vent" },
+    { "wordEn": "seen", "guideEs": "SÍIN" },
+    { "wordEn": "been", "guideEs": "BÍIN o BÍN: las dos se oyen" },
+    { "wordEn": "since", "guideEs": "SÍNS" },
+    { "wordEn": "already", "guideEs": "ol-RÉ-di" },
+    { "wordEn": "yet", "guideEs": "IÉT" },
+    { "wordEn": "just", "guideEs": "YÁST: la Y suena fuerte, como en \"yo\" dicho con fuerza" },
+    { "wordEn": "lived", "guideEs": "LÍVD: la D final casi no suena" },
+    { "wordEn": "worked", "guideEs": "UÉRKT: la -ed suena como T" }
+  ]
+}
