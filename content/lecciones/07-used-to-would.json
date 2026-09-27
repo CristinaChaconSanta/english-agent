@@ -1,0 +1,531 @@
+{
+  "id": "07-used-to-would",
+  "unitNumber": 4,
+  "level": "B1",
+  "ieltsCriteria": ["Fluency and Coherence", "Grammatical Range and Accuracy"],
+  "temaColor": "uva",
+  "goal": {
+    "what": {
+      "en": "Today you learn how English talks about past habits and past situations that are no longer true: used to + verb, would + verb, and the different structure be used to + -ing (\"estar acostumbrada a\").",
+      "es": "Hoy aprendes cómo habla el inglés de los hábitos pasados y de situaciones pasadas que ya no son verdad: used to + verbo, would + verbo, y la estructura distinta be used to + -ing (\"estar acostumbrada a\")."
+    },
+    "whyNow": {
+      "en": "It connects to lesson 04: there you saw that the past continuous is for an action in progress, not for a habit. This lesson gives you the forms English does use for habits, and fixes four mistakes that come straight from Spanish: \"I use to...\", \"I would live in...\", \"I'm used to wake up...\" and \"I didn't used to...\".",
+      "es": "Se conecta con la lección 04: ahí viste que el past continuous es para una acción en progreso, no para un hábito. Esta lección te da las formas que el inglés sí usa para los hábitos, y corrige cuatro errores que vienen directo del español: \"I use to...\", \"I would live in...\", \"I'm used to wake up...\" y \"I didn't used to...\"."
+    },
+    "successMeasure": {
+      "en": "5 new Check items, pass with 4/5.",
+      "es": "5 ítems nuevos en el Check, aprobar con 4/5."
+    }
+  },
+  "glossary": [
+    {
+      "term": { "en": "Habit (past habit)", "es": "Habit (hábito pasado)" },
+      "what": {
+        "en": "something you did again and again, regularly, over a period of time (I used to swim every Thursday).",
+        "es": "algo que hacías una y otra vez, con regularidad, durante un período (I used to swim every Thursday)."
+      },
+      "why": {
+        "en": "It matters because English has special forms for past habits, and Spanish does not (see section 5).",
+        "es": "Importa porque el inglés tiene formas especiales para los hábitos pasados y el español no (ver sección 5)."
+      }
+    },
+    {
+      "term": { "en": "Action verb", "es": "Action verb (verbo de acción)" },
+      "what": {
+        "en": "a verb for something that happens or that you do: play, go, read, wake up.",
+        "es": "un verbo para algo que pasa o que haces: play, go, read, wake up."
+      },
+      "why": {
+        "en": "It matters because an action can happen again and again, so it can be a habit with used to or would.",
+        "es": "Importa porque una acción puede repetirse, así que puede ser un hábito con used to o would."
+      }
+    },
+    {
+      "term": { "en": "State verb", "es": "State verb (verbo de estado)" },
+      "what": {
+        "en": "a verb for something that simply is or lasts, without \"happening\": live (as your situation), know, like, have (own), be.",
+        "es": "un verbo para algo que simplemente es o dura, sin \"pasar\": live (como tu situación), know, like, have (poseer), be."
+      },
+      "why": {
+        "en": "It matters because a state doesn't repeat like an event, and that's why would rejects it.",
+        "es": "Importa porque un estado no se repite como un evento, y por eso would lo rechaza."
+      }
+    },
+    {
+      "term": { "en": "Base verb (base form)", "es": "Base verb (forma base)" },
+      "what": {
+        "en": "the verb with nothing added: play, live, be.",
+        "es": "el verbo sin nada agregado: play, live, be."
+      },
+      "why": {
+        "en": "It matters because after used to and after would the verb always stays in this form.",
+        "es": "Importa porque después de used to y de would el verbo siempre queda en esta forma."
+      }
+    },
+    {
+      "term": { "en": "Modal verb", "es": "Modal verb (verbo modal)" },
+      "what": {
+        "en": "one of a small, closed group of helper verbs (can, could, will, would, should...) that go before a base verb and add a meaning to it. Would is one.",
+        "es": "uno de un grupo pequeño y cerrado de verbos de ayuda (can, could, will, would, should...) que van antes de un verbo base y le agregan un significado. Would es uno."
+      },
+      "why": {
+        "en": "It exists so English can add meanings like habit, condition or possibility without changing the main verb.",
+        "es": "Existe para que el inglés agregue significados como hábito, condición o posibilidad sin cambiar el verbo principal."
+      }
+    },
+    {
+      "term": { "en": "Auxiliary verb", "es": "Auxiliary verb (verbo auxiliar)" },
+      "what": {
+        "en": "a helper verb that carries tense, questions and negatives.",
+        "es": "un verbo de ayuda que carga el tiempo, las preguntas y las negaciones."
+      },
+      "why": {
+        "en": "In this lesson the important one is did: it carries the past in \"Did you use to...?\" and \"I didn't use to...\".",
+        "es": "En esta lección el importante es did: carga el pasado en \"Did you use to...?\" y en \"I didn't use to...\"."
+      }
+    },
+    {
+      "term": { "en": "Past continuous", "es": "Past continuous (pasado continuo)" },
+      "what": {
+        "en": "was/were + verb-ing (I was cooking), from lesson 04: an action in progress at one moment in the past.",
+        "es": "was/were + verbo-ing (I was cooking), de la lección 04: una acción en progreso en un momento del pasado."
+      },
+      "why": {
+        "en": "It matters because Spanish speakers try to use it for habits, and English doesn't.",
+        "es": "Importa porque los hispanohablantes intentan usarlo para hábitos, y el inglés no lo usa así."
+      }
+    },
+    {
+      "term": { "en": "Imperfecto", "es": "Imperfecto" },
+      "what": {
+        "en": "the Spanish past form jugaba, vivía, leía. It covers two jobs at once: an action in progress and a habit.",
+        "es": "la forma del pasado en español jugaba, vivía, leía. Cubre dos trabajos a la vez: una acción en progreso y un hábito."
+      },
+      "why": {
+        "en": "It matters because it explains why Spanish doesn't need separate habit forms.",
+        "es": "Importa porque explica por qué el español no necesita formas separadas para los hábitos."
+      }
+    },
+    {
+      "term": { "en": "Preposition", "es": "Preposition (preposición)" },
+      "what": {
+        "en": "a small word that links a noun to the rest of the sentence: to, at, in, about.",
+        "es": "una palabra pequeña que une un sustantivo con el resto de la oración: to, at, in, about."
+      },
+      "why": {
+        "en": "It matters because in be used to, the word to is a preposition, and that's why -ing follows it.",
+        "es": "Importa porque en be used to la palabra to es una preposición, y por eso le sigue -ing."
+      }
+    },
+    {
+      "term": { "en": "Gerund (-ing form)", "es": "Gerund (forma -ing)" },
+      "what": {
+        "en": "a verb + -ing that works like a noun: waking up, reading.",
+        "es": "un verbo + -ing que funciona como sustantivo: waking up, reading."
+      },
+      "why": {
+        "en": "It exists so a verb can go in a place where English needs a noun, for example after a preposition.",
+        "es": "Existe para que un verbo pueda ir en un lugar donde el inglés necesita un sustantivo, por ejemplo después de una preposición."
+      }
+    },
+    {
+      "term": { "en": "Calque", "es": "Calque (calco)" },
+      "what": {
+        "en": "a word-by-word copy of a structure from your own language that doesn't exist in the new one.",
+        "es": "una copia palabra por palabra de una estructura de tu idioma que no existe en el nuevo."
+      },
+      "why": {
+        "en": "It matters because \"I use to wake up early\" is a calque of \"suelo madrugar\".",
+        "es": "Importa porque \"I use to wake up early\" es un calco de \"suelo madrugar\"."
+      }
+    }
+  ],
+  "uses": {
+    "intro": {
+      "en": "These forms cover four jobs.",
+      "es": "Estas formas cubren cuatro trabajos: hábitos pasados que ya terminaron (acciones: I used to swim every Thursday); estados o situaciones pasadas que ya no son verdad (I used to live in Cali, This café used to be a bookshop), trabajo que solo puede hacer used to, no would; acciones repetidas dentro de una historia, cuando el momento ya está definido (When we were kids, my grandmother would tell us stories every night), más común al narrar y un poco más formal; y estar acostumbrada a algo, que es una estructura distinta (I'm used to working late, I'm getting used to the cold) y funciona en cualquier tiempo, incluido el presente."
+    },
+    "items": [
+      {
+        "en": "Past habits that stopped (actions): I used to swim every Thursday. (I don't anymore.)",
+        "es": "hábitos pasados que ya terminaron (acciones: I used to swim every Thursday)"
+      },
+      {
+        "en": "Past states or situations that are no longer true: I used to live in Cali. / This café used to be a bookshop. Only used to can do this job, not would.",
+        "es": "estados o situaciones pasadas que ya no son verdad (I used to live in Cali, This café used to be a bookshop), trabajo que solo puede hacer used to, no would"
+      },
+      {
+        "en": "Repeated actions inside a story, once the time is already set: When we were kids, my grandmother would tell us stories every night. This is more common in storytelling and a little more formal.",
+        "es": "acciones repetidas dentro de una historia, cuando el momento ya está definido (When we were kids, my grandmother would tell us stories every night), más común al narrar y un poco más formal"
+      },
+      {
+        "en": "Being accustomed to something (a different structure): I'm used to working late. / I'm getting used to the cold. This one works in any tense, including the present.",
+        "es": "estar acostumbrada a algo, que es una estructura distinta (I'm used to working late, I'm getting used to the cold) y funciona en cualquier tiempo, incluido el presente"
+      }
+    ],
+    "contrastPairs": [
+      {
+        "es": "Cuando era niña, jugaba en el parque. (el imperfecto basta para decir que era un hábito)",
+        "en": "When I was a child, I used to play in the park. (English marks the habit with used to; \"I was playing\" would mean one moment in progress, the lesson 04 job)"
+      },
+      {
+        "es": "Vivía en Cali y trabajaba en una agencia. (el mismo imperfecto sirve para el estado, vivía, y para la acción, trabajaba)",
+        "en": "I used to live in Cali, and I would take the bus to an agency every morning. (the state takes used to; the repeated action can take would; never \"I would live in Cali\" with this meaning)"
+      },
+      {
+        "es": "Suelo leer antes de dormir. (soler funciona en presente)",
+        "en": "I usually read before bed. (for a habit now, English uses the present simple + usually; used to only exists in the past)"
+      }
+    ]
+  },
+  "form": {
+    "formula": {
+      "en": "The scene: who → used to / would → base verb → what/where → when (back then). The main verb never changes: used to or would carries the \"habit in the past\" idea, and the action stays in its base form. For be used to, the scene is different: who → is (was, will be) → used to → a thing or an -ing action.",
+      "es": "La escena es: quién → used to / would → verbo base → qué/dónde → cuándo (en esa época). El verbo principal nunca cambia: used to o would carga la idea de \"hábito en el pasado\", y la acción queda en su forma base. Para be used to la escena es distinta: quién → is (was, will be) → used to → una cosa o una acción en -ing. En negativo y en pregunta, used to pide did, y como did ya carga el pasado, se escribe use sin -d: didn't use to, Did you use to...? Con would, la negación y la pregunta casi no se usan para hábitos; se usa used to en su lugar."
+    },
+    "rows": [
+      {
+        "who": "used to (habit or state)",
+        "affirmative": "I used to live in Cali.",
+        "negative": "I didn't use to live in Cali.",
+        "question": "Did you use to live in Cali?"
+      },
+      {
+        "who": "would (repeated action, in a story)",
+        "affirmative": "Every Sunday we would cook together.",
+        "negative": "(rare for habits; use didn't use to)",
+        "question": "(rare for habits; use Did you use to...?)"
+      },
+      {
+        "who": "be used to (accustomed)",
+        "affirmative": "I'm used to waking up early.",
+        "negative": "I'm not used to waking up early.",
+        "question": "Are you used to waking up early?"
+      },
+      {
+        "who": "get used to (becoming accustomed)",
+        "affirmative": "I'm getting used to the cold.",
+        "negative": "I can't get used to the cold.",
+        "question": "Did you get used to the cold?"
+      }
+    ],
+    "contrastPairs": [
+      {
+        "es": "El español cambia la terminación del verbo: jugar → jugaba.",
+        "en": "English keeps the verb in its base form and puts a helper in front: play → used to play / would play. Never \"I used to played\"."
+      },
+      {
+        "es": "La pregunta usa la misma forma del verbo, solo cambia la entonación: \"¿Antes vivías en Cali?\"",
+        "en": "English needs did in front, and then use goes back to its base form: \"Did you use to live in Cali?\" Never \"Did you used to...?\""
+      },
+      {
+        "es": "Estoy acostumbrada a madrugar. (preposición a + infinitivo)",
+        "en": "I'm used to getting up early. (preposition to + -ing). Never \"I'm used to get up early.\""
+      }
+    ]
+  },
+  "whyChain": {
+    "bigIdeaIds": ["tool-verbs", "fixed-modal-verbs"],
+    "intro": {
+      "en": "This lesson touches two Big Ideas: English marks time and completion with small \"tool verbs\" (idea 4: would and did carry the time, the main verb stays in its base form) and English uses a fixed, small set of modal verbs (idea 6: would is a modal, so the verb after it never changes). Here is the main Why chain, for why English has special habit forms at all, plus four shorter causal notes for the other questions in this lesson.",
+      "es": "Esta lección toca dos ideas clave: que el inglés marca tiempo y finalización con \"verbos herramienta\" (idea 4: would y did cargan el tiempo, el verbo principal queda en forma base) y que el inglés usa un grupo pequeño y fijo de verbos modales (idea 6: would es un modal, así que el verbo que le sigue nunca cambia)."
+    },
+    "links": {
+      "bigPicture": {
+        "en": "English splits the \"background\" past into two different jobs, with two different forms: an action in progress at one moment (the past continuous, lesson 04) and an action repeated over a period (used to, would). Spanish puts both jobs into one form, the imperfecto. In English, small helper words carry that difference, not the ending of the verb (see Big Idea 4, \"tool verbs\").",
+        "es": "El inglés separa el pasado \"de fondo\" en dos trabajos distintos, con dos formas distintas: una acción en progreso en un momento (el past continuous, lección 04) y una acción repetida durante un período (used to, would). El español mete los dos trabajos en una sola forma, el imperfecto. En inglés, esa diferencia la cargan palabras de ayuda pequeñas, no la terminación del verbo."
+      },
+      "whereItComesFrom": {
+        "en": "Romance languages, Spanish included, don't have a form that is only for habits: their imperfect combines the past with the idea of \"ongoing\" and can mean habitual or continuous. English has no general imperfect: it expresses those meanings in different ways depending on whether the event is continuous or habitual. Its habit marker, used to, was built from the verb use, which came into English through Old French from Latin; the Latin noun usus meant \"use, custom, practice, habit\". The phrase used to (\"formerly did or was\") comes from an old sense of use, \"to accustom\", and is recorded from around 1300 and common from around 1400. One early example, from before 1387: \"Englische men used for to goo into abbayes of Fraunce\" (\"English men used to go into abbeys of France\").",
+        "es": "Las lenguas romances, incluido el español, no tienen una forma solo para los hábitos: su imperfecto combina el pasado con la idea de \"en curso\" y puede significar habitual o continuo. El inglés no tiene un imperfecto general: expresa esos significados de formas distintas según si el evento es continuo o habitual. Su marcador de hábito, used to, se construyó a partir del verbo use, que llegó al inglés por el francés antiguo desde el latín; el sustantivo latino usus significaba \"uso, costumbre, práctica, hábito\". La frase used to (\"antes hacía o era\") viene de un sentido antiguo de use, \"acostumbrar\", y está registrada desde alrededor de 1300 y es común desde alrededor de 1400. Un ejemplo temprano, de antes de 1387: \"Englische men used for to goo into abbayes of Fraunce\" (\"los ingleses solían ir a abadías de Francia\").",
+        "skipped": false
+      },
+      "problemItCreates": {
+        "en": "Because English has no single imperfecto, jugaba has no automatic translation. If you choose the past continuous (\"I was playing in the park\"), an English listener pictures one moment in progress, a frame with something happening around it, and waits for the event that interrupted it (\"...when my mom called\"). The meaning \"this was my routine for years\" gets lost.",
+        "es": "Como el inglés no tiene un solo imperfecto, jugaba no tiene una traducción automática. Si eliges el past continuous (\"I was playing in the park\"), quien escucha en inglés imagina un momento en progreso, un cuadro con algo pasando alrededor, y espera el evento que lo interrumpió (\"...when my mom called\"). El significado \"esta era mi rutina durante años\" se pierde."
+      },
+      "englishsSolution": {
+        "en": "English marks the habit with its own words. Used to + base verb says \"this happened regularly, or was true, and it isn't anymore\". Would + base verb says \"this happened again and again\" inside a story where the time is already set. The past simple can also work with a frequency word (\"We always ate dinner at six\"), but it doesn't underline the repetition as clearly. In every case the main verb stays in its base form: the helper carries the habit, as in Big Idea 4.",
+        "es": "El inglés marca el hábito con palabras propias. Used to + verbo base dice \"esto pasaba con regularidad, o era verdad, y ya no\". Would + verbo base dice \"esto pasaba una y otra vez\" dentro de una historia donde el momento ya está definido. El past simple también puede funcionar con una palabra de frecuencia (\"We always ate dinner at six\"), pero no subraya la repetición con tanta claridad. En todos los casos el verbo principal queda en forma base: la palabra de ayuda carga el hábito, como en la idea clave 4."
+      },
+      "howNativeSpeakersSeeIt": {
+        "en": "A useful mental model: the past continuous is one paused frame from a film (one moment, with something in progress). Used to is the whole photo album of a period of your life, with a line drawn under it: \"that was then, it's not now\". The \"no longer true\" part is what the grammar sources say; the film and the album are only a way to picture it, not a proven fact about how native speakers think.",
+        "es": "Un modelo mental útil: el past continuous es un cuadro pausado de una película (un momento, con algo en progreso). Used to es el álbum de fotos completo de un período de tu vida, con una línea trazada debajo: \"eso era antes, ahora no\". La parte de \"ya no es verdad\" es lo que dicen las fuentes de gramática; la película y el álbum son solo una forma de imaginarlo, no un hecho comprobado sobre cómo piensan los hablantes nativos.",
+        "isMentalModel": true
+      },
+      "spanishVsEnglish": {
+        "es": "Cuando era niña, jugaba en el parque. (el imperfecto hace los dos trabajos)",
+        "en": "When I was a child, I used to play in the park. (el hábito tiene su propia forma; nunca \"I was playing\" para un hábito)"
+      }
+    },
+    "predict": [
+      {
+        "promptEn": "Choose the form: \"As a teenager, I ___ poems in the back of my notebooks.\" (was writing / used to write)",
+        "answer": "used to write",
+        "why": "it's a routine over a period of your life, not one moment in progress. \"I was writing poems\" would make the listener wait for an interruption (\"...when the teacher saw me\").",
+        "choices": ["was writing", "used to write"]
+      },
+      {
+        "promptEn": "Translate the idea, not word by word: \"Antes mi hermano tocaba batería en un garaje.\"",
+        "answer": "My brother used to play the drums in a garage.",
+        "why": "tocaba here is a habit that stopped, so English marks it with used to. \"My brother was playing the drums\" would be one moment. Would is less natural here because no time or story has been set up yet."
+      }
+    ],
+    "also": [
+      {
+        "title": {
+          "en": "Also: why used to works for states and actions, but would only for actions",
+          "es": "También: por qué used to funciona con estados y acciones, pero would solo con acciones"
+        },
+        "body": {
+          "en": "The fact (verified): used to can describe a state or situation that is no longer true (We used to live in Manchester); would can't (not: We would live in Manchester). Would also has other jobs: the conditional (I would go if I felt better) and the future seen from the past. Because of that, would only sounds like a habit when the time is already clear from the context (Last summer we would go there every day); \"We would go there\" alone doesn't say \"habit\". Why, as a mental model (no source found this session for the deeper reason): would works like pressing \"replay\" on a scene you already opened. Each replay is an event that happens again: she would open the window, she would make coffee. A state doesn't happen again and again; it just stays. So \"I would live in Cali\" has no event to replay, and the listener hears the other job of would, the conditional: \"viviría en Cali\". Used to has no other job, so it can hold both states and actions.",
+          "es": "El hecho (verificado): used to puede describir un estado o una situación que ya no es verdad (We used to live in Manchester); would no puede (no: We would live in Manchester). Would además tiene otros trabajos: el condicional (I would go if I felt better) y el futuro visto desde el pasado. Por eso would solo suena a hábito cuando el momento ya está claro por el contexto (Last summer we would go there every day); \"We would go there\" solo no dice \"hábito\". El porqué, como modelo mental (no se encontró fuente esta sesión para la razón de fondo): would funciona como darle \"repetir\" a una escena que ya abriste. Cada repetición es un evento que vuelve a pasar: she would open the window, she would make coffee. Un estado no pasa una y otra vez; solo se queda. Entonces \"I would live in Cali\" no tiene ningún evento que repetir, y quien escucha oye el otro trabajo de would, el condicional: \"viviría en Cali\". Used to no tiene otro trabajo, así que puede cargar estados y acciones."
+        },
+        "isMentalModel": true
+      },
+      {
+        "title": {
+          "en": "Also: why used to only exists in the past (and why \"I use to\" is a calque)",
+          "es": "También: por qué used to solo existe en pasado (y por qué \"I use to\" es un calco)"
+        },
+        "body": {
+          "en": "Used to is only found in the past tense. For habits now, standard English has no special habit marker at all: it uses the present simple, often with a frequency word (I usually read before bed, I often work late). Spanish is different: soler works in the present (suelo levantarme a las siete) and in the imperfecto (solía). So when a Spanish speaker says \"I use to wake up early\", she is copying \"suelo madrugar\" into a slot English leaves empty. The fix is simple: present simple + usually: \"I usually wake up early.\"",
+          "es": "Used to solo existe en tiempo pasado. Para hábitos de ahora, el inglés estándar no tiene ningún marcador especial de hábito: usa el present simple, muchas veces con una palabra de frecuencia (I usually read before bed, I often work late). El español es distinto: soler funciona en presente (suelo levantarme a las siete) y en imperfecto (solía). Entonces, cuando una hispanohablante dice \"I use to wake up early\", está copiando \"suelo madrugar\" en un espacio que el inglés deja vacío. El arreglo es simple: present simple + usually: \"I usually wake up early.\""
+        },
+        "isMentalModel": false
+      },
+      {
+        "title": {
+          "en": "Also: why be used to is a different structure, and why it takes -ing",
+          "es": "También: por qué be used to es una estructura distinta, y por qué lleva -ing"
+        },
+        "body": {
+          "en": "Be used to means \"be accustomed to\" or \"be familiar with\", and it works in the past, present or future. Look at its pieces: be (in any tense) + used (here an adjective, \"accustomed\", not a verb) + to. That to is a preposition, not the to of an infinitive: the dictionary lists be used and get used among the verbs followed by the preposition to, together with look forward. A preposition needs a noun after it (I'm used to the noise, I'm used to it). If you want to put an action there, English turns the verb into a noun: the -ing form (I'm used to waking up early). This fits its history: when use first meant \"accustomed\", it was normally followed by a preposition, usually in or to. Quick test: if you can put it right after to (I'm used to it, I look forward to it), that to is a preposition, and a verb after it takes -ing.",
+          "es": "Be used to significa \"estar acostumbrada a\" o \"estar familiarizada con\", y funciona en pasado, presente o futuro. Mira sus piezas: be (en cualquier tiempo) + used (aquí un adjetivo, \"acostumbrada\", no un verbo) + to. Ese to es una preposición, no el to de un infinitivo: el diccionario pone be used y get used entre los verbos que van seguidos de la preposición to, junto con look forward. Una preposición necesita un sustantivo después (I'm used to the noise, I'm used to it). Si quieres poner una acción ahí, el inglés convierte el verbo en sustantivo: la forma -ing (I'm used to waking up early). Esto encaja con su historia: cuando use empezó a significar \"acostumbrado\", normalmente iba seguido de una preposición, casi siempre in o to. Prueba rápida: si puedes poner it justo después de to (I'm used to it, I look forward to it), ese to es una preposición, y un verbo después de él va en -ing."
+        },
+        "isMentalModel": false
+      },
+      {
+        "title": {
+          "en": "Also: why it's didn't use to (no -d), and why used to has an s sound",
+          "es": "También: por qué es didn't use to (sin -d), y por qué used to tiene sonido de s"
+        },
+        "body": {
+          "en": "Big Idea 4 again: when did appears, it already carries the past, so the main verb goes back to its base form. You write didn't work, not \"didn't worked\", and in the same way didn't use to, not \"didn't used to\". Both spellings are common, but many people consider the -d form incorrect, so don't use it in exams. The same goes for questions: Did you use to...? In fast speech the d is hard to hear before to, so your ear can't tell you which spelling is right; the rule about did can. The sound: in used to, used is pronounced with an s sound, while the ordinary verb use and its past used have a z sound. The pronunciation of used to is affected by the t of to.",
+          "es": "Otra vez la idea clave 4: cuando aparece did, ya carga el pasado, así que el verbo principal vuelve a su forma base. Escribes didn't work, no \"didn't worked\", y de la misma forma didn't use to, no \"didn't used to\". Las dos escrituras son comunes, pero mucha gente considera incorrecta la forma con -d, así que no la uses en exámenes. Lo mismo pasa con las preguntas: Did you use to...? Hablando rápido, la d casi no se oye antes de to, así que el oído no te dice cuál escritura es la correcta; la regla de did sí. El sonido: en used to, used se pronuncia con sonido de s, mientras que el verbo común use y su pasado used tienen sonido de z. La pronunciación de used to está afectada por la t de to."
+        },
+        "isMentalModel": false
+      }
+    ],
+    "sources": [
+      { "url": "https://dictionary.cambridge.org/grammar/british-grammar/used-to", "fetchedOk": true },
+      { "url": "https://dictionary.cambridge.org/grammar/british-grammar/would", "fetchedOk": true },
+      { "url": "https://dictionary.cambridge.org/dictionary/english/used-to", "fetchedOk": true },
+      { "url": "https://dictionary.cambridge.org/us/dictionary/english/to", "fetchedOk": true },
+      { "url": "https://en.wikipedia.org/wiki/Habitual_aspect", "fetchedOk": true },
+      { "url": "https://en.wikipedia.org/wiki/English_markers_of_habitual_aspect", "fetchedOk": true },
+      { "url": "https://en.wikipedia.org/wiki/Imperfect", "fetchedOk": true },
+      { "url": "https://www.etymonline.com/word/use", "fetchedOk": true },
+      { "url": "https://grammarphobia.com/blog/2018/09/used.html", "fetchedOk": true },
+      { "url": "https://learningenglish.voanews.com/a/the-difference-used-to-be-used-to-get-used-to/5245290.html", "fetchedOk": true },
+      { "url": "https://pure.uva.nl/ws/files/68435060/Habituals_in_Spanish.pdf", "fetchedOk": true }
+    ]
+  },
+  "traps": [
+    {
+      "wrongEn": "I use to wake up early.",
+      "rightEn": "I usually wake up early.",
+      "why": {
+        "en": "used to only exists in the past. For a habit now, use the present simple + usually. \"I use to\" is a calque of \"suelo\".",
+        "es": "Used to solo existe en pasado. Para un hábito de ahora, usa present simple + usually. \"I use to\" es un calco de \"suelo\"."
+      }
+    },
+    {
+      "wrongEn": "I would live in Bogotá when I was a student.",
+      "rightEn": "I used to live in Bogotá when I was a student.",
+      "why": {
+        "en": "live here is a state, and would only works for repeated actions. With a state, would sounds like the conditional (\"viviría\").",
+        "es": "Live aquí es un estado, y would solo funciona con acciones repetidas. Con un estado, would suena a condicional (\"viviría\")."
+      }
+    },
+    {
+      "wrongEn": "I'm used to wake up early.",
+      "rightEn": "I'm used to waking up early.",
+      "why": {
+        "en": "in be used to, to is a preposition, so a verb after it takes -ing.",
+        "es": "En be used to, to es una preposición, así que un verbo después de él va en -ing."
+      }
+    },
+    {
+      "wrongEn": "I didn't used to drink coffee.",
+      "rightEn": "I didn't use to drink coffee.",
+      "why": {
+        "en": "did already carries the past, so use goes back to its base form.",
+        "es": "Did ya carga el pasado, así que use vuelve a su forma base."
+      }
+    }
+  ],
+  "hack": {
+    "en": "The \"but not anymore\" test. Used to always carries an invisible \"...but not anymore\". Say your sentence and add that tail in your head. If it fits, use used to (or would, if it's a repeated action inside a story you already started). If it doesn't fit because it's still true now, you're in the present: usually for a habit (I usually wake up early), or be used to + -ing for \"estoy acostumbrada\" (I'm used to waking up early).",
+    "es": "La prueba del \"pero ya no\". Used to siempre lleva un \"...pero ya no\" invisible. Di tu oración y agrégale esa cola en la cabeza. Si encaja, usa used to (o would, si es una acción repetida dentro de una historia que ya empezaste). Si no encaja porque todavía es verdad, estás en el presente: usually para un hábito (I usually wake up early), o be used to + -ing para \"estoy acostumbrada\" (I'm used to waking up early)."
+  },
+  "verbList": [
+    {
+      "verb": "use",
+      "base": "use",
+      "past": "used",
+      "pastParticiple": "used",
+      "ing": "using",
+      "thirdPerson": "uses",
+      "usesEn": "employ, \"usar\" (z sound): I used your pen. past habit or state (s sound, only in the past): I used to swim. accustomed, with be/get: I'm used to it."
+    },
+    {
+      "verb": "will / would",
+      "base": "will",
+      "past": "would",
+      "pastParticiple": "none (modal)",
+      "ing": "none (modal)",
+      "thirdPerson": "will (no -s)",
+      "usesEn": "past habit in a story: She would read to us. conditional: I would go if I could. future seen from the past: I knew I would graduate."
+    },
+    {
+      "verb": "do",
+      "base": "do",
+      "past": "did",
+      "pastParticiple": "done",
+      "ing": "doing",
+      "thirdPerson": "does",
+      "usesEn": "auxiliary for past questions and negatives: Did you use to...? / I didn't use to... (main verb \"hacer\": I did my homework.)"
+    },
+    {
+      "verb": "be",
+      "base": "be",
+      "past": "was/were",
+      "pastParticiple": "been",
+      "ing": "being",
+      "thirdPerson": "is",
+      "usesEn": "accustomed, with used to: I'm used to the cold. past state, with used to: It used to be a bookshop."
+    },
+    {
+      "verb": "get",
+      "base": "get",
+      "past": "got",
+      "pastParticiple": "got (US: gotten)",
+      "ing": "getting",
+      "thirdPerson": "gets",
+      "usesEn": "become, with used to: I'm getting used to the cold. (also \"conseguir\": I got a new job.)"
+    },
+    {
+      "verb": "live",
+      "base": "live",
+      "past": "lived",
+      "pastParticiple": "lived",
+      "ing": "living",
+      "thirdPerson": "lives",
+      "usesEn": "state (your situation): I used to live in Cali. (never would live with this meaning)"
+    },
+    {
+      "verb": "play",
+      "base": "play",
+      "past": "played",
+      "pastParticiple": "played",
+      "ing": "playing",
+      "thirdPerson": "plays",
+      "usesEn": "action that can repeat: I used to play in the park. also instruments: play the drums."
+    },
+    {
+      "verb": "wake up",
+      "base": "wake up",
+      "past": "woke up",
+      "pastParticiple": "woken up",
+      "ing": "waking up",
+      "thirdPerson": "wakes up",
+      "usesEn": "action, present habit: I usually wake up early. after be used to: I'm used to waking up early."
+    },
+    {
+      "verb": "know",
+      "base": "know",
+      "past": "knew",
+      "pastParticiple": "known",
+      "ing": "knowing",
+      "thirdPerson": "knows",
+      "usesEn": "state: I used to know her. (not \"I would know her\" for a past state)"
+    }
+  ],
+  "read": {
+    "themeEn": "HCI and the psychology of habits",
+    "text": {
+      "en": "Before smartphones, my father used to keep a paper map in the glove box of his car. On long trips to the coast, he would unfold it over the steering wheel at every gas station, and my mother would trace the road with her finger while he complained about the tiny print. I used to think this was a family ritual, not a method. Getting lost didn't use to feel like a failure; it was part of the trip. Today I am used to a blue dot that shows me where I am before I even ask. I got used to it so fast that I barely remember how much attention a map needed. That raises a design question worth asking: when a tool does the thinking for us, do we stop building our own picture of a place? My father never called himself a user, but every Sunday he was running a small experiment in human-computer interaction: one person, one sheet of paper, and a road that used to feel much longer.",
+      "es": "Antes de los smartphones, mi papá tenía un mapa de papel en la guantera del carro. En los viajes largos a la costa, lo desdoblaba sobre el volante en cada estación de gasolina, y mi mamá seguía la carretera con el dedo mientras él se quejaba de la letra diminuta. Yo pensaba que era un ritual familiar, no un método. Perderse antes no se sentía como un fracaso; era parte del viaje. Hoy estoy acostumbrada a un punto azul que me muestra dónde estoy antes de que yo pregunte. Me acostumbré tan rápido que casi no recuerdo cuánta atención necesitaba un mapa. Eso abre una pregunta de diseño que vale la pena hacerse: cuando una herramienta piensa por nosotros, ¿dejamos de construir nuestra propia imagen de un lugar? Mi papá nunca se llamó a sí mismo usuario, pero cada domingo estaba haciendo un pequeño experimento de interacción humano-computadora: una persona, una hoja de papel y una carretera que antes se sentía mucho más larga."
+    },
+    "wordCount": 173,
+    "markedForms": ["used to", "would", "didn't use to", "am used to", "got used to"]
+  },
+  "summary": {
+    "lines": [
+      {
+        "en": "Used to + base verb = a past habit or state that is no longer true; would + base verb = a repeated action inside a story, never a state.",
+        "es": "Used to + verbo base = un hábito o estado pasado que ya no es verdad; would + verbo base = una acción repetida dentro de una historia, nunca un estado."
+      },
+      {
+        "en": "For habits now, English says usually + present simple, never \"I use to\"; for \"estar acostumbrada\", it says be used to + noun or -ing.",
+        "es": "Para hábitos de ahora, el inglés dice usually + present simple, nunca \"I use to\"; para \"estar acostumbrada\", dice be used to + sustantivo o -ing."
+      },
+      {
+        "en": "The past continuous is not for habits: \"I used to play\", not \"I was playing\", for a routine.",
+        "es": "El past continuous no es para hábitos: \"I used to play\", no \"I was playing\", para una rutina."
+      }
+    ]
+  },
+  "practice": {
+    "en": "Use two existing exercise types, in this order: huecos (drag the right chip into each gap: used to / would / be used to / usually), then cue-card (IELTS Speaking Part 2: \"Describe a place you used to visit as a child\", with points: where it was, who you went with, what you would do there, how you feel about it now). No new dynamic is introduced here; if these two don't fit, that's a change to propose in docs/dinamicas.md, not here.",
+    "es": "Usa dos tipos de ejercicio que ya existen, en este orden: huecos (arrastra la ficha correcta a cada espacio: used to / would / be used to / usually), y después cue-card (IELTS Speaking Part 2: \"Describe a place you used to visit as a child\", con los puntos: dónde quedaba, con quién ibas, qué hacías ahí, qué sientes hoy por ese lugar). Aquí no se inventa ninguna dinámica nueva; si estas dos no sirven, es un cambio para proponer en docs/dinamicas.md, no aquí."
+  },
+  "check": {
+    "items": [
+      {
+        "promptEn": "Choose the correct form: \"When I was at university, I ___ in a tiny flat near the library.\" (used to live / would live)",
+        "answer": "used to live",
+        "why": "live here is a state (your situation), and only used to can describe a past state. Would only works for repeated actions.",
+        "choices": ["used to live", "would live"]
+      },
+      {
+        "promptEn": "Fix the sentence: \"Nowadays I use to take the metro to work.\"",
+        "answer": "Nowadays I usually take the metro to work.",
+        "why": "nowadays means the habit is true now, and used to only exists in the past. For present habits: present simple + usually."
+      },
+      {
+        "promptEn": "Fix the sentence: \"After six months in Stockholm, she is used to eat dinner at five.\"",
+        "answer": "After six months in Stockholm, she is used to eating dinner at five.",
+        "why": "in be used to, to is a preposition, so the verb after it takes -ing."
+      },
+      {
+        "promptEn": "Fix the spelling: \"We didn't used to have design critiques at my first job.\"",
+        "answer": "We didn't use to have design critiques at my first job.",
+        "why": "did already carries the past, so use goes back to its base form."
+      },
+      {
+        "promptEn": "Choose the option that is NOT natural English for \"De niña, mi abuela me leía cuentos todas las noches\": (a) When I was a child, my grandmother used to read me stories every night. (b) When I was a child, my grandmother would read me stories every night. (c) When I was a child, my grandmother was reading me stories every night.",
+        "answer": "(c)",
+        "why": "it's a habit, and the past continuous is for one moment in progress, not for habits (lesson 04). (a) and (b) are both correct: read is an action, and the time is already set by \"When I was a child\", so would works too.",
+        "choices": ["(a)", "(b)", "(c)"]
+      }
+    ],
+    "passThreshold": 4,
+    "outOf": 5
+  },
+  "wrapUp": {
+    "en": "Write one line, in English, about what you used well today. For example: \"Today I said 'I usually wake up early' instead of 'I use to wake up early'.\"",
+    "es": ""
+  },
+  "pronunciationNotes": [
+    { "wordEn": "used to", "guideEs": "IÚS-tu, rápido: IÚS-ta. La s suena como una s normal del español, no como una z que zumba. Hablando rápido, used to suele sonar como una sola palabra, y la d desaparece antes de la t de to." },
+    { "wordEn": "be used to", "guideEs": "bi IÚS-tu" },
+    { "wordEn": "use (verb, \"usar\")", "guideEs": "IÚZ: la z vibra como zumbido de abeja" },
+    { "wordEn": "used (past of \"use\")", "guideEs": "IÚZD: la z vibra como zumbido de abeja" },
+    { "wordEn": "didn't use to", "guideEs": "DÍ-dent IÚS-tu" },
+    { "wordEn": "would", "guideEs": "UÚD: la l no se pronuncia" },
+    { "wordEn": "I'd", "guideEs": "ÁID, contracción de I would" }
+  ]
+}
