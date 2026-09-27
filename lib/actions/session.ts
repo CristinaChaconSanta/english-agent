@@ -51,6 +51,39 @@ export async function saveSession(input: { minutes: number; logro: string; seman
   return { ok: true as const, streakCounted: input.minutes >= MINUTES_FOR_STREAK };
 }
 
+export async function saveLessonSession(input: { minutes: number; lessonId: string; logro: string }) {
+  const supabase = await createServerSupabase();
+  if (!supabase) {
+    return { ok: false as const, message: "Falta la configuración de Supabase en el entorno." };
+  }
+
+  const { data: userData, error: userError } = await supabase.auth.getUser();
+  if (userError || !userData.user) {
+    return { ok: false as const, message: "Inicia sesión con el enlace del correo para guardar." };
+  }
+
+  const userId = userData.user.id;
+  const { data: session, error } = await supabase
+    .from("sessions")
+    .insert({ user_id: userId, minutes: input.minutes, lesson_id: input.lessonId, logro: input.logro })
+    .select("id")
+    .single();
+
+  if (error?.code === "PGRST204" || error?.code === "42703" || error?.code === "23502") {
+    return {
+      ok: false as const,
+      message: "No se pudo guardar el tiempo: falta la migración 003 en Supabase. Córrela en el SQL Editor y vuelve a guardar.",
+    };
+  }
+  if (error || !session) {
+    return { ok: false as const, message: "No se pudo guardar el tiempo. Revisa la conexión y vuelve a intentar." };
+  }
+
+  await supabase.from("achievements").insert({ user_id: userId, session_id: session.id, line: input.logro });
+
+  return { ok: true as const, streakCounted: input.minutes >= MINUTES_FOR_STREAK };
+}
+
 export async function reviewCard(input: {
   frente: string;
   atras: string;

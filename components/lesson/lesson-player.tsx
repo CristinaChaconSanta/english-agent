@@ -13,6 +13,7 @@ import { Card } from "@/components/ui/card";
 import { Timer } from "@/components/ui/timer";
 import { WavyDivider } from "@/components/ui/wavy-divider";
 import { saveLessonCheck, saveWrapUp } from "@/lib/actions/lesson";
+import { saveLessonSession } from "@/lib/actions/session";
 import { useNightMode } from "@/lib/night";
 import type { Lesson } from "@/lib/schemas/lesson";
 import { lessonVars } from "@/lib/themes";
@@ -22,9 +23,9 @@ const STEP_COUNT = 13;
 export function LessonPlayer({ lesson, canSkip }: { lesson: Lesson; canSkip: boolean }) {
   const router = useRouter();
   const { night, toggle } = useNightMode();
-  const [started, setStarted] = useState(false);
+  const [startedAt, setStartedAt] = useState<number | null>(null);
+  const [now, setNow] = useState(0);
   const [step, setStep] = useState(0);
-  const [elapsedSec, setElapsedSec] = useState(0);
   const [predictDone, setPredictDone] = useState(0);
   const [predictReady, setPredictReady] = useState(false);
   const [finalScore, setFinalScore] = useState(0);
@@ -32,11 +33,25 @@ export function LessonPlayer({ lesson, canSkip }: { lesson: Lesson; canSkip: boo
   const [wrapLine, setWrapLine] = useState("");
   const [note, setNote] = useState<string | null>(null);
 
+  const started = startedAt !== null;
+  const elapsedSec = startedAt === null ? 0 : Math.max(0, Math.floor((now - startedAt) / 1000));
+
   useEffect(() => {
-    if (!started) return;
-    const id = window.setInterval(() => setElapsedSec((value) => value + 1), 1000);
-    return () => window.clearInterval(id);
-  }, [started]);
+    if (startedAt === null) return;
+    const tick = () => setNow(Date.now());
+    const id = window.setInterval(tick, 1000);
+    document.addEventListener("visibilitychange", tick);
+    return () => {
+      window.clearInterval(id);
+      document.removeEventListener("visibilitychange", tick);
+    };
+  }, [startedAt]);
+
+  function start() {
+    const at = Date.now();
+    setStartedAt(at);
+    setNow(at);
+  }
 
   async function saveRound(results: boolean[], missedIndexes: number[]) {
     const score = results.filter(Boolean).length;
@@ -60,6 +75,11 @@ export function LessonPlayer({ lesson, canSkip }: { lesson: Lesson; canSkip: boo
     const line = wrapLine.trim();
     if (!line) {
       setNote("Write one line to save.");
+      return;
+    }
+    const session = await saveLessonSession({ minutes: Math.round(elapsedSec / 60), lessonId: lesson.id, logro: line });
+    if (!session.ok) {
+      setNote(session.message);
       return;
     }
     if (resultId) {
@@ -95,7 +115,7 @@ export function LessonPlayer({ lesson, canSkip }: { lesson: Lesson; canSkip: boo
     return shell(
       <Card>
         <p className="mb-4 text-[17px]">Lesson 01. Verb to be.</p>
-        <Button onClick={() => setStarted(true)}>Start</Button>
+        <Button onClick={start}>Start</Button>
         {canSkip ? (
           <button type="button" className="mt-3 min-h-12 w-full text-sm underline" onClick={() => router.push("/hoy?session=pack")}>
             Skip
