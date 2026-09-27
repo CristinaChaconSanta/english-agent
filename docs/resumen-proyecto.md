@@ -51,7 +51,7 @@ engram (memoria de Cursor y Claude Code), gentle-ai (persona neutral), gga y tod
 - Documentos nuevos: `docs/syllabus.md` (31 unidades), `docs/estructura-leccion.md` (plantilla),
   `docs/ideas-clave.md` (6 ideas grandes del inglés), `docs/lecciones/01-verb-to-be.md`.
 - Cursor ya muestra la lección 01 en Hoy (13 pasos, "Ver en español", Check oculto, nota en Supabase).
-- Reparto: Grok escribe las lecciones nuevas (`docs/prompt-grok-leccion.md`), Claude las revisa, Cursor programa.
+- Reparto: Grok escribe las lecciones nuevas (`docs/prompt-leccion.md`), Claude las revisa, Cursor programa.
 
 ## Ideas para después (versión pública)
 Primero la usa Cristina; si luego se hace pública:
