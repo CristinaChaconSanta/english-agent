@@ -1,0 +1,455 @@
+{
+  "id": "04-past-simple-vs-continuous",
+  "unitNumber": 1,
+  "level": "B1",
+  "ieltsCriteria": ["Fluency and Coherence", "Grammatical Range and Accuracy"],
+  "temaColor": "piscina",
+  "goal": {
+    "what": {
+      "en": "Today you learn to tell a story in the past with two forms that work as a team: the past simple (I called) for the events, and the past continuous (I was calling) for the action that was already running around them.",
+      "es": "Hoy aprendes a contar una historia en pasado con dos formas que trabajan en equipo: el past simple (I called) para los eventos, y el past continuous (I was calling) para la acción que ya estaba en marcha alrededor de ellos."
+    },
+    "whyNow": {
+      "en": "This is unit 1 of Block 1 in the syllabus because every story you tell in IELTS Speaking Part 2, and every personal example in Writing Task 2, depends on it. It also fixes the most common Spanish speaker mistake here: using \"I was going\" for a habit, because the Spanish imperfecto covers habits and English does not work that way.",
+      "es": "Es la unidad 1 del Bloque 1 del syllabus porque cada historia que cuentes en IELTS Speaking Part 2, y cada ejemplo personal en Writing Task 2, depende de esto. También corrige el error más común de los hispanohablantes aquí: usar \"I was going\" para un hábito, porque el imperfecto del español cubre los hábitos y el inglés no funciona así."
+    },
+    "successMeasure": {
+      "en": "5 new Check items, pass with 4/5.",
+      "es": "5 ítems nuevos en el Check, aprobar con 4/5."
+    }
+  },
+  "glossary": [
+    {
+      "term": { "en": "Tense", "es": "Tense (tiempo verbal)" },
+      "what": {
+        "en": "the form of the verb that places an action in time (past or present).",
+        "es": "la forma del verbo que ubica una acción en el tiempo (pasado o presente)."
+      },
+      "why": {
+        "en": "It exists so the listener knows when something happened: I call (now, in general) vs. I called (before now).",
+        "es": "Existe para que el oyente sepa cuándo pasó algo: I call (ahora, en general) vs. I called (antes de ahora)."
+      }
+    },
+    {
+      "term": { "en": "Aspect", "es": "Aspect (aspecto)" },
+      "what": {
+        "en": "the form of the verb that shows how you look at an action in time: as a finished whole, or from the inside while it is still happening.",
+        "es": "la forma del verbo que muestra cómo miras una acción en el tiempo: como un bloque terminado, o desde adentro mientras todavía está pasando."
+      },
+      "why": {
+        "en": "It exists because \"when\" is not enough: two actions can both be in the past and still look very different (one finished, one still running).",
+        "es": "Existe porque el \"cuándo\" no alcanza: dos acciones pueden estar en el pasado y verse muy distintas (una terminada, otra todavía en marcha)."
+      }
+    },
+    {
+      "term": { "en": "Past simple", "es": "Past simple (pasado simple)" },
+      "what": {
+        "en": "the past form of the main verb alone (called, went, knew).",
+        "es": "la forma pasada del verbo principal sola (called, went, knew)."
+      },
+      "why": {
+        "en": "It exists to show a past action as one complete block, with a start and an end: a photo.",
+        "es": "Existe para mostrar una acción pasada como un bloque completo, con inicio y final: una foto."
+      }
+    },
+    {
+      "term": { "en": "Past continuous (also called past progressive)", "es": "Past continuous o past progressive (pasado continuo)" },
+      "what": {
+        "en": "was/were + verb with -ing (was calling, were cooking).",
+        "es": "was/were + verbo con -ing (was calling, were cooking)."
+      },
+      "why": {
+        "en": "It exists to show a past action from the inside, while it was in progress, without saying when it started or ended: a film running.",
+        "es": "Existe para mostrar una acción pasada desde adentro, mientras estaba en curso, sin decir cuándo empezó ni cuándo terminó: una película corriendo."
+      }
+    },
+    {
+      "term": { "en": "-ing form", "es": "-ing form (forma -ing)" },
+      "what": {
+        "en": "the verb with the ending -ing (calling, cooking). After be, it means \"in the middle of doing it\".",
+        "es": "el verbo con la terminación -ing (calling, cooking). Después de be significa \"en medio de hacerlo\"."
+      },
+      "why": {
+        "en": "It exists so the main verb can say \"in progress\" while be carries the time.",
+        "es": "Existe para que el verbo principal diga \"en curso\" mientras be carga el tiempo."
+      }
+    },
+    {
+      "term": { "en": "Tool verb (auxiliary verb)", "es": "Tool verb o auxiliary verb (verbo herramienta, verbo auxiliar)" },
+      "what": {
+        "en": "a small helper verb (be, have, do, will) that carries time, questions or negatives so the main verb doesn't have to.",
+        "es": "un verbo pequeño de apoyo (be, have, do, will) que carga el tiempo, las preguntas o las negaciones para que el verbo principal no tenga que hacerlo."
+      },
+      "why": {
+        "en": "In this lesson the tool verb is was/were, and in past simple questions and negatives it is did.",
+        "es": "En esta lección el verbo herramienta es was/were, y en preguntas y negaciones del past simple es did."
+      }
+    },
+    {
+      "term": { "en": "Event", "es": "Event (evento)" },
+      "what": {
+        "en": "an action you see as one complete point in the story: she called, the lights went out.",
+        "es": "una acción que ves como un punto completo de la historia: she called, the lights went out."
+      },
+      "why": {
+        "en": "Events push the story forward.",
+        "es": "Los eventos hacen avanzar la historia."
+      }
+    },
+    {
+      "term": { "en": "Background", "es": "Background (fondo)" },
+      "what": {
+        "en": "the scene that was already going on when an event happened: it was raining, I was cooking.",
+        "es": "la escena que ya estaba ocurriendo cuando pasó un evento: it was raining, I was cooking."
+      },
+      "why": {
+        "en": "It exists so the listener can picture the moment before something changes.",
+        "es": "Existe para que el oyente se imagine el momento antes de que algo cambie."
+      }
+    },
+    {
+      "term": { "en": "Habit", "es": "Habit (hábito)" },
+      "what": {
+        "en": "something you did many times, regularly: every Sunday, as a child.",
+        "es": "algo que hacías muchas veces, con regularidad: every Sunday, as a child."
+      },
+      "why": {
+        "en": "It exists as its own idea because a habit is repeated, not \"in progress at one moment\".",
+        "es": "Es una idea aparte porque un hábito se repite, no está \"en curso en un momento\"."
+      }
+    },
+    {
+      "term": { "en": "State verb (stative verb)", "es": "State verb o stative verb (verbo de estado)" },
+      "what": {
+        "en": "a verb that describes a situation that stays the same the whole time, not an action that moves forward: know, want, like, believe, own. Nothing \"happens\" inside a state; you are just in it.",
+        "es": "un verbo que describe una situación que se mantiene igual todo el tiempo, no una acción que avanza: know, want, like, believe, own. Dentro de un estado no \"pasa\" nada; simplemente estás en él."
+      },
+      "why": {
+        "en": "That is why these verbs almost never take -ing (see section 5).",
+        "es": "Por eso estos verbos casi nunca llevan -ing (ver la sección 5)."
+      }
+    },
+    {
+      "term": { "en": "Action verb (dynamic verb)", "es": "Action verb o dynamic verb (verbo de acción)" },
+      "what": {
+        "en": "a verb that describes something that happens and changes over time: run, cook, read, call.",
+        "es": "un verbo que describe algo que ocurre y cambia con el tiempo: run, cook, read, call."
+      },
+      "why": {
+        "en": "These are the verbs that can take -ing.",
+        "es": "Estos son los verbos que sí pueden llevar -ing."
+      }
+    },
+    {
+      "term": { "en": "Time clause", "es": "Time clause (oración de tiempo)" },
+      "what": {
+        "en": "a short part of the sentence that starts with when or while and gives the time frame for the rest: when she called, while I was cooking.",
+        "es": "una parte corta de la oración que empieza con when o while y da el marco de tiempo para el resto: when she called, while I was cooking."
+      },
+      "why": {
+        "en": "It exists to connect two actions in time inside one sentence.",
+        "es": "Existe para conectar dos acciones en el tiempo dentro de una sola oración."
+      }
+    }
+  ],
+  "uses": {
+    "intro": {
+      "en": "In a story, the two forms split the work: the past simple moves the plot, the past continuous paints the scene. One more job the past simple keeps for itself: past habits and past states (As a child, I went to school by bus. / I knew the answer.). The past continuous does not do these.",
+      "es": "En una historia, las dos formas se reparten el trabajo: el past simple mueve la trama, el past continuous pinta la escena. Un trabajo más que el past simple se queda para sí: hábitos pasados y estados pasados (As a child, I went to school by bus. / I knew the answer.). El past continuous no hace esto."
+    },
+    "items": [
+      {
+        "en": "Events in order (past simple): She read the email and called her sister.",
+        "es": "Eventos en orden (past simple): She read the email and called her sister."
+      },
+      {
+        "en": "The background scene (past continuous): It was raining, and people were running to the metro.",
+        "es": "La escena de fondo (past continuous): It was raining, and people were running to the metro."
+      },
+      {
+        "en": "An action in progress interrupted by an event (both): I was reading when the power went out.",
+        "es": "Una acción en curso interrumpida por un evento (las dos): I was reading when the power went out."
+      },
+      {
+        "en": "Two actions in progress at the same time (past continuous twice): While I was cooking, my flatmate was playing the piano.",
+        "es": "Dos acciones en curso al mismo tiempo (past continuous dos veces): While I was cooking, my flatmate was playing the piano."
+      }
+    ],
+    "contrastPairs": [
+      {
+        "es": "Llovía y la gente corría al metro. (imperfecto para la escena)",
+        "en": "It was raining and people were running to the metro. (Here the two languages match: the Spanish imperfecto for a scene becomes the past continuous.)"
+      },
+      {
+        "es": "De niña, iba al colegio en bus. (imperfecto para un hábito)",
+        "en": "As a child, I went to school by bus. / As a child, I used to go to school by bus. (Here they don't match: a habit is past simple or used to, never \"I was going\".)"
+      },
+      {
+        "es": "Sabía la respuesta. (imperfecto para un estado)",
+        "en": "I knew the answer. (Know is a state, so English uses the past simple, never \"I was knowing\".)"
+      }
+    ]
+  },
+  "form": {
+    "formula": {
+      "en": "Two scenes, two formulas. The photo (past simple): who → did what (past form) → to what → where → when. She → called → her sister → from the office → at six. The film (past continuous): who → was/were + verb-ing → what → where → when. I → was cooking → pasta → in the kitchen → at six. The tool verb was/were carries the time (past) and the person. The main verb only adds -ing and says \"in progress\". In the past simple there is no tool verb in affirmative sentences, but questions and negatives need did, and then the main verb goes back to its base form (did call, not did called).",
+      "es": "Dos escenas, dos fórmulas. La foto (past simple): quién → hizo qué (forma pasada) → a qué → dónde → cuándo. She → called → her sister → from the office → at six. La película (past continuous): quién → was/were + verbo-ing → qué → dónde → cuándo. I → was cooking → pasta → in the kitchen → at six. El verbo herramienta was/were carga el tiempo (pasado) y la persona. El verbo principal solo agrega -ing y dice \"en curso\". En el past simple no hay verbo herramienta en las afirmaciones, pero las preguntas y negaciones necesitan did, y entonces el verbo principal vuelve a su forma base (did call, no did called)."
+    },
+    "rows": [
+      { "who": "Past simple: I/He/She/It", "affirmative": "I called", "negative": "I didn't call", "question": "Did I call?" },
+      { "who": "Past simple: You/We/They", "affirmative": "They called", "negative": "They didn't call", "question": "Did they call?" },
+      { "who": "Past continuous: I/He/She/It", "affirmative": "She was calling", "negative": "She wasn't calling", "question": "Was she calling?" },
+      { "who": "Past continuous: You/We/They", "affirmative": "We were calling", "negative": "We weren't calling", "question": "Were we calling?" }
+    ],
+    "contrastPairs": [
+      {
+        "es": "Leía. / Estaba leyendo. (el español puede decirlo en una sola palabra, o con estar + gerundio)",
+        "en": "I was reading. (English has no one-word version: it always needs the tool verb was/were + the -ing form.)"
+      },
+      {
+        "es": "¿Qué hacías? (la pregunta vive en la terminación y en el tono)",
+        "en": "What were you doing? (The tool verb were moves in front of the subject: the word order is the question.)"
+      },
+      {
+        "es": "No llamé. / No estaba llamando. (el \"no\" va delante del verbo y ya)",
+        "en": "I didn't call. / I wasn't calling. (The negative attaches to a tool verb: did in the past simple, was in the past continuous. Never \"I didn't called\".)"
+      }
+    ]
+  },
+  "whyChain": {
+    "bigIdeaIds": ["tool-verbs"],
+    "intro": {
+      "en": "This lesson connects to Big Idea 4, \"English marks time and completion with small tool verbs, not endings\". The main Why chain answers the big question: why English needs two past forms at all. Three shorter notes after it answer the other three questions: where the match with Spanish fails, why some verbs refuse -ing, and why when and while usually go with different forms.",
+      "es": "Esta lección se conecta con la idea clave 4, \"El inglés marca tiempo y finalización con verbos herramienta, no con terminaciones\". La cadena principal responde la gran pregunta: por qué el inglés necesita dos formas de pasado. Tres notas más cortas responden las otras tres preguntas: dónde falla la equivalencia con el español, por qué algunos verbos rechazan el -ing, y por qué when y while suelen ir con formas distintas."
+    },
+    "links": {
+      "bigPicture": {
+        "en": "English does not change the ending of the main verb for every shade of meaning; it plugs in a small tool verb instead (Big Idea 4). To say \"in progress\", English uses the tool verb be + the -ing form: was cooking. Spanish can put the same idea inside the verb ending itself (cocinaba), and it also has estaba cocinando.",
+        "es": "El inglés no cambia la terminación del verbo principal para cada matiz; en su lugar pone un verbo herramienta pequeño (idea clave 4). Para decir \"en curso\", el inglés usa el verbo herramienta be + la forma -ing: was cooking. El español puede meter esa misma idea dentro de la terminación del verbo (cocinaba), y también tiene estaba cocinando."
+      },
+      "whereItComesFrom": {
+        "en": "The English past continuous grew slowly. It likely came from two constructions that were rare in Old and early Middle English: be + a participle ending in -ende, and be + a preposition + a noun-like verb ending in -unge. Sound changes during Middle English merged those two endings into one: -ing. After that merger (complete in southern England around the late fifteenth century) the form was used much more often, but it did not take its current shape until the eighteenth century. One historical study found that during Middle English, be + -ing appeared more and more inside clauses that set the background of a story, and that this is how it picked up its meaning of \"ongoing\".",
+        "es": "El past continuous del inglés creció despacio. Probablemente viene de dos construcciones que eran raras en el inglés antiguo y el inglés medio temprano: be + un participio terminado en -ende, y be + una preposición + una forma del verbo parecida a un sustantivo terminada en -unge. Cambios de sonido durante el inglés medio fusionaron esas dos terminaciones en una sola: -ing. Después de esa fusión (completa en el sur de Inglaterra hacia finales del siglo XV) la forma se usó mucho más, pero no tomó su forma actual hasta el siglo XVIII. Un estudio histórico encontró que durante el inglés medio, be + -ing aparecía cada vez más dentro de oraciones que ponían el fondo de una historia, y que así fue como adquirió su significado de \"en curso\".",
+        "skipped": false
+      },
+      "problemItCreates": {
+        "en": "The past simple on its own is very wide: it covers a single event (she called), a habit (I visited them every day for a year), and a state (I knew). From the verb called alone, a listener can't tell if you are showing a finished event or a scene that was still running when something else happened. A story needs to separate those two layers, or everything sounds like a list of flat, equal events.",
+        "es": "El past simple por sí solo es muy amplio: cubre un evento único (she called), un hábito (I visited them every day for a year) y un estado (I knew). Solo con el verbo called, el oyente no sabe si muestras un evento terminado o una escena que seguía en marcha cuando pasó otra cosa. Una historia necesita separar esas dos capas, o todo suena como una lista de eventos planos e iguales."
+      },
+      "englishsSolution": {
+        "en": "Keep the past simple for the events, and add the tool verb was/were + -ing for the action in progress. The -ing form puts the listener inside the action, without saying how long it lasted or if it finished. In \"Andrew was playing tennis when Jane called him\", you learn what Andrew was in the middle of, not how long he played. The past simple called is the moment that cuts into it.",
+        "es": "Dejar el past simple para los eventos y agregar el verbo herramienta was/were + -ing para la acción en curso. La forma -ing pone al oyente adentro de la acción, sin decir cuánto duró ni si terminó. En \"Andrew was playing tennis when Jane called him\", sabes en medio de qué estaba Andrew, no cuánto tiempo jugó. El past simple called es el momento que la corta."
+      },
+      "howNativeSpeakersSeeIt": {
+        "en": "A useful mental model (a way to picture it, not a proven fact about how speakers think): a story is a film. The past continuous is the footage already running in the background; the past simple is the photo flash that freezes one moment on top of it and moves the plot forward. The film has no clear start or end on screen; the photo is one complete click.",
+        "es": "Un modelo mental útil (una forma de imaginarlo, no un hecho comprobado sobre cómo piensan los hablantes): una historia es una película. El past continuous es la grabación que ya corre de fondo; el past simple es el flash de la foto que congela un momento encima y hace avanzar la trama. La película no muestra un inicio ni un final claros; la foto es un solo clic completo.",
+        "isMentalModel": true
+      },
+      "spanishVsEnglish": {
+        "es": "Estaba leyendo cuando se fue la luz. (imperfecto o estar + gerundio para el fondo, pretérito para el evento)",
+        "en": "I was reading when the power went out. (was/were + -ing for the background, past simple for the event)"
+      }
+    },
+    "predict": [
+      {
+        "promptEn": "Complete with the right forms: \"The lights ___ (go) out while we ___ (play) chess.\"",
+        "answer": "The lights went out while we were playing chess.",
+        "why": "the chess game was the film already running (past continuous); the lights going out is the one-click photo that cut into it (past simple)."
+      },
+      {
+        "promptEn": "Complete: \"When I was a teenager, I ___ (read) a novel every week.\"",
+        "answer": "When I was a teenager, I read a novel every week.",
+        "why": "every week makes it a habit, not an action in progress at one moment. Habits go in the past simple or with used to (I used to read a novel every week), never \"I was reading a novel every week\"."
+      }
+    ],
+    "also": [
+      {
+        "title": {
+          "en": "Also: where Spanish pretérito and imperfecto match English, and where they fail",
+          "es": "También: dónde el pretérito y el imperfecto del español coinciden con el inglés, y dónde fallan"
+        },
+        "body": {
+          "en": "Spanish splits the past into two forms too, and the split is about the same thing as in English: aspect. The pretérito (llegué, corrí) shows an action as completed, like the English past simple. The imperfecto (llegaba, corría) presents the action as context, without its start or end, which is why it so often matches the English past continuous in a story: \"Llegaba a casa cuando empezó a llover\" → \"I was getting home when it started to rain.\" The match fails in one big place: habits. The Spanish imperfecto also covers repeated or habitual past actions: \"corría cinco millas cada mañana\", \"cuando era pequeño, hablaba español con mi abuela\". English does not use the past continuous for that. It uses the past simple (\"I ran five miles every morning\", \"When I was young, I spoke Spanish with my grandmother\") or used to (\"I used to run five miles every morning\"). So the Spanish imperfecto splits into two English forms: in progress at one moment → was/were + -ing; habit → past simple or used to. Before you say \"I was ___ing\", ask: was it one scene at one moment, or something I did many times? If it was many times, drop the -ing.",
+          "es": "El español también divide el pasado en dos formas, y la división es sobre lo mismo que en inglés: el aspecto. El pretérito (llegué, corrí) muestra una acción como terminada, igual que el past simple. El imperfecto (llegaba, corría) presenta la acción como contexto, sin su inicio ni su final, y por eso en una historia tantas veces coincide con el past continuous: \"Llegaba a casa cuando empezó a llover\" → \"I was getting home when it started to rain.\" La equivalencia falla en un lugar grande: los hábitos. El imperfecto también cubre acciones pasadas repetidas o habituales: \"corría cinco millas cada mañana\", \"cuando era pequeño, hablaba español con mi abuela\". El inglés no usa el past continuous para eso. Usa el past simple (\"I ran five miles every morning\", \"When I was young, I spoke Spanish with my grandmother\") o used to (\"I used to run five miles every morning\"). Así que el imperfecto se divide en dos formas del inglés: en curso en un momento → was/were + -ing; hábito → past simple o used to. Antes de decir \"I was ___ing\", pregúntate: ¿era una escena en un momento, o algo que hice muchas veces? Si fueron muchas veces, quita el -ing."
+        },
+        "isMentalModel": false
+      },
+      {
+        "title": {
+          "en": "Also: why some verbs almost never take -ing (state verbs)",
+          "es": "También: por qué algunos verbos casi nunca llevan -ing (verbos de estado)"
+        },
+        "body": {
+          "en": "A state verb describes a situation that is the same from beginning to end: know, want, like, believe, own. In plain words: nothing moves inside it. You don't \"do\" knowing step by step; you just know. The -ing form means \"in the middle of a process that is moving forward\", and a state has no middle and no moving parts, so the two don't fit. That is why \"I am knowing the answer\" sounds wrong to native speakers, and why the past of a state stays in the past simple even when it is background: \"At three o'clock yesterday we were in the garden\", \"I knew the answer\", \"She wanted to leave\". Two details that help. One verb, two meanings: some verbs are a state in one meaning and an action in another. Think as an opinion is a state (I thought it was fair); think as a process in your head is an action (I was thinking about my essay). Have as possession is a state (I had a bike); have as an activity is an action (We were having dinner). The moment you enter a state: the past simple of a state verb can mean the moment the state began: \"Suddenly he understood what she said.\" Spanish does something similar with the pretérito: supe often means \"I found out\". English usually picks a different verb for that moment: knew (sabía) vs. found out (supe).",
+          "es": "Un verbo de estado describe una situación que es igual de principio a fin: know, want, like, believe, own. En palabras simples: adentro no se mueve nada. No \"haces\" el saber paso a paso; simplemente sabes. La forma -ing significa \"en medio de un proceso que avanza\", y un estado no tiene un medio ni partes que se muevan, así que no encajan. Por eso \"I am knowing the answer\" suena mal a los hablantes nativos, y por eso el pasado de un estado se queda en past simple incluso cuando es fondo: \"At three o'clock yesterday we were in the garden\", \"I knew the answer\", \"She wanted to leave\". Dos detalles que ayudan. Un verbo, dos significados: algunos verbos son estado en un sentido y acción en otro. Think como opinión es estado (I thought it was fair); think como proceso en tu cabeza es acción (I was thinking about my essay). Have como posesión es estado (I had a bike); have como actividad es acción (We were having dinner). El momento en que entras a un estado: el past simple de un verbo de estado puede significar el momento en que empezó el estado: \"Suddenly he understood what she said.\" El español hace algo parecido con el pretérito: supe muchas veces significa \"me enteré\". El inglés suele elegir otro verbo para ese momento: knew (sabía) vs. found out (supe)."
+        },
+        "isMentalModel": false
+      },
+      {
+        "title": {
+          "en": "Also: why when and while usually go with different forms",
+          "es": "También: por qué when y while suelen ir con formas distintas"
+        },
+        "body": {
+          "en": "Look at the two classic patterns: \"I was cooking when she called.\" and \"While I was cooking, she called.\" While introduces a stretch of time, so what follows it is usually the long action in progress: while I was cooking. When usually introduces the short event that cuts in: when she called. Both sentences say the same thing; they just start from a different side of the scene. While can also join two actions in progress at the same time: \"While I was cooking, my flatmate was playing the piano.\" The history note in the main chain explains why this fits so well: be + -ing took its \"ongoing\" meaning exactly inside clauses that set the background of a story. A useful mental model for daily use: while opens a window of time (English still says for a while, \"durante un rato\"), and a window needs something running inside it, so it takes the -ing. When points at a moment, so it usually takes the one-click past simple. \"Usually\" matters: when can also start a background (\"When I was living in Medellín, I met her\"), but while + a single short event (\"While she called\") sounds wrong, because a phone call starting is a moment, not a stretch.",
+          "es": "Mira los dos patrones clásicos: \"I was cooking when she called.\" y \"While I was cooking, she called.\" While introduce un tramo de tiempo, así que lo que le sigue suele ser la acción larga en curso: while I was cooking. When suele introducir el evento corto que interrumpe: when she called. Las dos oraciones dicen lo mismo; solo empiezan por un lado distinto de la escena. While también puede unir dos acciones en curso al mismo tiempo: \"While I was cooking, my flatmate was playing the piano.\" La nota histórica de la cadena principal explica por qué encaja tan bien: be + -ing tomó su significado de \"en curso\" justamente dentro de oraciones que ponían el fondo de una historia. Un modelo mental útil para el día a día: while abre una ventana de tiempo (el inglés todavía dice for a while, \"durante un rato\"), y una ventana necesita algo corriendo adentro, así que lleva -ing. When señala un momento, así que suele llevar el past simple de un solo clic. El \"suele\" importa: when también puede abrir un fondo (\"When I was living in Medellín, I met her\"), pero while + un solo evento corto (\"While she called\") suena mal, porque el inicio de una llamada es un momento, no un tramo."
+        },
+        "isMentalModel": true
+      }
+    ],
+    "sources": [
+      { "url": "https://en.wikipedia.org/wiki/Continuous_and_progressive_aspects", "fetchedOk": true },
+      { "url": "https://www.cambridge.org/core/journals/english-language-and-linguistics/article/abs/grammaticalization-by-changing-cotext-frequencies-or-why-be-ving-became-the-progressive1/318F0619F868E83AB825C3603533992B", "fetchedOk": true },
+      { "url": "https://en.wikipedia.org/wiki/Uses_of_English_verb_forms", "fetchedOk": true },
+      { "url": "https://en.wikipedia.org/wiki/Stative_verb", "fetchedOk": true },
+      { "url": "https://en.wikipedia.org/wiki/Preterite", "fetchedOk": true },
+      { "url": "https://en.wikipedia.org/wiki/Spanish_verbs", "fetchedOk": true }
+    ]
+  },
+  "traps": [
+    {
+      "wrongEn": "I was knowing the answer, but I didn't say it.",
+      "rightEn": "I knew the answer, but I didn't say it.",
+      "why": {
+        "en": "know is a state verb; nothing is in progress, so it stays in the past simple.",
+        "es": "Know es un verbo de estado; no hay nada en curso, así que se queda en past simple."
+      }
+    },
+    {
+      "wrongEn": "When I was a child, I was going to school by bus.",
+      "rightEn": "When I was a child, I went to school by bus. (or \"I used to go\")",
+      "why": {
+        "en": "this is a habit. The Spanish imperfecto (iba) covers habits; the English past continuous does not.",
+        "es": "Es un hábito. El imperfecto (iba) cubre hábitos; el past continuous del inglés no."
+      }
+    },
+    {
+      "wrongEn": "While she called, I cooked.",
+      "rightEn": "While I was cooking, she called.",
+      "why": {
+        "en": "while needs a stretch of time running in the background. Here nothing is in progress: both actions are photos, so there is no scene for the call to cut into.",
+        "es": "While necesita un tramo de tiempo corriendo de fondo. Aquí nada está en curso: las dos acciones son fotos, así que no hay escena que la llamada pueda interrumpir."
+      }
+    },
+    {
+      "wrongEn": "Yesterday I was sending my application to Aalto. (when you mean it's done)",
+      "rightEn": "Yesterday I sent my application to Aalto.",
+      "why": {
+        "en": "a finished, short event is a photo. The past continuous makes it sound unfinished, or like the background for something else you haven't told yet.",
+        "es": "Un evento corto y terminado es una foto. El past continuous lo hace sonar sin terminar, o como el fondo de otra cosa que todavía no contaste."
+      }
+    }
+  ],
+  "hack": {
+    "en": "Film first, then the photo. Before you tell a past moment, ask one question: could I pause the film in the middle of it? If yes (it was running at that moment), use was/were + -ing. If it was one click, a habit, or a state (know, want, like, believe), use the past simple. The scene always reads: who → was doing what (the film) → when → who → did what (the photo).",
+    "es": "Primero la película, después la foto. Antes de contar un momento pasado, hazte una pregunta: ¿podría pausar la película en medio de esto? Si sí (estaba corriendo en ese momento), usa was/were + -ing. Si fue un solo clic, un hábito o un estado (know, want, like, believe), usa el past simple. La escena siempre se lee: quién → estaba haciendo qué (la película) → cuando → quién → hizo qué (la foto)."
+  },
+  "verbList": [
+    { "verb": "be", "base": "be", "past": "was/were", "pastParticiple": "been", "ing": "being", "thirdPerson": "is", "usesEn": "tool verb for the past continuous: I was cooking. main verb for a state: We were in the garden." },
+    { "verb": "call", "base": "call", "past": "called", "pastParticiple": "called", "ing": "calling", "thirdPerson": "calls", "usesEn": "phone someone: She called her sister. the classic interrupting event: I was cooking when she called." },
+    { "verb": "cook", "base": "cook", "past": "cooked", "pastParticiple": "cooked", "ing": "cooking", "thirdPerson": "cooks", "usesEn": "action in progress: I was cooking pasta. habit: Every Sunday she cooked for everyone." },
+    { "verb": "read", "base": "read", "past": "read", "pastParticiple": "read", "ing": "reading", "thirdPerson": "reads", "usesEn": "event: She read the email. in progress: I was reading when the power went out. (the past read is spelled like the base but sounds different, see the pronunciation notes)" },
+    { "verb": "rain", "base": "rain", "past": "rained", "pastParticiple": "rained", "ing": "raining", "thirdPerson": "rains", "usesEn": "background scene: It was raining. (always with the dummy subject it)" },
+    { "verb": "run", "base": "run", "past": "ran", "pastParticiple": "run", "ing": "running", "thirdPerson": "runs", "usesEn": "move fast: People were running to the metro. habit: I ran five miles every morning." },
+    { "verb": "go", "base": "go", "past": "went", "pastParticiple": "gone", "ing": "going", "thirdPerson": "goes", "usesEn": "move to a place: I went to school by bus. go out = stop working (lights, power): The power went out." },
+    { "verb": "get", "base": "get", "past": "got", "pastParticiple": "got/gotten", "ing": "getting", "thirdPerson": "gets", "usesEn": "get home = arrive home: I was getting home when it started to rain." },
+    { "verb": "start", "base": "start", "past": "started", "pastParticiple": "started", "ing": "starting", "thirdPerson": "starts", "usesEn": "the event that cuts in: it started to rain." },
+    { "verb": "play", "base": "play", "past": "played", "pastParticiple": "played", "ing": "playing", "thirdPerson": "plays", "usesEn": "a sport or game: Andrew was playing tennis. an instrument: My flatmate was playing the piano." },
+    { "verb": "speak", "base": "speak", "past": "spoke", "pastParticiple": "spoken", "ing": "speaking", "thirdPerson": "speaks", "usesEn": "habit in the past simple: I spoke Spanish with my grandmother." },
+    { "verb": "do", "base": "do", "past": "did", "pastParticiple": "done", "ing": "doing", "thirdPerson": "does", "usesEn": "tool verb for past simple questions and negatives: Did you call? I didn't call. main verb: What were you doing?" },
+    { "verb": "know", "base": "know", "past": "knew", "pastParticiple": "known", "ing": "knowing (rare)", "thirdPerson": "knows", "usesEn": "state verb, no -ing in this meaning: I knew the answer." },
+    { "verb": "want", "base": "want", "past": "wanted", "pastParticiple": "wanted", "ing": "wanting (rare)", "thirdPerson": "wants", "usesEn": "state verb: She wanted to leave." },
+    { "verb": "like", "base": "like", "past": "liked", "pastParticiple": "liked", "ing": "liking (rare)", "thirdPerson": "likes", "usesEn": "state verb: I liked the book." },
+    { "verb": "believe", "base": "believe", "past": "believed", "pastParticiple": "believed", "ing": "believing (rare)", "thirdPerson": "believes", "usesEn": "state verb: I believed him." },
+    { "verb": "own", "base": "own", "past": "owned", "pastParticiple": "owned", "ing": "owning (rare)", "thirdPerson": "owns", "usesEn": "state verb of possession: They owned a small gallery." },
+    { "verb": "think", "base": "think", "past": "thought", "pastParticiple": "thought", "ing": "thinking", "thirdPerson": "thinks", "usesEn": "opinion (state): I thought it was fair. process in your head (action): I was thinking about my essay." },
+    { "verb": "have", "base": "have", "past": "had", "pastParticiple": "had", "ing": "having", "thirdPerson": "has", "usesEn": "possession (state): I had a bike. activity (action): We were having dinner." },
+    { "verb": "understand", "base": "understand", "past": "understood", "pastParticiple": "understood", "ing": "understanding (rare)", "thirdPerson": "understands", "usesEn": "state, or the moment you enter it: Suddenly he understood." },
+    { "verb": "find out", "base": "find out", "past": "found out", "pastParticiple": "found out", "ing": "finding out", "thirdPerson": "finds out", "usesEn": "the moment you start knowing (Spanish supe): I found out the truth." },
+    { "verb": "send", "base": "send", "past": "sent", "pastParticiple": "sent", "ing": "sending", "thirdPerson": "sends", "usesEn": "finished event: Yesterday I sent my application." },
+    { "verb": "visit", "base": "visit", "past": "visited", "pastParticiple": "visited", "ing": "visiting", "thirdPerson": "visits", "usesEn": "habit in the past simple: I visited them every day for a year." },
+    { "verb": "leave", "base": "leave", "past": "left", "pastParticiple": "left", "ing": "leaving", "thirdPerson": "leaves", "usesEn": "go away from a place: She wanted to leave." },
+    { "verb": "say", "base": "say", "past": "said", "pastParticiple": "said", "ing": "saying", "thirdPerson": "says", "usesEn": "report words: He understood what she said." },
+    { "verb": "live", "base": "live", "past": "lived", "pastParticiple": "lived", "ing": "living", "thirdPerson": "lives", "usesEn": "temporary stretch (action): When I was living in Medellín, I met her. long-term situation: I lived in Bogotá as a child." },
+    { "verb": "meet", "base": "meet", "past": "met", "pastParticiple": "met", "ing": "meeting", "thirdPerson": "meets", "usesEn": "see someone for the first time: I met her in Medellín." },
+    { "verb": "cut in", "base": "cut in", "past": "cut in", "pastParticiple": "cut in", "ing": "cutting in", "thirdPerson": "cuts in", "usesEn": "interrupt: the event that cuts in (the photo that interrupts the film)" },
+    { "verb": "use (used to)", "base": "use", "past": "used", "pastParticiple": "used", "ing": "using", "thirdPerson": "uses", "usesEn": "used to + base verb = past habit or past state: I used to go to school by bus. (only in the past)" }
+  ],
+  "read": {
+    "themeEn": "art and attention (a short story)",
+    "text": {
+      "en": "The gallery was closing for the night. A guard was walking through the empty rooms, and rain was hitting the glass roof. In the last room, a young woman was sitting in front of a small grey painting. She wasn't taking photos. She was just looking. The guard knew that painting. For ten years he walked past it every evening, and he never stopped. He used to think it was the most boring picture in the building. \"We're closing,\" he said. She didn't move. While he was waiting for her to stand up, he looked at the painting too. Then the lights went out. In the dark, something strange happened. The grey wasn't grey anymore. Thin lines of blue and gold were moving under the surface, like water under ice. Suddenly he understood why she was sitting there. When the lights came back, she was gone. The guard stayed a little longer. He wanted to see it one more time.",
+      "es": "La galería estaba cerrando por la noche. Un guardia caminaba por las salas vacías, y la lluvia golpeaba el techo de vidrio. En la última sala, una mujer joven estaba sentada frente a un cuadro gris pequeño. No estaba tomando fotos. Solo estaba mirando. El guardia conocía ese cuadro. Durante diez años pasó frente a él todas las noches, y nunca se detuvo. Solía pensar que era el cuadro más aburrido del edificio. \"Estamos cerrando\", dijo. Ella no se movió. Mientras él esperaba a que se levantara, también miró el cuadro. Entonces se apagaron las luces. En la oscuridad pasó algo extraño. El gris ya no era gris. Líneas finas de azul y dorado se movían bajo la superficie, como agua bajo el hielo. De pronto entendió por qué ella estaba sentada ahí. Cuando volvieron las luces, ella ya no estaba. El guardia se quedó un rato más. Quería verlo una vez más."
+    },
+    "wordCount": 160,
+    "markedForms": ["was closing", "was walking", "was hitting", "was sitting", "wasn't taking", "was looking", "knew", "walked", "stopped", "used to think", "said", "didn't move", "was waiting", "looked", "went", "happened", "wasn't", "were moving", "understood", "came", "was", "stayed", "wanted"]
+  },
+  "summary": {
+    "lines": [
+      {
+        "en": "The past simple is the photo (a finished event, a habit, or a state); the past continuous (was/were + -ing) is the film running in the background.",
+        "es": "El past simple es la foto (un evento terminado, un hábito o un estado); el past continuous (was/were + -ing) es la película que corre de fondo."
+      },
+      {
+        "en": "While usually opens the film (while I was cooking); when usually brings the photo that cuts in (when she called).",
+        "es": "While suele abrir la película (while I was cooking); when suele traer la foto que interrumpe (when she called)."
+      },
+      {
+        "en": "The biggest trap: the Spanish imperfecto also covers habits, but English never uses the past continuous for habits; use the past simple or used to. And state verbs (know, want, like, believe) stay in the past simple.",
+        "es": "La trampa más grande: el imperfecto también cubre hábitos, pero el inglés nunca usa el past continuous para hábitos; usa el past simple o used to. Y los verbos de estado (know, want, like, believe) se quedan en past simple."
+      }
+    ]
+  },
+  "practice": {
+    "en": "Use two existing exercise types, in this order: first linea-tiempo (drag each past sentence onto the timeline and choose \"foto\" for the past simple or \"GIF\" for the past continuous), then cue-card (IELTS Speaking Part 2: tell a 2-minute story about a time something surprised you, opening with one was/were + -ing scene and at least one while clause). No new dynamic is introduced here.",
+    "es": "Usa dos tipos de ejercicio que ya existen, en este orden: primero linea-tiempo (arrastra cada frase en pasado a la línea de tiempo y elige \"foto\" para el past simple o \"GIF\" para el past continuous), luego cue-card (IELTS Speaking Part 2: cuenta una historia de 2 minutos sobre una vez que algo te sorprendió, empezando con una escena con was/were + -ing y al menos una oración con while). Aquí no se introduce ninguna dinámica nueva."
+  },
+  "check": {
+    "items": [
+      {
+        "promptEn": "Choose the correct form: \"At first I ___ (was believing / believed) every word of his story.\"",
+        "answer": "believed",
+        "why": "believe is a state verb: nothing is in progress inside it, so it stays in the past simple.",
+        "choices": ["was believing", "believed"]
+      },
+      {
+        "promptEn": "Fix the sentence: \"Every Sunday my grandmother was cooking arepas for the whole family.\"",
+        "answer": "Every Sunday my grandmother cooked arepas for the whole family.",
+        "why": "every Sunday makes it a habit (used to cook also works). The Spanish cocinaba covers habits, but the English past continuous does not."
+      },
+      {
+        "promptEn": "Complete with the right forms: \"While we ___ (discuss) the prototype, the fire alarm ___ (go) off.\"",
+        "answer": "were discussing, went",
+        "why": "while opens the stretch of time already running (past continuous); the alarm is the one-click event that cuts in (past simple)."
+      },
+      {
+        "promptEn": "Choose the correct form: \"I ___ (was losing / lost) my keys yesterday, so I couldn't get into the flat.\"",
+        "answer": "lost",
+        "why": "losing the keys is a short, finished event with a result, so it is a photo. The past continuous would make it sound like a process still going on.",
+        "choices": ["was losing", "lost"]
+      },
+      {
+        "promptEn": "Translate the idea, don't translate word by word: \"Estaba leyendo a Borges cuando mi hermana me escribió.\"",
+        "answer": "I was reading Borges when my sister texted me.",
+        "why": "reading is the background film (was reading); the message is the event that cuts in (texted, past simple). English needs the tool verb was, and the subject I, where Spanish says estaba leyendo alone."
+      }
+    ],
+    "passThreshold": 4,
+    "outOf": 5
+  },
+  "wrapUp": {
+    "en": "Write one line, in English, about what you used well today. For example: \"Today I told a story with 'while I was waiting' and stopped using 'I was going' for my childhood habits.\"",
+    "es": "Escribe una línea, en inglés, sobre lo que usaste bien hoy. Por ejemplo: \"Today I told a story with 'while I was waiting' and stopped using 'I was going' for my childhood habits.\""
+  },
+  "pronunciationNotes": [
+    { "wordEn": "was", "guideEs": "UÓS: sin fuerza dentro de la frase, casi \"uas\"" },
+    { "wordEn": "were", "guideEs": "UÉR" },
+    { "wordEn": "while", "guideEs": "UÁIL" },
+    { "wordEn": "knew", "guideEs": "NIÚ: la k no suena" },
+    { "wordEn": "thought", "guideEs": "ZÓT: lengua entre los dientes" },
+    { "wordEn": "read (past) vs. read (present)", "guideEs": "RÉD vs. RÍD" },
+    { "wordEn": "called", "guideEs": "KÓLD: la -ed suena como una d suave" },
+    { "wordEn": "walked", "guideEs": "UÓKT: la -ed suena como t" },
+    { "wordEn": "wanted", "guideEs": "UÓN-tid: la -ed suena como \"id\" después de t o d" }
+  ]
+}
