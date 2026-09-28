@@ -73,3 +73,4 @@ Tiene TDAH. Todo el diseño parte de eso.
 - Llaves de API solo en variables de entorno (`.env.local`, Vercel). Nunca en el código ni en el repo.
 - Un solo proveedor por cuenta; el fallback es entre proveedores, no entre cuentas.
 - Grabaciones de voz: se transcriben y se borran; no mandarlas a proveedores que entrenen con los datos.
+- Gemini en nivel gratuito puede usar los datos para entrenar: solo recibe texto de práctica (calificación y búsqueda de palabras), nunca audio ni datos personales.
