@@ -186,7 +186,7 @@ export function LessonPlayer({ lesson, canSkip }: { lesson: Lesson; canSkip: boo
         <>
           <h2 className="font-display text-3xl tracking-tight">Why it works this way</h2>
           <p className="mt-2 text-[17px]">Read one link at a time.</p>
-          <WhyStep chain={lesson.whyChain} onDone={next} />
+          <WhyStep lessonId={lesson.id} chain={lesson.whyChain} onDone={next} />
         </>
       ) : null}
       {step === 5 ? (
@@ -254,6 +254,7 @@ export function LessonPlayer({ lesson, canSkip }: { lesson: Lesson; canSkip: boo
         <>
           <h2 className="font-display text-3xl tracking-tight">Check</h2>
           <CheckStep
+            lessonId={lesson.id}
             check={lesson.check}
             onRoundEnd={(results, missed) => void saveRound(results, missed)}
             onDone={(score) => {

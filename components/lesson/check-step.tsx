@@ -13,10 +13,12 @@ export function scoreLine(score: number, check: Lesson["check"], finished: boole
 }
 
 export function CheckStep({
+  lessonId,
   check,
   onRoundEnd,
   onDone,
 }: {
+  lessonId: string;
   check: Lesson["check"];
   onRoundEnd: (results: boolean[], missedIndexes: number[]) => void;
   onDone: (score: number) => void;
@@ -95,7 +97,12 @@ export function CheckStep({
         Write or choose before you see the answer. Item {pos + 1} of {queue.length}.
       </p>
       <div className="mt-3">
-        <GradedPrompt key={`${round}-${itemIndex}`} item={item} onResult={onResult} />
+        <GradedPrompt
+          key={`${round}-${itemIndex}`}
+          item={item}
+          gradedRef={{ lessonId, kind: "check", index: itemIndex }}
+          onResult={onResult}
+        />
       </div>
       {answered ? (
         <>

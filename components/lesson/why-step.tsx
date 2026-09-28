@@ -29,7 +29,7 @@ function buildParts(chain: WhyChain): Part[] {
   ];
 }
 
-export function WhyStep({ chain, onDone }: { chain: WhyChain; onDone: () => void }) {
+export function WhyStep({ lessonId, chain, onDone }: { lessonId: string; chain: WhyChain; onDone: () => void }) {
   const parts = buildParts(chain);
   const [index, setIndex] = useState(0);
   const [answered, setAnswered] = useState(false);
@@ -66,7 +66,12 @@ export function WhyStep({ chain, onDone }: { chain: WhyChain; onDone: () => void
             Predict it {part.index + 1} of {chain.predict.length}
           </p>
           <div className="mt-3">
-            <GradedPrompt key={part.index} item={chain.predict[part.index]!} onResult={() => setAnswered(true)} />
+            <GradedPrompt
+              key={part.index}
+              item={chain.predict[part.index]!}
+              gradedRef={{ lessonId, kind: "predict", index: part.index }}
+              onResult={() => setAnswered(true)}
+            />
           </div>
           {answered ? nextButton : null}
         </>

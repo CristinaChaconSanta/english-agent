@@ -10,6 +10,7 @@
     "test:e2e": "playwright test"
   },
   "dependencies": {
+    "@ai-sdk/google": "^2.0.100",
     "@ai-sdk/groq": "^2.0.55",
     "@supabase/ssr": "^0.7.0",
     "@supabase/supabase-js": "^2.57.4",
